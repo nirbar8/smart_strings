@@ -1,6 +1,6 @@
 import regex
+import pickle
 
-# TODO: add suspiciousness score to strings using malware words
 
 class DataString:
     def __init__(self, string, type_of_extraction):
@@ -10,6 +10,7 @@ class DataString:
         self.length = len(string)
         # what kind of string is this? (e.g. DLL, URL, etc.)
         self.category = self.category(string)
+        self._sus_word = None             # if the string has a suspicious word (e.g. process, virus, etc.)
         self._scores = dict()
         self._eval_scores()               # scores for different aspects of the string
         self.score = self._calc_score()   # overall sus score for the string
@@ -48,6 +49,9 @@ class DataString:
         properties = []
         if self.type_of_extraction != 'static_string':
             properties.append(self.type_of_extraction)
+        # TODO: add configuration for verbosity
+        # if self._sus_word:
+            # properties.append(f'"{self._sus_word}"')
         properties.append(self.category)
         string += '[' + ', '.join(properties) + ']'
 
@@ -192,6 +196,34 @@ class DataString:
                 "Warning: config.py not found, using default 1 score for all types of extraction.")
             return 1
 
+    @staticmethod
+    def _suspicious_text_score(string):
+        '''
+        This function measures the string to be suspicious and meaningful.
+
+        Args:
+            string (str): The string to measure.
+
+        Returns:
+            float: The score in [0, 1]. 0 is not suspicious, 1 is suspicious.
+            word (str): The word that was found in the string. None if no word was found.
+        '''
+
+        try:
+            words = pickle.load(open('data/words_malware.pickle', 'rb'))
+        except FileNotFoundError:
+            print(
+                "Warning: words_malware.pickle not found, using default 0 score for all strings.")
+            return 0, None
+
+        num_words = len(words)
+        for i, word in enumerate(words):
+            weight = (0.9 * ((num_words - i) / num_words)
+                      ) ** 2  # decreasing weight
+            if word.lower() in string.lower():
+                return weight, word
+        return 0, None
+
     def _eval_scores(self):
         '''
         This function measures different aspects of the string 
@@ -203,8 +235,10 @@ class DataString:
         self._scores['len_score'] = self._len_score(self.string)
         self._scores['randomness_score'] = self._randomness_score(self.string)
         self._scores['category_score'] = self._category_score(self.category)
-        self._scores['type_of_extraction'] = self._type_of_extraction_score(
+        self._scores['type_of_extraction_score'] = self._type_of_extraction_score(
             self.type_of_extraction)
+        self._scores['suspicous_text_score'], self._sus_word = self._suspicious_text_score(
+            self.string)
 
     def _scores_weights(self):
         '''
@@ -220,7 +254,8 @@ class DataString:
                 'len_score': 1,
                 'randomness_score': 1,
                 'category_score': 1,
-                'type_of_extraction': 1,
+                'type_of_extraction_score': 1,
+                'suspicous_text_score': 1
             }
 
     @staticmethod

@@ -18,8 +18,9 @@ category_scores = {
 
 scores_weights = {
     # not limited to 0-1, used for weighted average
-    'len_score': 1,
     'randomness_score': 0.5,
+    'len_score': 1,
     'category_score': 1,
-    'type_of_extraction': 3,
+    'suspicous_text_score': 1.5,
+    'type_of_extraction_score': 3,
 }
