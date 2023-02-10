@@ -11,8 +11,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 def parse_args():
     parser = ArgumentParser()
-    parser.add_argument('-d', '--dataset', dest='dataset_path',
-                        required=True, help='the dataset csv file path')
+    parser.add_argument('--train-ds', dest='train_dataset_path',
+                        required=True, help='the path to the train dataset')
+    parser.add_argument('--test-ds', dest='test_dataset_path',
+                        required=True, help='the path to the test dataset')
     args = parser.parse_args()
     return args
 
@@ -20,6 +22,7 @@ def parse_args():
 def main():
     args = parse_args()
 
+<<<<<<< Updated upstream
     dataset = pd.read_csv(args.dataset_path)
     x = dataset.iloc[:, :-1]
     y = dataset.iloc[:, -1]
@@ -42,6 +45,31 @@ def main():
     print('Precision:', precision_score(y, y_pred))
     print('Recall:', recall_score(y, y_pred))
     print('F1:', f1_score(y, y_pred))
+=======
+    train_dataset = pd.read_csv(args.train_dataset_path)
+    test_dataset = pd.read_csv(args.test_dataset_path)
+    
+    x_train = train_dataset.iloc[:, :-1]
+    y_train = train_dataset.iloc[:, -1]
+    x_test = test_dataset.iloc[:, :-1]
+    y_test = test_dataset.iloc[:, -1]
+
+    model = LogisticRegression()
+    model.fit(x_train, y_train)
+
+    y_pred = model.predict(x_test)
+    y_pred_prob = model.predict_proba(x_test)[:, 1]
+
+    print('The average score for the malicous test set is:',
+          np.mean(y_pred_prob[y_test == 1]) * 100)
+    print('The average score for the benign test set is:',
+          np.mean(y_pred_prob[y_test == 0]) * 100)
+
+    print('Accuracy:', accuracy_score(y_test, y_pred))
+    print('Precision:', precision_score(y_test, y_pred))
+    print('Recall:', recall_score(y_test, y_pred))
+    print('F1:', f1_score(y_test, y_pred))
+>>>>>>> Stashed changes
 
 
 if __name__ == '__main__':

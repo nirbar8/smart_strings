@@ -24,12 +24,6 @@ def parse_args():
     args.add_argument('--static', help='run floss in only-static mode, much faster, recommended only for benign files',
                       default=False, action='store_true')
     args = args.parse_args()
-    return args
-
-
-
-def main():
-    args = parse_args()
 
     if not os.path.exists(args.directory):
         print("Directory does not exist")
@@ -37,6 +31,13 @@ def main():
 
     if not os.path.exists(args.output):
         os.mkdir(args.output)
+
+    return args
+
+
+
+def main():
+    args = parse_args()
 
     # run floss on each file
     for root, dirs, files in os.walk(args.directory):
@@ -55,12 +56,14 @@ def main():
                 subprocess.run(floss_args)
 
             # format json files
-            with open(output_path, 'r') as f:
-                json_data = json.load(f)
-            json_data['is_malicious'] = args.malicious
-            with open(output_path, 'w') as f:
-                json.dump(json_data, f, indent=4)
-
+            try:
+                with open(output_path, 'r') as f:
+                    json_data = json.load(f)
+                json_data['is_malicious'] = args.malicious
+                with open(output_path, 'w') as f:
+                    json.dump(json_data, f, indent=4)
+            except Exception:
+                print("Error with file: ", file_path)
 
 if __name__ == '__main__':
     main()

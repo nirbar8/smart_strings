@@ -31,4 +31,4 @@ scores_weights = {
 }
 
 # Optional - can be commented out to disable scoring by suspicious words
-suspicious_words_path = 'data/processed/words_malware.pickle'
+suspicious_words_path = 'data/words_malware.pickle'

@@ -1,0 +1,720 @@
+{
+    "analysis": {
+        "enable_decoded_strings": false,
+        "enable_stack_strings": false,
+        "enable_static_strings": true,
+        "enable_tight_strings": false,
+        "functions": {
+            "analyzed_decoded_strings": 0,
+            "analyzed_stack_strings": 0,
+            "analyzed_tight_strings": 0,
+            "decoding_function_scores": {},
+            "discovered": 0,
+            "library": 0
+        }
+    },
+    "metadata": {
+        "file_path": "data/unprocessed/DikeDataset-main/files/benign/20e3dc90a3e83b6202e2a7f4603b60e5e859639cb68693426c400b13aaeabd78.exe",
+        "imagebase": 0,
+        "min_length": 4,
+        "runtime": {
+            "decoded_strings": 0.0,
+            "find_features": 0.0,
+            "stack_strings": 0.0,
+            "start_date": "2023-02-10T15:01:01.057475Z",
+            "static_strings": 0.004,
+            "tight_strings": 0.0,
+            "total": 0.0041,
+            "vivisect": 0.0
+        },
+        "version": "v2.2.0-0-g783dd8f"
+    },
+    "strings": {
+        "decoded_strings": [],
+        "stack_strings": [],
+        "static_strings": [
+            {
+                "encoding": "ASCII",
+                "offset": 77,
+                "string": "!This program cannot be run in DOS mode."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 190,
+                "string": "V0Rich"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 456,
+                "string": ".text"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 495,
+                "string": "`.data"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 536,
+                "string": ".rsrc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1340,
+                "string": "could not empty working set for process #%d [%s]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1392,
+                "string": "could not empty working set for process #%d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1440,
+                "string": "USAGE: empty.exe {pid | task-name}"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1476,
+                "string": "missing pid or task name"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1504,
+                "string": "UnhandledExceptionFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1532,
+                "string": "kernel32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1568,
+                "string": "System Process"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1584,
+                "string": "AdjustTokenPrivileges failed with %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1624,
+                "string": "LookupPrivilegeValue failed with %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1664,
+                "string": "SeDebugPrivilege"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1684,
+                "string": "OpenProcessToken failed with %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2160,
+                "string": "NB10"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2176,
+                "string": "empty.pdb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2295,
+                "string": "SUVW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2443,
+                "string": "Y_^][Y"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2621,
+                "string": "UVWh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2683,
+                "string": "D$4P"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2693,
+                "string": "D$,j.P"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2723,
+                "string": "D$4P"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2895,
+                "string": "_^]["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3108,
+                "string": "t>W3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3228,
+                "string": "MZu("
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3701,
+                "string": "Y_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3854,
+                "string": "9_<t5j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4168,
+                "string": ";H$up"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4662,
+                "string": "u2VS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4674,
+                "string": "YYt$"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5135,
+                "string": "u\t9w"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5332,
+                "string": "tvSVW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5427,
+                "string": "_^[t"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5479,
+                "string": "tESV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5547,
+                "string": "^@[_"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5982,
+                "string": "GetCommandLineA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6000,
+                "string": "GetProcAddress"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6018,
+                "string": "GetModuleHandleA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6038,
+                "string": "QueryPerformanceCounter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6064,
+                "string": "GetTickCount"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6080,
+                "string": "GetCurrentThreadId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6102,
+                "string": "GetCurrentProcessId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6124,
+                "string": "GetSystemTimeAsFileTime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6150,
+                "string": "TerminateProcess"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6170,
+                "string": "GetCurrentProcess"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6190,
+                "string": "SetUnhandledExceptionFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6218,
+                "string": "KERNEL32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6234,
+                "string": "_strupr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6244,
+                "string": "isdigit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6254,
+                "string": "isspace"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6264,
+                "string": "strchr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6274,
+                "string": "printf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6284,
+                "string": "_c_exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6294,
+                "string": "_exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6302,
+                "string": "_XcptFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6316,
+                "string": "_cexit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6326,
+                "string": "exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6334,
+                "string": "__initenv"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6346,
+                "string": "__getmainargs"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6362,
+                "string": "_initterm"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6374,
+                "string": "__setusermatherr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6394,
+                "string": "_adjust_fdiv"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6410,
+                "string": "__p__commode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6426,
+                "string": "__p__fmode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6440,
+                "string": "__set_app_type"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6458,
+                "string": "_except_handler3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6476,
+                "string": "msvcrt.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6490,
+                "string": "_controlfp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6504,
+                "string": "GetLastError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6520,
+                "string": "VirtualFree"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6534,
+                "string": "VirtualAlloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6550,
+                "string": "CloseHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6564,
+                "string": "OpenProcess"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6578,
+                "string": "SetProcessWorkingSetSize"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6606,
+                "string": "GetProcessWorkingSetSize"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6634,
+                "string": "malloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6644,
+                "string": "strncat"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6654,
+                "string": "strncpy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6664,
+                "string": "strrchr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6674,
+                "string": "toupper"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6684,
+                "string": "strstr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6694,
+                "string": "_strdup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6704,
+                "string": "AdjustTokenPrivileges"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6728,
+                "string": "LookupPrivilegeValueA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6752,
+                "string": "OpenProcessToken"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6770,
+                "string": "ADVAPI32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6786,
+                "string": "CloseWindowStation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6808,
+                "string": "CloseDesktop"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6824,
+                "string": "SetThreadDesktop"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6844,
+                "string": "OpenDesktopA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6860,
+                "string": "SetProcessWindowStation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6886,
+                "string": "OpenWindowStationA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6908,
+                "string": "GetThreadDesktop"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6928,
+                "string": "GetProcessWindowStation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6954,
+                "string": "FindWindowExA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6970,
+                "string": "GetWindowTextA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6988,
+                "string": "GetWindowLongA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7006,
+                "string": "GetWindow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7018,
+                "string": "GetWindowThreadProcessId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7046,
+                "string": "EnumWindows"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7060,
+                "string": "EnumDesktopsA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7076,
+                "string": "EnumWindowStationsA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7096,
+                "string": "USER32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7110,
+                "string": "RtlUnicodeStringToAnsiString"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7142,
+                "string": "NtQuerySystemInformation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7170,
+                "string": "NtSetSystemInformation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7194,
+                "string": "ntdll.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7204,
+                "string": "ole32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7214,
+                "string": "OLEAUT32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7700,
+                "string": "System"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8294,
+                "string": "VS_VERSION_INFO"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8386,
+                "string": "StringFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8422,
+                "string": "040904B0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8446,
+                "string": "CompanyName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8472,
+                "string": "Microsoft Corporation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8522,
+                "string": "FileDescription"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8556,
+                "string": "Microsoft"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8576,
+                "string": " Flush Working Set Utility"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8638,
+                "string": "FileVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8664,
+                "string": "5.2.3790.0 built by: dnsrv_dev(v-smgum)"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8750,
+                "string": "InternalName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8776,
+                "string": "empty.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8802,
+                "string": "LegalCopyright"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8834,
+                "string": " Microsoft Corporation. All rights reserved."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8930,
+                "string": "OriginalFilename"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8964,
+                "string": "empty.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 8990,
+                "string": "ProductName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 9016,
+                "string": "Microsoft"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 9036,
+                "string": " Windows"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 9054,
+                "string": " Operating System"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 9098,
+                "string": "ProductVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 9128,
+                "string": "5.2.3790.0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 9158,
+                "string": "VarFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 9190,
+                "string": "Translation"
+            }
+        ],
+        "tight_strings": []
+    },
+    "is_malicious": false
+}

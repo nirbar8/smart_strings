@@ -1,0 +1,2785 @@
+{
+    "analysis": {
+        "enable_decoded_strings": false,
+        "enable_stack_strings": false,
+        "enable_static_strings": true,
+        "enable_tight_strings": false,
+        "functions": {
+            "analyzed_decoded_strings": 0,
+            "analyzed_stack_strings": 0,
+            "analyzed_tight_strings": 0,
+            "decoding_function_scores": {},
+            "discovered": 0,
+            "library": 0
+        }
+    },
+    "metadata": {
+        "file_path": "data/unprocessed/DikeDataset-main/files/benign/afece3559e7425d5cfa1f015525cde6998b13129ae13a36282271d4341b11645.exe",
+        "imagebase": 0,
+        "min_length": 4,
+        "runtime": {
+            "decoded_strings": 0.0,
+            "find_features": 0.0,
+            "stack_strings": 0.0,
+            "start_date": "2023-02-10T15:01:55.091653Z",
+            "static_strings": 0.0329,
+            "tight_strings": 0.0,
+            "total": 0.033,
+            "vivisect": 0.0
+        },
+        "version": "v2.2.0-0-g783dd8f"
+    },
+    "strings": {
+        "decoded_strings": [],
+        "stack_strings": [],
+        "static_strings": [
+            {
+                "encoding": "ASCII",
+                "offset": 77,
+                "string": "!This program cannot be run in DOS mode."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 240,
+                "string": "Rich"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 504,
+                "string": ".text"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 543,
+                "string": "`.data"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 584,
+                "string": ".rsrc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 623,
+                "string": "@.reloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1808,
+                "string": "Unicows.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1880,
+                "string": "Kernel32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1896,
+                "string": "CreateActCtxW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1912,
+                "string": "ActivateActCtx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1928,
+                "string": "DeactivateActCtx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1948,
+                "string": "FindActCtxSectionStringW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1976,
+                "string": "QueryActCtxW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2020,
+                "string": "GetModuleHandleExW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2040,
+                "string": "IsolationAware function called after IsolationAwareCleanup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2144,
+                "string": "Comdlg32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2160,
+                "string": "GetOpenFileNameW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2180,
+                "string": "HeapSize"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2192,
+                "string": "HeapFree"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2204,
+                "string": "HeapReAlloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2216,
+                "string": "HeapAlloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2228,
+                "string": "HeapDestroy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2240,
+                "string": "HeapCreate"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2252,
+                "string": "KERNEL32.DLL"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2384,
+                "string": "MSO.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2408,
+                "string": "SCANPST.HLP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2420,
+                "string": "UILanguage"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2432,
+                "string": "Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2488,
+                "string": "Software\\Policies\\Microsoft\\Office\\14.0\\Common\\LanguageResources"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2880,
+                "string": "commdlg_help"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2896,
+                "string": "scanpst_bitmap"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2912,
+                "string": "scanpst_icon"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2960,
+                "string": "HeapSetInformation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3316,
+                "string": "MsiProvideQualifiedComponentExW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3348,
+                "string": "MsiGetProductCodeW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3400,
+                "string": "mso.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3633,
+                "string": ".Vu+"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4431,
+                "string": ".95@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4437,
+                "string": ".u#95H"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4619,
+                "string": ".u+9u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4625,
+                "string": "t&9u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4752,
+                "string": ".u.3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4912,
+                "string": ".u.3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5425,
+                "string": "@@Nu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5629,
+                "string": "Vha8jb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5878,
+                "string": ".jZP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5935,
+                "string": "hc8jb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6144,
+                "string": "Qj\\P"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6331,
+                "string": ".u/3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6548,
+                "string": "|9SVW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6900,
+                "string": "dr23"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7863,
+                "string": "3t$Hti"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7931,
+                "string": "t)HHt%"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8056,
+                "string": "[_^]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8518,
+                "string": "t;HHt0Ht&HHt"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8703,
+                "string": "@_^]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9276,
+                "string": "YYf;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9309,
+                "string": "@_^[]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9745,
+                "string": "_^[]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9853,
+                "string": "u3V3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9863,
+                "string": ".t'3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10004,
+                "string": ".u/3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10174,
+                "string": ".u.3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10273,
+                "string": "HHt[-"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10491,
+                "string": "@_^]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10876,
+                "string": ".|Bj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11138,
+                "string": "tDHu=j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11307,
+                "string": "._^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11553,
+                "string": ".VVVVVVV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12092,
+                "string": ".PVP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12271,
+                "string": ".WWW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12318,
+                "string": "SVWjX"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12817,
+                "string": "Ht$;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12899,
+                "string": "HtJH"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12941,
+                "string": "7Whn7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12947,
+                "string": ".Sh$"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14487,
+                "string": "tgHtO"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16481,
+                "string": "t(Ht"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17373,
+                "string": "HHSV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17597,
+                "string": ".hC8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17610,
+                "string": ".VhSD"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17662,
+                "string": "t(f;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18369,
+                "string": "SVWh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18483,
+                "string": "Pj@j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18631,
+                "string": "jXhpd"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18892,
+                "string": "< wL"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18936,
+                "string": "XPVj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18971,
+                "string": ".<\"u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19545,
+                "string": "Y__^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20034,
+                "string": "8csm"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20307,
+                "string": "_^[]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20443,
+                "string": "Y_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20493,
+                "string": "Y_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20541,
+                "string": "VVVVV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20633,
+                "string": "@@BBf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20779,
+                "string": "j\\Zf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20966,
+                "string": "PSWV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20988,
+                "string": "t3=B"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21010,
+                "string": "PSSSSWV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21139,
+                "string": "j\\Yf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21321,
+                "string": "PSSh8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21397,
+                "string": "OHH;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21540,
+                "string": "PVVhl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21791,
+                "string": "QRPh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22235,
+                "string": "u|9^"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22240,
+                "string": "t,9^"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22268,
+                "string": ";x4u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22816,
+                "string": "MSO.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23020,
+                "string": "MSVCR90.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23032,
+                "string": "SCNPST64.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23048,
+                "string": "SCNPST32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23064,
+                "string": "OLMAPI32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23080,
+                "string": "ADVAPI32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23096,
+                "string": "GDI32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23108,
+                "string": "USER32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23120,
+                "string": "KERNEL32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23890,
+                "string": "GetVersionExA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23906,
+                "string": "lstrlenW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23918,
+                "string": "FindClose"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23930,
+                "string": "FindFirstFileW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23948,
+                "string": "lstrcmpiA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23960,
+                "string": "GetFullPathNameW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23980,
+                "string": "GetCurrentThreadId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24002,
+                "string": "GetCommandLineW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24020,
+                "string": "GetCurrentProcess"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24040,
+                "string": "CreateFileW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24054,
+                "string": "RaiseException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24072,
+                "string": "LocalAlloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24086,
+                "string": "GetSystemDirectoryW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24108,
+                "string": "LoadLibraryExW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24126,
+                "string": "IsDebuggerPresent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24146,
+                "string": "SetUnhandledExceptionFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24176,
+                "string": "UnhandledExceptionFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24204,
+                "string": "TerminateProcess"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24224,
+                "string": "GetStartupInfoA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24242,
+                "string": "InterlockedCompareExchange"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24272,
+                "string": "Sleep"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24280,
+                "string": "InterlockedExchange"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24302,
+                "string": "GetProcessHeap"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24320,
+                "string": "GetSystemTimeAsFileTime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24346,
+                "string": "GetCurrentProcessId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24368,
+                "string": "QueryPerformanceCounter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24394,
+                "string": "VirtualProtect"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24412,
+                "string": "CloseHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24426,
+                "string": "SetErrorMode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24442,
+                "string": "LoadLibraryA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24458,
+                "string": "GetSystemDefaultLCID"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24482,
+                "string": "FreeLibrary"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24496,
+                "string": "OutputDebugStringA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24518,
+                "string": "GetModuleFileNameW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24540,
+                "string": "SetLastError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24556,
+                "string": "GetLastError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24572,
+                "string": "GetVersion"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24586,
+                "string": "GetFileAttributesW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24608,
+                "string": "GetProcAddress"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24626,
+                "string": "GetModuleHandleW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24646,
+                "string": "LoadLibraryW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24662,
+                "string": "SetFilePointer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24680,
+                "string": "ReadFile"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24692,
+                "string": "lstrlenA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24704,
+                "string": "GetTickCount"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24720,
+                "string": "GetModuleHandleA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24740,
+                "string": "GetClassInfoW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24756,
+                "string": "IsIconic"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24768,
+                "string": "DefWindowProcW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24786,
+                "string": "PostQuitMessage"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24804,
+                "string": "UnhookWindowsHookEx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24826,
+                "string": "SetWindowsHookExA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24846,
+                "string": "RegisterWindowMessageA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24872,
+                "string": "LoadBitmapA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24886,
+                "string": "DestroyWindow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24902,
+                "string": "GetWindowPlacement"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24924,
+                "string": "LoadIconA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24936,
+                "string": "FindWindowW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24950,
+                "string": "SendMessageW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24966,
+                "string": "EnableMenuItem"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24984,
+                "string": "GetDlgItemTextW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25002,
+                "string": "MessageBoxW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25016,
+                "string": "EnableWindow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25032,
+                "string": "SetForegroundWindow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25054,
+                "string": "BeginPaint"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25068,
+                "string": "EndPaint"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25080,
+                "string": "GetMessageA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25094,
+                "string": "GetClientRect"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25110,
+                "string": "LoadStringW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25124,
+                "string": "ShowWindow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25138,
+                "string": "CallNextHookEx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25156,
+                "string": "PeekMessageA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25172,
+                "string": "TranslateMessage"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25192,
+                "string": "DispatchMessageA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25212,
+                "string": "FillRect"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25224,
+                "string": "GetWindowTextA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25242,
+                "string": "GetWindowRect"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25258,
+                "string": "MapWindowPoints"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25276,
+                "string": "InvalidateRect"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25294,
+                "string": "UpdateWindow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25310,
+                "string": "WinHelpA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25322,
+                "string": "IsDlgButtonChecked"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25344,
+                "string": "EndDialog"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25356,
+                "string": "SendDlgItemMessageA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25378,
+                "string": "GetDlgItem"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25392,
+                "string": "SetFocus"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25404,
+                "string": "CreateWindowExW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25422,
+                "string": "RegisterClassW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25440,
+                "string": "SetClassLongA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25456,
+                "string": "SetWindowLongW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25474,
+                "string": "GetWindowLongW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25492,
+                "string": "GetWindowLongA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25510,
+                "string": "GetSysColor"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25524,
+                "string": "GetParent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25536,
+                "string": "PostMessageA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25552,
+                "string": "CallWindowProcW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25570,
+                "string": "SetDlgItemTextW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25588,
+                "string": "DialogBoxParamW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25606,
+                "string": "GetWindow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25618,
+                "string": "SendMessageA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25634,
+                "string": "GetDC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25642,
+                "string": "ReleaseDC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25654,
+                "string": "SetWindowLongA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25672,
+                "string": "LoadCursorA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25686,
+                "string": "SetCursor"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25698,
+                "string": "MoveToEx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25710,
+                "string": "LineTo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25720,
+                "string": "SetTextColor"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25736,
+                "string": "ExtTextOutA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25750,
+                "string": "GetObjectA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25764,
+                "string": "CreateSolidBrush"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25784,
+                "string": "SelectObject"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25800,
+                "string": "GetStockObject"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25818,
+                "string": "Rectangle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25830,
+                "string": "CreateCompatibleDC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25852,
+                "string": "CreateCompatibleBitmap"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25878,
+                "string": "BitBlt"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25888,
+                "string": "GetPixel"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25900,
+                "string": "SetBkColor"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25914,
+                "string": "DeleteDC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25926,
+                "string": "GetObjectW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25940,
+                "string": "GetDeviceCaps"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25956,
+                "string": "CreateFontIndirectW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25978,
+                "string": "DeleteObject"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25994,
+                "string": "CreatePen"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26006,
+                "string": "RegOpenKeyExW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26022,
+                "string": "RegCloseKey"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26036,
+                "string": "RegQueryValueExA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26056,
+                "string": "RegOpenKeyExA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26072,
+                "string": "RegQueryValueExW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26092,
+                "string": "RegDeleteValueW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26110,
+                "string": "RCVR_CountBlocks32@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26134,
+                "string": "RCVR_Initialize32@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26156,
+                "string": "RCVR_SetProgressCallbacks32@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26188,
+                "string": "RCVR_Deinitialize32@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26212,
+                "string": "RCVR_Scan32@32"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26230,
+                "string": "RCVR_Repair32@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26248,
+                "string": "RCVR_Initialize64@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26270,
+                "string": "RCVR_SetProgressCallbacks64@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26302,
+                "string": "RCVR_Deinitialize64@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26326,
+                "string": "RCVR_Scan64@32"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26344,
+                "string": "RCVR_Repair64@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26362,
+                "string": "RCVR_CountBlocks64@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26386,
+                "string": "exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26394,
+                "string": "_controlfp_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26410,
+                "string": "_invoke_watson"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26428,
+                "string": "?terminate@@YAXXZ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26448,
+                "string": "_crt_debugger_hook"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26470,
+                "string": "_decode_pointer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26488,
+                "string": "_onexit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26498,
+                "string": "_lock"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26506,
+                "string": "__dllonexit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26520,
+                "string": "_unlock"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26530,
+                "string": "_except_handler4_common"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26556,
+                "string": "__set_app_type"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26574,
+                "string": "_encode_pointer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26592,
+                "string": "__p__fmode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26606,
+                "string": "__p__commode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26622,
+                "string": "_adjust_fdiv"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26638,
+                "string": "__setusermatherr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26658,
+                "string": "_configthreadlocale"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26680,
+                "string": "_initterm_e"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26694,
+                "string": "_initterm"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26706,
+                "string": "_acmdln"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26716,
+                "string": "_ismbblead"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26730,
+                "string": "_XcptFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26744,
+                "string": "_exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26752,
+                "string": "_cexit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26762,
+                "string": "__getmainargs"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26778,
+                "string": "_amsg_exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26792,
+                "string": "_wtoi"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26800,
+                "string": "iswspace"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26812,
+                "string": "towupper"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26824,
+                "string": "memmove"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26834,
+                "string": "_vsnwprintf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26848,
+                "string": "memset"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26858,
+                "string": "wcsncpy_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26870,
+                "string": "memcpy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26940,
+                "string": "RSDS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26964,
+                "string": "t:\\outlook\\x86\\ship\\0\\scanpst.pdb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26998,
+                "string": "6\\ship\\0\\scanpst.exe\\bbtopt\\scanpstO.pdb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28168,
+                "string": "33300"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28232,
+                "string": "3333"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28540,
+                "string": "333330"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28548,
+                "string": "3333333"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28812,
+                "string": "33333"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28820,
+                "string": "33333330"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30516,
+                "string": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\"><noInherit></noInherit><assemblyIdentity processorArchitecture=\"*\" type=\"win32\" name=\"scanpst\" version=\"1.0.0.0\"></assemblyIdentity><description>scanpst</description><dependency><dependentAssembly><assemblyIdentity type=\"win32\" name=\"Microsoft.VC90.CRT\" version=\"9.0.30729.1\" processorArchitecture=\"x86\" publicKeyToken=\"1fc8b3b9a1e18e3b\"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\"><security><requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel></requestedPrivileges></security></trustInfo></assembly>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31247,
+                "string": "3,30343834484<4@4X5\\5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31281,
+                "string": ":&:.:<:B:G:M:R:X:a:g:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31317,
+                "string": ";!;*;4;G;P;Z;o;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31345,
+                "string": ";-<C<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31359,
+                "string": "=?=F=L=R=Z=n="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31387,
+                "string": ">5>=>P>k>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31411,
+                "string": "?-?C?]?h?r?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31471,
+                "string": "0$0*0/060=0L0[0o0{0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31491,
+                "string": "0Y1c1~1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31515,
+                "string": "3)363R3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31529,
+                "string": "484V4j4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31549,
+                "string": "5$5L5]5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31563,
+                "string": "6:6?6g6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31577,
+                "string": "7*7B7W7r7{7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31607,
+                "string": "8,8D8S8q8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31629,
+                "string": "9&9C9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31637,
+                "string": "9,:F:Z:b:w:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31651,
+                "string": "; ;(;1;B;\\;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31675,
+                "string": "<=<H<Q<Z<c<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31707,
+                "string": "='>h>o>u>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31729,
+                "string": "?)?A?n?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31748,
+                "string": "$0i0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31757,
+                "string": "1%1=1U1m1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31775,
+                "string": "1%2D2b2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31795,
+                "string": "3(3B3J3]3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31813,
+                "string": "494@4N4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31837,
+                "string": "5/5;5A5L5X5`5l5r5x5~5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31881,
+                "string": "6 6/6H6U6_6d6m6s6y6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31913,
+                "string": "7+777A7_7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31937,
+                "string": "8(888`8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31959,
+                "string": "9+919<9L9]9c9x9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31991,
+                "string": ":%:0:@:O:W:~:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32027,
+                "string": ";\";+;9;E;T;Z;`;f;n;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32073,
+                "string": ">/>=>|>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32091,
+                "string": ">\"?-?3???h?p?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32125,
+                "string": "0J0R0X0h0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32147,
+                "string": "1\"121J1b1p1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32169,
+                "string": "2=2N2T2e2p2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32195,
+                "string": "3 3F3T3r3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32211,
+                "string": "4<4]4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32235,
+                "string": "575I5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32255,
+                "string": "546?6R6X6^6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32293,
+                "string": "8'8-8c8i8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32307,
+                "string": "9\t9?9G9M9]9q9|9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32329,
+                "string": ":(:/:8:G:N:V:]:h:m:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32359,
+                "string": ";D;O;U;h;w;|;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32377,
+                "string": "<!<,<2<A<K<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32403,
+                "string": "=:=~="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32419,
+                "string": ">6>=>Y>e>k>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32447,
+                "string": "?'?-?Z?t?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32472,
+                "string": "(0R0]0c0k0w0}0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32511,
+                "string": "1K1W1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32535,
+                "string": "2(2C2I2O2j2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32569,
+                "string": "3$353G3Z3i3o3u3{3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32625,
+                "string": "4*494B4L4d4q4}4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32665,
+                "string": "5!5+5>5H5M5R5h5m5v5{5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32705,
+                "string": "616\\6b6l6r6{6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32733,
+                "string": "7\"7(7.767<7C7J7Z7b7h7t7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32767,
+                "string": "8(8e8k8r8}8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32791,
+                "string": "8,9C9I9O9U9[9a9g9m9s9y9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32851,
+                "string": ":*:1:z:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32871,
+                "string": ":`;e;w;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32887,
+                "string": "<Q<W<]<c<i<o<u<{<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32907,
+                "string": "=J=`=m=}="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32923,
+                "string": "=:>?>^>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32935,
+                "string": "?8?M?Y?m?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32957,
+                "string": "0(040J0w0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32981,
+                "string": "0#11181?1O1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32997,
+                "string": "1\"2=2I2Q2|2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33021,
+                "string": "3 3(3R3_3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33039,
+                "string": "4(4H4h4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33077,
+                "string": "0 0$0(0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33342,
+                "string": "Z0X03"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33397,
+                "string": ">0!0\t"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33473,
+                "string": "0p1+0)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33485,
+                "string": "\"Copyright (c) 1997 Microsoft Corp.1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33531,
+                "string": "Microsoft Corporation1!0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33563,
+                "string": "Microsoft Root Authority0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33591,
+                "string": "070822223102Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33606,
+                "string": "120825070000Z0y1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33645,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33666,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33684,
+                "string": "Microsoft Corporation1#0!"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33716,
+                "string": "Microsoft Code Signing PCA0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33789,
+                "string": "%5Iw"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33807,
+                "string": "kLRb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33817,
+                "string": "Il/$>e"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33867,
+                "string": "J-|o"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34010,
+                "string": "+~3n"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34096,
+                "string": "r0p1+0)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34109,
+                "string": "\"Copyright (c) 1997 Microsoft Corp.1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34155,
+                "string": "Microsoft Corporation1!0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34187,
+                "string": "Microsoft Root Authority"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34317,
+                "string": "X't*u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34425,
+                "string": "Bk(q"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34627,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34648,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34666,
+                "string": "Microsoft Corporation1#0!"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34698,
+                "string": "Microsoft Code Signing PCA0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34728,
+                "string": "091207224029Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34743,
+                "string": "110307224029Z0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34783,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34804,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34822,
+                "string": "Microsoft Corporation1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34854,
+                "string": "MOPR1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34869,
+                "string": "Microsoft Corporation0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34985,
+                "string": "uM\\F"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35299,
+                "string": "=0;09"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35309,
+                "string": "3http://crl.microsoft.com/pki/crl/products/CSPCA.crl0H"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35374,
+                "string": "<0:08"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35390,
+                "string": ",http://www.microsoft.com/pki/certs/CSPCA.crt0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35568,
+                "string": "jT;1_"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35634,
+                "string": "zw9gj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35662,
+                "string": "s2r6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35671,
+                "string": "$ROfH"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35681,
+                "string": "&9iPN"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35707,
+                "string": "t8JO0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35757,
+                "string": "0p1+0)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35769,
+                "string": "\"Copyright (c) 1997 Microsoft Corp.1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35815,
+                "string": "Microsoft Corporation1!0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35847,
+                "string": "Microsoft Root Authority0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35875,
+                "string": "060916010447Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35890,
+                "string": "190915070000Z0y1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35929,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35950,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35968,
+                "string": "Microsoft Corporation1#0!"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36000,
+                "string": "Microsoft Timestamping PCA0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36117,
+                "string": "ipfx'f"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36136,
+                "string": "Y\")/"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36148,
+                "string": "mdmJT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36179,
+                "string": "v\\/}"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36199,
+                "string": "%M9wt"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36217,
+                "string": "9\t|v"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36244,
+                "string": "N+\"\\hE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36382,
+                "string": "r0p1+0)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36395,
+                "string": "\"Copyright (c) 1997 Microsoft Corp.1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36441,
+                "string": "Microsoft Corporation1!0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36473,
+                "string": "Microsoft Root Authority"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36824,
+                "string": "C/{F"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36848,
+                "string": "(a|H"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36886,
+                "string": "wTQ:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36962,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36983,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37001,
+                "string": "Microsoft Corporation1#0!"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37033,
+                "string": "Microsoft Timestamping PCA0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37063,
+                "string": "080725190217Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37078,
+                "string": "130725191217Z0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37118,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37139,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37157,
+                "string": "Microsoft Corporation1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37189,
+                "string": "MOPR1'0%"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37204,
+                "string": "nCipher DSE ESN:7A82-688A-9F921%0#"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37245,
+                "string": "Microsoft Time-Stamp Service0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37387,
+                "string": "&-v?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37440,
+                "string": "]),<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37457,
+                "string": "a?=6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37519,
+                "string": "wTrC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37645,
+                "string": "=0;09"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37655,
+                "string": "3http://crl.microsoft.com/pki/crl/products/tspca.crl0H"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37720,
+                "string": "<0:08"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37736,
+                "string": ",http://www.microsoft.com/pki/certs/tspca.crt0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37927,
+                "string": "NP;L"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37993,
+                "string": "O,5;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38034,
+                "string": "cB(X:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38062,
+                "string": "0@EN"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38134,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38155,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38173,
+                "string": "Microsoft Corporation1#0!"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38205,
+                "string": "Microsoft Code Signing PCA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38474,
+                "string": "http://office.microsoft.com 0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38529,
+                "string": "[IN-"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38535,
+                "string": "VXm]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38633,
+                "string": "#\tQ3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38692,
+                "string": "M\\!%"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38734,
+                "string": "2#l~"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38836,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38857,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38875,
+                "string": "Microsoft Corporation1#0!"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38907,
+                "string": "Microsoft Timestamping PCA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38999,
+                "string": "101221011501Z0#"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 39088,
+                "string": "6%5$"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 39164,
+                "string": "S YT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 39215,
+                "string": "{qp!"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 1818,
+                "string": "l???.???"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 1852,
+                "string": "Kernel32.dll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 1992,
+                "string": "Comctl32.dll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2116,
+                "string": "Comdlg32.dll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2272,
+                "string": "{FE56DB90-29C0-449D-BECC-05507A7CA813}"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2352,
+                "string": "Tahoma"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2368,
+                "string": "scanpst"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2556,
+                "string": "LastCorruptStore"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2592,
+                "string": "Software\\Microsoft\\Office\\14.0\\Outlook\\PST"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2680,
+                "string": "-logv"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2692,
+                "string": "-logfile"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2712,
+                "string": "version"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2728,
+                "string": "-override"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2748,
+                "string": "associated"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2772,
+                "string": "contents"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2792,
+                "string": "hierarchy"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2828,
+                "string": "header"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2856,
+                "string": "%d%%"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2868,
+                "string": ".bak"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2932,
+                "string": "kernel32.dll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2992,
+                "string": "Software\\Microsoft\\Office\\14.0\\Common\\FilesPaths"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3096,
+                "string": "Software\\Microsoft\\Windows\\CurrentVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3180,
+                "string": "CommonFilesDir"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3216,
+                "string": "{1E77DE88-BCAB-4C37-B9E5-073AF52DFD7A}"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3296,
+                "string": "mso14.dll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3368,
+                "string": "msi.dll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3384,
+                "string": "mso.dll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3406,
+                "string": "l\\Microsoft Shared\\office14\\mso.dll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28002,
+                "string": "SCANPST_ICON"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29110,
+                "string": "VS_VERSION_INFO"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29202,
+                "string": "StringFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29238,
+                "string": "000004E4"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29262,
+                "string": "CompanyName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29288,
+                "string": "Microsoft Corporation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29338,
+                "string": "FileDescription"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29372,
+                "string": "Microsoft Outlook Data Files Scan/Repair Utility"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29478,
+                "string": "FileVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29504,
+                "string": "14.0.6015.1000"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29542,
+                "string": "InternalName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29568,
+                "string": "scanpst.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29598,
+                "string": "LegalCopyright"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29630,
+                "string": " 2010 Microsoft Corporation.  All rights reserved."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29738,
+                "string": "LegalTrademarks1"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29772,
+                "string": "Microsoft"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29792,
+                "string": " is a registered trademark of Microsoft Corporation."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29906,
+                "string": "LegalTrademarks2"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29940,
+                "string": "Windows"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29956,
+                "string": " is a registered trademark of Microsoft Corporation."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30070,
+                "string": "LegalTrademarks3"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30104,
+                "string": "Microsoft Outlook"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30140,
+                "string": " is a registered trademark of Microsoft Corporation."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30254,
+                "string": "OriginalFilename"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30288,
+                "string": "scanpst.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30318,
+                "string": "ProductName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30344,
+                "string": "Microsoft Outlook"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30386,
+                "string": "ProductVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30416,
+                "string": "14.0.6015.1000"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30454,
+                "string": "VarFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 30486,
+                "string": "Translation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33371,
+                "string": "<<<Obsolete>>"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 36581,
+                "string": "SubC"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 38375,
+                "string": "^Microsoft Outlook Data Files ScanRepair Utilit"
+            }
+        ],
+        "tight_strings": []
+    },
+    "is_malicious": false
+}

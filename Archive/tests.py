@@ -1,7 +1,7 @@
 # Unlike the name suggests, this file is not really the test file.
 # Just a playground for testing some functions.
 
-from data.DataString import DataString
+from DataString import DataString
 
 
 def test_category():

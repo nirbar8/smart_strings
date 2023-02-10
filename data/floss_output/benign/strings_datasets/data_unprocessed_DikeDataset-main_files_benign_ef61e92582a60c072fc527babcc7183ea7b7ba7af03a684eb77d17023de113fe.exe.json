@@ -1,0 +1,4180 @@
+{
+    "analysis": {
+        "enable_decoded_strings": false,
+        "enable_stack_strings": false,
+        "enable_static_strings": true,
+        "enable_tight_strings": false,
+        "functions": {
+            "analyzed_decoded_strings": 0,
+            "analyzed_stack_strings": 0,
+            "analyzed_tight_strings": 0,
+            "decoding_function_scores": {},
+            "discovered": 0,
+            "library": 0
+        }
+    },
+    "metadata": {
+        "file_path": "data/unprocessed/DikeDataset-main/files/benign/ef61e92582a60c072fc527babcc7183ea7b7ba7af03a684eb77d17023de113fe.exe",
+        "imagebase": 0,
+        "min_length": 4,
+        "runtime": {
+            "decoded_strings": 0.0,
+            "find_features": 0.0,
+            "stack_strings": 0.0,
+            "start_date": "2023-02-10T14:59:37.212527Z",
+            "static_strings": 0.0221,
+            "tight_strings": 0.0,
+            "total": 0.0222,
+            "vivisect": 0.0
+        },
+        "version": "v2.2.0-0-g783dd8f"
+    },
+    "strings": {
+        "decoded_strings": [],
+        "stack_strings": [],
+        "static_strings": [
+            {
+                "encoding": "ASCII",
+                "offset": 77,
+                "string": "!This program cannot be run in DOS mode."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 376,
+                "string": ".text"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 415,
+                "string": "`.rsrc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 455,
+                "string": "@.reloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4227,
+                "string": "4iS-"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4264,
+                "string": "KLm]r"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4278,
+                "string": "]l/91Q"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7305,
+                "string": ",I(9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7770,
+                "string": "-D(r"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8816,
+                "string": ",<~W"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9952,
+                "string": "lSystem.Resources.ResourceReader, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10109,
+                "string": "PADPADP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10150,
+                "string": "I_sQ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10642,
+                "string": "Command '{0}' completed."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10669,
+                "string": "Usage: iisexpressadmincmd.exe <command> <parameters>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10723,
+                "string": "Supported commands: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10745,
+                "string": "      setupFriendlyHostnameUrl -url:<url> "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10789,
+                "string": "      deleteFriendlyHostnameUrl -url:<url>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10833,
+                "string": "      setupUrl -url:<url>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10860,
+                "string": "      deleteUrl -url:<url>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10888,
+                "string": "      setupSslUrl -url:<url> -CertHash:<value>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10936,
+                "string": "      setupSslUrl -url:<url> -UseSelfSigned"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10981,
+                "string": "      deleteSslUrl -url:<url> "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11015,
+                "string": "Examples:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11026,
+                "string": "1) Configure \"http.sys\" and \"hosts\" file for friendly hostname \"contoso\":"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11101,
+                "string": "iisexpressadmincmd setupFriendlyHostnameUrl -url:http://contoso:80/"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11170,
+                "string": "2) Remove \"http.sys\" configuration and \"hosts\" file entry for the friendly hostname \"contoso\":"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11266,
+                "string": "iisexpressadmincmd deleteFriendlyHostnameUrl -url:http://contoso:80/"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11336,
+                "string": "Command '{0}' failed."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11358,
+                "string": "4Only shortnames are allowed for friendly host names."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11412,
+                "string": "BThe requested operation requires elevation (Run as administrator)."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11481,
+                "string": "Invalid command: '{0}'."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11506,
+                "string": "Unrecognized parameter."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11531,
+                "string": "Missing value for parameter."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11560,
+                "string": "*An invalid value was passed for parameter."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11604,
+                "string": "2Use the \"-verbose\" switch to display more details."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11656,
+                "string": "BSJB"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11672,
+                "string": "v2.0.50727"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11708,
+                "string": "#Strings"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11740,
+                "string": "#GUID"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11756,
+                "string": "#Blob"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17736,
+                "string": "e [\"h\"\t"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18089,
+                "string": "<Module>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18098,
+                "string": "IisExpressadminCmd.exe"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18121,
+                "string": "Parameters"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18132,
+                "string": "Microsoft.Web.IisExpress.AdministrationTasksTool"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18181,
+                "string": "ExpressHelper"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18195,
+                "string": "Program"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18203,
+                "string": "NativeMethods"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18217,
+                "string": "CLSCTX"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18224,
+                "string": "BIND_OPTS3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18235,
+                "string": "IDispatch"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18245,
+                "string": "Resource"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18254,
+                "string": "IISExpressAdminCmd"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18273,
+                "string": "SafeGlobalAllocHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18295,
+                "string": "Microsoft.WebMatrix.Utility"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18323,
+                "string": "SafeNativeMethods"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18341,
+                "string": "User"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18346,
+                "string": "TOKEN_ELEVATION_TYPE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18367,
+                "string": "SID_NAME_USE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18380,
+                "string": "NET_VALIDATE_PASSWORD_RESET_INPUT_ARG"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18418,
+                "string": "NET_VALIDATE_OUTPUT_ARG"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18442,
+                "string": "FILETIME"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18451,
+                "string": "NET_VALIDATE_PASSWORD_HASH"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18478,
+                "string": "NET_VALIDATE_PERSISTED_FIELDS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18508,
+                "string": "NET_VALIDATE_PASSWORD_TYPE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18535,
+                "string": "LOCALGROUP_MEMBERS_INFO_0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18561,
+                "string": "SID_IDENTIFIER_AUTHORITY"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18586,
+                "string": "COMPUTER_NAME_FORMAT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18607,
+                "string": "InvalidPasswordReason"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18629,
+                "string": "Microsoft.WebMatrix.Core.Server"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18661,
+                "string": "Validate"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18670,
+                "string": "mscorlib"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18679,
+                "string": "System"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18686,
+                "string": "Object"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18693,
+                "string": "Enum"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18698,
+                "string": "ValueType"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18708,
+                "string": "Microsoft.Win32.SafeHandles"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18736,
+                "string": "SafeHandleZeroOrMinusOneIsInvalid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18774,
+                "string": "sslCertificateHash"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18793,
+                "string": "useSelfSigned"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18807,
+                "string": "command"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18815,
+                "string": "pause"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18821,
+                "string": "verbose"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18829,
+                "string": "outPath"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18837,
+                "string": ".ctor"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18843,
+                "string": "SetupIISExpressUserHome"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18867,
+                "string": "GetIISExpressUserHomePathNative"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18899,
+                "string": "GetIISExpressUserAppHostConfigFileNative"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18940,
+                "string": "GetIISExpressUserHomePath"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18966,
+                "string": "GetIISExpressUserAppHostConfigFile"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19001,
+                "string": "_verbose"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19010,
+                "string": "Microsoft.Web.Tasks"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19030,
+                "string": "IElevatedTasks"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19045,
+                "string": "GetElevatedTasksInstance"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19070,
+                "string": "Exception"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19080,
+                "string": "ProcessException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19097,
+                "string": "Main"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19102,
+                "string": "ShowCertificates"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19119,
+                "string": "DiagnoseUrl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19131,
+                "string": "CreateAspNetHostConfigFile"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19158,
+                "string": "ParseCommandLineArguments"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19184,
+                "string": "GetParamValue"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19198,
+                "string": "CheckNoParamValue"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19216,
+                "string": "Guid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19221,
+                "string": "CoGetObject"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19233,
+                "string": "CoCreateInstanceAsAdmin"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19257,
+                "string": "value__"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19265,
+                "string": "CLSCTX_INPROC_SERVER"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19286,
+                "string": "CLSCTX_INPROC_HANDLER"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19308,
+                "string": "CLSCTX_LOCAL_SERVER"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19328,
+                "string": "CLSCTX_INPROC_SERVER16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19351,
+                "string": "CLSCTX_REMOTE_SERVER"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19372,
+                "string": "CLSCTX_INPROC_HANDLER16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19396,
+                "string": "CLSCTX_RESERVED1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19413,
+                "string": "CLSCTX_RESERVED2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19430,
+                "string": "CLSCTX_RESERVED3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19447,
+                "string": "CLSCTX_RESERVED4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19464,
+                "string": "CLSCTX_NO_CODE_DOWNLOAD"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19488,
+                "string": "CLSCTX_RESERVED5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19505,
+                "string": "CLSCTX_NO_CUSTOM_MARSHAL"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19530,
+                "string": "CLSCTX_ENABLE_CODE_DOWNLOAD"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19558,
+                "string": "CLSCTX_NO_FAILURE_LOG"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19580,
+                "string": "CLSCTX_DISABLE_AAA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19599,
+                "string": "CLSCTX_ENABLE_AAA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19617,
+                "string": "CLSCTX_FROM_DEFAULT_CONTEXT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19645,
+                "string": "CLSCTX_INPROC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19659,
+                "string": "CLSCTX_SERVER"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19673,
+                "string": "CLSCTX_ALL"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19684,
+                "string": "cbStruct"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19693,
+                "string": "grfFlags"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19702,
+                "string": "grfMode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19710,
+                "string": "dwTickCountDeadline"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19730,
+                "string": "dwTrackFlags"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19743,
+                "string": "dwClassContext"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19758,
+                "string": "locale"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19765,
+                "string": "pServerInfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19777,
+                "string": "hwnd"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19782,
+                "string": "GetTypeInfoCount"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19799,
+                "string": "System.Runtime.InteropServices.ComTypes"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19839,
+                "string": "ITypeInfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19849,
+                "string": "GetTypeInfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19861,
+                "string": "GetIDsOfNames"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19875,
+                "string": "DISPPARAMS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19886,
+                "string": "EXCEPINFO"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19896,
+                "string": "Invoke"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19903,
+                "string": "System.Resources"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19920,
+                "string": "ResourceManager"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19936,
+                "string": "resourceMan"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19948,
+                "string": "System.Globalization"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19969,
+                "string": "CultureInfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19981,
+                "string": "resourceCulture"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19997,
+                "string": "get_ResourceManager"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20017,
+                "string": "get_Culture"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20029,
+                "string": "set_Culture"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20041,
+                "string": "get_CommandCompleted"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20062,
+                "string": "get_CommandLineHelp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20082,
+                "string": "get_CommandProcessingFailed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20110,
+                "string": "get_DnsNamesNotSupported"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20135,
+                "string": "get_ErrorRequiresElevation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20162,
+                "string": "get_InvalidCommand"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20181,
+                "string": "get_ParameterUnrecognized"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20207,
+                "string": "get_ParameterValueExpected"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20234,
+                "string": "get_ParameterValueUnexpected"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20263,
+                "string": "get_SuggestMoreDetails"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20286,
+                "string": "Culture"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20294,
+                "string": "CommandCompleted"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20311,
+                "string": "CommandLineHelp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20327,
+                "string": "CommandProcessingFailed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20351,
+                "string": "DnsNamesNotSupported"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20372,
+                "string": "ErrorRequiresElevation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20395,
+                "string": "InvalidCommand"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20410,
+                "string": "ParameterUnrecognized"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20432,
+                "string": "ParameterValueExpected"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20455,
+                "string": "ParameterValueUnexpected"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20480,
+                "string": "SuggestMoreDetails"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20499,
+                "string": "get_Empty"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20509,
+                "string": "Copy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20514,
+                "string": "MarshalStructure"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20531,
+                "string": "MarshalToStructure"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20552,
+                "string": "ReleaseHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20566,
+                "string": "Empty"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20572,
+                "string": "get_Handle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20583,
+                "string": "CloseHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20595,
+                "string": "Handle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20602,
+                "string": "LOGON32_PROVIDER_DEFAULT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20627,
+                "string": "LOGON32_LOGON_NETWORK"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20649,
+                "string": "LOGON32_LOGON_NETWORK_CLEARTEXT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20681,
+                "string": "UF_DONT_EXPIRE_PASSWD"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20703,
+                "string": "NET_VALIDATE_PASSWORD_LAST_SET"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20734,
+                "string": "NET_VALIDATE_BAD_PASSWORD_TIME"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20765,
+                "string": "NET_VALIDATE_LOCKOUT_TIME"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20791,
+                "string": "NET_VALIDATE_BAD_PASSWORD_COUNT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20823,
+                "string": "NET_VALIDATE_PASSWORD_HISTORY_LENGTH"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20860,
+                "string": "NET_VALIDATE_PASSWORD_HISTORY"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20890,
+                "string": "NERR_PasswordTooShort"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20912,
+                "string": "NERR_PasswordTooLong"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20933,
+                "string": "NERR_PasswordNotComplexEnough"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20963,
+                "string": "NERR_PasswordFilterError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20988,
+                "string": "SECURITY_BUILTIN_DOMAIN_RID"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21016,
+                "string": "DOMAIN_ALIAS_RID_ADMINS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21040,
+                "string": "SECURITY_IMPERSONATION_LEVEL"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21069,
+                "string": "GetCurrentIdentity"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21088,
+                "string": "IsPasswordStrongEnough"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21111,
+                "string": "CheckUsername"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21125,
+                "string": "IsLocalComputer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21141,
+                "string": "CheckUsernamePassword"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21163,
+                "string": "GetHasDomain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21176,
+                "string": "System.Security.Principal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21202,
+                "string": "WindowsImpersonationContext"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21230,
+                "string": "Impersonate"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21242,
+                "string": "CheckUserAccessToDir"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21263,
+                "string": "GetUserToken"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21276,
+                "string": "UserExists"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21287,
+                "string": "GetNormalizedName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21305,
+                "string": "WindowsPrincipal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21322,
+                "string": "IsInAdministratorsGroup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21346,
+                "string": "IsStrongEnoughPassword"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21369,
+                "string": "IsStrongPassword"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21386,
+                "string": "IsTokenInAdministratorGroup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21414,
+                "string": "WindowsIdentity"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21430,
+                "string": "IsLimitedAdmin"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21445,
+                "string": "GroupExists"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21457,
+                "string": "TokenElevationTypeDefault"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21483,
+                "string": "TokenElevationTypeFull"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21506,
+                "string": "TokenElevationTypeLimited"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21532,
+                "string": "SidTypeUser"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21544,
+                "string": "SidTypeGroup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21557,
+                "string": "SidTypeDomain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21571,
+                "string": "SidTypeAlias"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21584,
+                "string": "SidTypeWellKnownGroup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21606,
+                "string": "SidTypeDeletedAccount"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21628,
+                "string": "SidTypeInvalid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21643,
+                "string": "SidTypeUnknown"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21658,
+                "string": "SidTypeComputer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21674,
+                "string": "InputPersistedFields"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21695,
+                "string": "ClearPassword"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21709,
+                "string": "UserAccountName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21725,
+                "string": "HashedPassword"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21740,
+                "string": "PasswordMustChangeAtNextLogon"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21770,
+                "string": "ClearLockout"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21783,
+                "string": "ChangedPersistedFields"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21806,
+                "string": "ValidationStatus"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21823,
+                "string": "DwLowDateTime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21837,
+                "string": "DwHighDateTime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21852,
+                "string": "Length"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21859,
+                "string": "Hash"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21864,
+                "string": "PresentFields"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21878,
+                "string": "PasswordLastSet"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21894,
+                "string": "BadPasswordTime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21910,
+                "string": "LockoutTime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21922,
+                "string": "BadPasswordCount"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21939,
+                "string": "PasswordHistoryLength"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21961,
+                "string": "PasswordHistory"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21977,
+                "string": "NetValidateAuthentication"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22003,
+                "string": "NetValidatePasswordChange"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22029,
+                "string": "NetValidatePasswordReset"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22054,
+                "string": "Lgrmi0_sid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22065,
+                "string": "byte0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22071,
+                "string": "byte1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22077,
+                "string": "byte2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22083,
+                "string": "byte3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22089,
+                "string": "byte4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22095,
+                "string": "byte5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22101,
+                "string": "ComputerNameNetBIOS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22121,
+                "string": "ComputerNameDnsHostname"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22145,
+                "string": "ComputerNameDnsDomain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22167,
+                "string": "ComputerNameDnsFullyQualified"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22197,
+                "string": "ComputerNamePhysicalNetBIOS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22225,
+                "string": "ComputerNamePhysicalDnsHostname"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22257,
+                "string": "ComputerNamePhysicalDnsDomain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22287,
+                "string": "ComputerNamePhysicalDnsFullyQualified"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22325,
+                "string": "GetTokenInformation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22345,
+                "string": "LogonUser"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22355,
+                "string": "System.Text"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22367,
+                "string": "StringBuilder"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22381,
+                "string": "LookupAccountName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22399,
+                "string": "LookupAccountSid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22416,
+                "string": "NetLocalGroupAddMembers"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22440,
+                "string": "NetLocalGroupDelMembers"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22464,
+                "string": "NetLocalGroupGetInfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22485,
+                "string": "NetUserDel"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22496,
+                "string": "NetValidatePasswordPolicy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22522,
+                "string": "NetValidatePasswordPolicyFree"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22552,
+                "string": "AllocateAndInitializeSid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22577,
+                "string": "CheckTokenMembership"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22598,
+                "string": "FreeSid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22606,
+                "string": "DuplicateToken"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22621,
+                "string": "GetComputerNameEx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22639,
+                "string": "NoError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22647,
+                "string": "PasswordTooShort"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22664,
+                "string": "PasswordTooLong"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22680,
+                "string": "PasswordNotComplexEnough"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22705,
+                "string": "PasswordFilterError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22725,
+                "string": "UnknownError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22738,
+                "string": "UncShareRegex"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22752,
+                "string": "DirectoryExists"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22768,
+                "string": "DoesShareExist"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22783,
+                "string": "FileExists"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22794,
+                "string": "IsDirectoryNameValid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22815,
+                "string": "IsFileNameValid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22831,
+                "string": "IsManagedFrameworkVersionValid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22862,
+                "string": "IsFilePathValid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22878,
+                "string": "NetShareGetInfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22894,
+                "string": "currentConfigPath"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22912,
+                "string": "System.Runtime.InteropServices"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22943,
+                "string": "MarshalAsAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22962,
+                "string": "UnmanagedType"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22976,
+                "string": "fOverwrite"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22987,
+                "string": "exception"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22997,
+                "string": "args"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23004,
+                "string": "outputPath"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23015,
+                "string": "parameters"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23028,
+                "string": "paramName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23038,
+                "string": "paramValue"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23049,
+                "string": "pszName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23057,
+                "string": "pBindOptions"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23070,
+                "string": "InAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23082,
+                "string": "riid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23087,
+                "string": "instance"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23096,
+                "string": "OutAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23109,
+                "string": "clsid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23119,
+                "string": "iTInfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23126,
+                "string": "lcid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23131,
+                "string": "rgsNames"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23140,
+                "string": "cNames"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23147,
+                "string": "rgDispId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23156,
+                "string": "dispIdMember"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23169,
+                "string": "dwFlags"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23177,
+                "string": "pDispParams"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23189,
+                "string": "pVarResult"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23200,
+                "string": "pExcepInfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23211,
+                "string": "pArgErr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23219,
+                "string": "value"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23232,
+                "string": "permissionBytes"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23248,
+                "string": "startIndex"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23259,
+                "string": "cbBytes"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23267,
+                "string": "structure"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23277,
+                "string": "deleteOld"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23287,
+                "string": "handle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23294,
+                "string": "userToken"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23304,
+                "string": "validWindowsUser"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23321,
+                "string": "password"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23330,
+                "string": "userName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23339,
+                "string": "targetComputer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23354,
+                "string": "passwordIsInvalid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23372,
+                "string": "directory"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23382,
+                "string": "fullUserName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23395,
+                "string": "usedForPasswordVerification"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23423,
+                "string": "errorMessage"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23436,
+                "string": "isGroup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23444,
+                "string": "hSid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23449,
+                "string": "windowsPrincipal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23466,
+                "string": "windowsIdentity"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23482,
+                "string": "groupName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23492,
+                "string": "TokenHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23504,
+                "string": "TokenInformationClass"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23526,
+                "string": "TokenInformation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23543,
+                "string": "TokenInformationLength"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23566,
+                "string": "ReturnLength"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23579,
+                "string": "lpszUsername"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23592,
+                "string": "lpszDomain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23603,
+                "string": "lpszPassword"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23616,
+                "string": "dwLogonType"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23628,
+                "string": "dwLogonProvider"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23644,
+                "string": "phToken"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23652,
+                "string": "lpSystemName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23665,
+                "string": "lpAccountName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23679,
+                "string": "pSid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23684,
+                "string": "cbSid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23690,
+                "string": "domainName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23701,
+                "string": "cbdomainLength"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23716,
+                "string": "peUse"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23722,
+                "string": "system"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23729,
+                "string": "ptrSID"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23736,
+                "string": "name"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23741,
+                "string": "nameSize"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23750,
+                "string": "domain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23757,
+                "string": "domainSize"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23772,
+                "string": "servername"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23783,
+                "string": "groupname"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23793,
+                "string": "level"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23799,
+                "string": "totalentries"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23812,
+                "string": "bufptr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23819,
+                "string": "username"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23828,
+                "string": "ServerName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23839,
+                "string": "Qualifier"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23849,
+                "string": "ValidationType"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23864,
+                "string": "InputArg"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23873,
+                "string": "OutputArg"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23883,
+                "string": "pIdentifierAuthority"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23904,
+                "string": "nSubAuthorityCount"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23923,
+                "string": "dwSubAuthority0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23939,
+                "string": "dwSubAuthority1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23955,
+                "string": "dwSubAuthority2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23971,
+                "string": "dwSubAuthority3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23987,
+                "string": "dwSubAuthority4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24003,
+                "string": "dwSubAuthority5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24019,
+                "string": "dwSubAuthority6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24035,
+                "string": "dwSubAuthority7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24051,
+                "string": "SidToCheck"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24062,
+                "string": "IsMember"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24071,
+                "string": "ExistingTokenHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24091,
+                "string": "DuplicateTokenHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24112,
+                "string": "NameType"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24121,
+                "string": "lpBuffer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24130,
+                "string": "lpnSize"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24138,
+                "string": "sharePath"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24148,
+                "string": "existsButAccessDenied"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24170,
+                "string": "file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24175,
+                "string": "supportsEnvironmentVariables"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24204,
+                "string": "supportsUncShares"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24222,
+                "string": "invalidCharacters"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24240,
+                "string": "environmentVariablesPresent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24268,
+                "string": "uncSharePresent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24284,
+                "string": "invalidUncPath"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24299,
+                "string": "fileName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24308,
+                "string": "absoluteFilePath"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24325,
+                "string": "netname"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24333,
+                "string": "NeutralResourcesLanguageAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24367,
+                "string": "ComVisibleAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24387,
+                "string": "System.Reflection"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24405,
+                "string": "AssemblyVersionAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24430,
+                "string": "AssemblyProductAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24455,
+                "string": "AssemblyCopyrightAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24482,
+                "string": "AssemblyCompanyAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24507,
+                "string": "AssemblyFileVersionAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24536,
+                "string": "AssemblyKeyFileAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24561,
+                "string": "AssemblyDelaySignAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24588,
+                "string": "CLSCompliantAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24610,
+                "string": "AssemblyDescriptionAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24639,
+                "string": "System.Security.Permissions"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24667,
+                "string": "SecurityPermissionAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24695,
+                "string": "SecurityAction"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24710,
+                "string": "System.Diagnostics"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24729,
+                "string": "DebuggableAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24749,
+                "string": "DebuggingModes"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24764,
+                "string": "System.Runtime.CompilerServices"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24796,
+                "string": "CompilationRelaxationsAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24828,
+                "string": "RuntimeCompatibilityAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24858,
+                "string": "IisExpressadminCmd"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24877,
+                "string": "String"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24884,
+                "string": "DllImportAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24903,
+                "string": "iisexpresshelper.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24924,
+                "string": "Marshal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24932,
+                "string": "PtrToStringUni"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24947,
+                "string": "GetCurrent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24958,
+                "string": "ElevatedTasks"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24972,
+                "string": "UnauthorizedAccessException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25000,
+                "string": "Console"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25008,
+                "string": "System.IO"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25018,
+                "string": "TextWriter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25029,
+                "string": "get_Error"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25039,
+                "string": "get_Message"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25051,
+                "string": "Environment"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25063,
+                "string": "get_NewLine"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25075,
+                "string": "Replace"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25083,
+                "string": "WriteLine"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25093,
+                "string": "get_StackTrace"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25108,
+                "string": "ToUpperInvariant"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25125,
+                "string": "<PrivateImplementationDetails>{D03C2514-4105-4C26-B85C-CC4DB18C438B}"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25194,
+                "string": "CompilerGeneratedAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25221,
+                "string": "System.Collections.Generic"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25248,
+                "string": "Dictionary`2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25261,
+                "string": "$$method0x6000009-1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25285,
+                "string": "TryGetValue"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25297,
+                "string": "Contains"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25306,
+                "string": "ArgumentOutOfRangeException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25334,
+                "string": "SetupFriendlyHostnameUrl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25359,
+                "string": "DeleteFriendlyHostnameUrl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25385,
+                "string": "Convert"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25393,
+                "string": "ToInt32"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25401,
+                "string": "SetupSslUrl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25413,
+                "string": "DeleteSslUrl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25426,
+                "string": "SetupUrl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25435,
+                "string": "DeleteUrl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25445,
+                "string": "SetupDefaultUrls"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25462,
+                "string": "CleanupDefaultUrls"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25481,
+                "string": "Write"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25487,
+                "string": "Format"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25494,
+                "string": "IsNullOrEmpty"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25508,
+                "string": "NotImplementedException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25532,
+                "string": "Assembly"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25541,
+                "string": "GetExecutingAssembly"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25562,
+                "string": "get_Location"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25575,
+                "string": "Path"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25580,
+                "string": "GetDirectoryName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25597,
+                "string": "Combine"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25605,
+                "string": "File"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25610,
+                "string": "ToLowerInvariant"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25627,
+                "string": "Equals"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25634,
+                "string": "System.Text.RegularExpressions"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25665,
+                "string": "Regex"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25671,
+                "string": "RegexOptions"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25684,
+                "string": "Match"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25690,
+                "string": "GroupCollection"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25706,
+                "string": "get_Groups"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25717,
+                "string": "Group"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25723,
+                "string": "get_Item"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25732,
+                "string": "Capture"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25740,
+                "string": "get_Value"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25750,
+                "string": "$$method0x600000d-1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25770,
+                "string": "get_Length"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25781,
+                "string": "get_Chars"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25791,
+                "string": "Concat"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25798,
+                "string": "ArgumentException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25816,
+                "string": ".cctor"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25823,
+                "string": "ole32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25833,
+                "string": "Type"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25838,
+                "string": "RuntimeTypeHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25856,
+                "string": "GetTypeFromHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25874,
+                "string": "SizeOf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25881,
+                "string": "ToString"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25890,
+                "string": "FlagsAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25905,
+                "string": "StructLayoutAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25927,
+                "string": "LayoutKind"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25938,
+                "string": "ComImportAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25957,
+                "string": "GuidAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25971,
+                "string": "InterfaceTypeAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25994,
+                "string": "ComInterfaceType"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26011,
+                "string": "PreserveSigAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26032,
+                "string": "System.CodeDom.Compiler"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26056,
+                "string": "GeneratedCodeAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26079,
+                "string": "DebuggerNonUserCodeAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26108,
+                "string": "ReferenceEquals"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26124,
+                "string": "get_Assembly"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26137,
+                "string": "GetString"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26147,
+                "string": "System.ComponentModel"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26169,
+                "string": "EditorBrowsableAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26194,
+                "string": "EditorBrowsableState"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26215,
+                "string": "IntPtr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26222,
+                "string": "Zero"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26227,
+                "string": "SafeHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26238,
+                "string": "SetHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26248,
+                "string": "StringToHGlobalUni"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26267,
+                "string": "AllocHGlobal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26280,
+                "string": "get_IsInvalid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26294,
+                "string": "InvalidOperationException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26320,
+                "string": "StructureToPtr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26335,
+                "string": "PtrToStructure"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26350,
+                "string": "FreeHGlobal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26362,
+                "string": "SetHandleAsInvalid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26381,
+                "string": "kernel32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26394,
+                "string": "get_Name"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26403,
+                "string": "ReadIntPtr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26414,
+                "string": "op_Inequality"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26428,
+                "string": "Trim"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26433,
+                "string": "System.Net"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26448,
+                "string": "GetHostName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26460,
+                "string": "IPAddress"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26470,
+                "string": "GetHostAddresses"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26487,
+                "string": "TryParse"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26496,
+                "string": "IsLoopback"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26507,
+                "string": "IPHostEntry"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26519,
+                "string": "GetHostEntry"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26532,
+                "string": "get_AddressList"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26548,
+                "string": "System.Net.Sockets"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26567,
+                "string": "SocketException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26583,
+                "string": "IndexOf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26591,
+                "string": "Substring"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26601,
+                "string": "GetHRForLastWin32Error"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26624,
+                "string": "ThrowExceptionForHR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26644,
+                "string": "StringComparison"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26661,
+                "string": "StartsWith"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26672,
+                "string": "Directory"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26682,
+                "string": "GetFiles"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26691,
+                "string": "Exists"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26698,
+                "string": "Undo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26703,
+                "string": "Char"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26708,
+                "string": "Split"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26714,
+                "string": "GetExceptionForHR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26732,
+                "string": "IDisposable"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26744,
+                "string": "Dispose"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26752,
+                "string": "get_MachineName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26768,
+                "string": "Compare"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26776,
+                "string": "WindowsBuiltInRole"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26795,
+                "string": "IsInRole"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26804,
+                "string": "IIdentity"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26814,
+                "string": "get_Identity"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26827,
+                "string": "get_Token"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26837,
+                "string": "IsDigit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26845,
+                "string": "IsUpper"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26853,
+                "string": "IsLetter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26862,
+                "string": "IsMatch"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26870,
+                "string": "Math"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26883,
+                "string": "advapi32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26896,
+                "string": "Netapi32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26909,
+                "string": "GetInvalidPathChars"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26929,
+                "string": "Array"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26935,
+                "string": "CopyTo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26942,
+                "string": "IndexOfAny"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26953,
+                "string": "GetInvalidFileNameChars"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26977,
+                "string": "Int32"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26983,
+                "string": "GetFileName"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26995,
+                "string": "DirectorySeparatorChar"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27018,
+                "string": "LastIndexOf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27030,
+                "string": "System.Security"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27046,
+                "string": "UnverifiableCodeAttribute"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27072,
+                "string": "IisExpressadminCmd.Resource.resources"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29448,
+                "string": "RSA1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29510,
+                "string": "`!g-"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29820,
+                "string": "$00020400-0000-0000-C000-000000000046"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29878,
+                "string": "3System.Resources.Tools.StronglyTypedResourceBuilder"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29931,
+                "string": "4.0.0.0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30480,
+                "string": "!Microsoft Web Platform Extensions"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30519,
+                "string": "9Copyright (c) Microsoft Corporation. All rights reserved."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30583,
+                "string": "Microsoft Corporation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30610,
+                "string": "7.1.1736.0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30625,
+                "string": "Wd:\\iisexpress\\public\\ext\\sdk\\vs10sp1\\internal\\strongnamekeys\\fake\\MSSharedLibSN1024.snk"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30724,
+                "string": "#IIS Express Admin Command Line Tool"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30779,
+                "string": "WrapNonExceptionThrows"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30808,
+                "string": "System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30945,
+                "string": "SkipVerification"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30992,
+                "string": "RSDS2M&"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31016,
+                "string": "IisExpressadminCmd.pdb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31154,
+                "string": "_CorExeMain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31166,
+                "string": "mscoree.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33963,
+                "string": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34020,
+                "string": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34095,
+                "string": "  <assemblyIdentity version=\"1.0.0.0\" name=\"MyApplication.app\"/>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34161,
+                "string": "  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v2\">"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34217,
+                "string": "    <security>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34233,
+                "string": "      <requestedPrivileges xmlns=\"urn:schemas-microsoft-com:asm.v3\">"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34303,
+                "string": "        <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"/>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34374,
+                "string": "      </requestedPrivileges>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34404,
+                "string": "    </security>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34421,
+                "string": "  </trustInfo>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34437,
+                "string": "</assembly>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41022,
+                "string": ">0<0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41050,
+                "string": "0!0\t"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41164,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41185,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41203,
+                "string": "Microsoft Corporation1!0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41235,
+                "string": "Microsoft Time-Stamp PCA0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41263,
+                "string": "160330192130Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41278,
+                "string": "170630192130Z0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41318,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41339,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41357,
+                "string": "Microsoft Corporation1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41389,
+                "string": "MOPR1'0%"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41404,
+                "string": "nCipher DSE ESN:5847-F761-4F701%0#"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41445,
+                "string": "Microsoft Time-Stamp Service0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41609,
+                "string": ")\\,&"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41748,
+                "string": "98Ev"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41847,
+                "string": "M0K0I"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41857,
+                "string": "Chttp://crl.microsoft.com/pki/crl/products/MicrosoftTimeStampPCA.crl0X"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41938,
+                "string": "L0J0H"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41954,
+                "string": "<http://www.microsoft.com/pki/certs/MicrosoftTimeStampPCA.crt0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42097,
+                "string": "k)]6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42259,
+                "string": "Lb]rJ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42285,
+                "string": "<o,Zv"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42372,
+                "string": "com1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42392,
+                "string": "\tmicrosoft1-0+"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42412,
+                "string": "$Microsoft Root Certificate Authority0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42453,
+                "string": "070403125309Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42468,
+                "string": "210403130309Z0w1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42507,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42528,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42546,
+                "string": "Microsoft Corporation1!0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42578,
+                "string": "Microsoft Time-Stamp PCA0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42643,
+                "string": "*|k."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42759,
+                "string": "(F.'"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42858,
+                "string": "xA1w"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43002,
+                "string": "`@V'"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43022,
+                "string": "a0_1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43043,
+                "string": "com1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43063,
+                "string": "\tmicrosoft1-0+"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43083,
+                "string": "$Microsoft Root Certificate Authority"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43136,
+                "string": ".e0P"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43146,
+                "string": "I0G0E"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43156,
+                "string": "?http://crl.microsoft.com/pki/crl/products/microsoftrootcert.crl0T"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43233,
+                "string": "H0F0D"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43249,
+                "string": "8http://www.microsoft.com/pki/certs/MicrosoftRootCert.crt0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43367,
+                "string": ".tq[m"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43452,
+                "string": "*$\"p"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43501,
+                "string": "1Jv1=+r"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43550,
+                "string": "xe\\["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43640,
+                "string": "qZFC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43686,
+                "string": "L&*H$_Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43793,
+                "string": "u\"/2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43934,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43955,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43973,
+                "string": "Microsoft Corporation1(0&"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44005,
+                "string": "Microsoft Code Signing PCA 20110"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44040,
+                "string": "151028203145Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44055,
+                "string": "170128203145Z0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44095,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44116,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44134,
+                "string": "Microsoft Corporation1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44166,
+                "string": "AOC1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44180,
+                "string": "Microsoft Corporation0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44455,
+                "string": "/ #x"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44579,
+                "string": "E0C1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44593,
+                "string": "AOC1301"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44606,
+                "string": "*31642+49e8c3f3-2359-47f6-a3be-6c8c4751c4b60"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44690,
+                "string": "M0K0I"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44700,
+                "string": "Chttp://www.microsoft.com/pkiops/crl/MicCodSigPCA2011_2011-07-08.crl0a"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44781,
+                "string": "U0S0Q"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44797,
+                "string": "Ehttp://www.microsoft.com/pkiops/certs/MicCodSigPCA2011_2011-07-08.crt0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45021,
+                "string": "oP Y"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45076,
+                "string": "5/yY?S"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45173,
+                "string": "0hft"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45225,
+                "string": "Q87J"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45370,
+                "string": ";(1*u$\\&u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45408,
+                "string": "6r8y"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45480,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45501,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45519,
+                "string": "Microsoft Corporation1200"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45550,
+                "string": ")Microsoft Root Certificate Authority 20110"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45596,
+                "string": "110708205909Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45611,
+                "string": "260708210909Z0~1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45650,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45671,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45689,
+                "string": "Microsoft Corporation1(0&"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45721,
+                "string": "Microsoft Code Signing PCA 20110"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45926,
+                "string": "nd5x"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46066,
+                "string": "!t%_"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46074,
+                "string": "'(8%"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46106,
+                "string": "!K>R"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46263,
+                "string": "x X,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46457,
+                "string": "S0Q0O"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46467,
+                "string": "Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46554,
+                "string": "R0P0N"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46570,
+                "string": "Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46681,
+                "string": "3http://www.microsoft.com/pkiops/docs/primarycps.htm0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46850,
+                "string": "e_.,>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46927,
+                "string": "D=xz#"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46962,
+                "string": "*?*kXIc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46970,
+                "string": "\tinZ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47042,
+                "string": "QEX82q'"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47056,
+                "string": ",: i"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47299,
+                "string": "WqVNHE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47371,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47392,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47410,
+                "string": "Microsoft Corporation1(0&"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47442,
+                "string": "Microsoft Code Signing PCA 2011"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47616,
+                "string": "1200"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47650,
+                "string": "http://www.iis.net0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47722,
+                "string": "8zT<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47729,
+                "string": "GHH/"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47749,
+                "string": "lxl;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47758,
+                "string": ";[\tV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47933,
+                "string": "/4Mjz"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48002,
+                "string": "Washington1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48023,
+                "string": "Redmond1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48041,
+                "string": "Microsoft Corporation1!0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48073,
+                "string": "Microsoft Time-Stamp PCA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48174,
+                "string": "160603234913Z0#"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48300,
+                "string": ":u+h3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48322,
+                "string": "IRHC;"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10201,
+                "string": "CommandCompleted"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10238,
+                "string": "CommandLineHelp"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10273,
+                "string": "CommandProcessingFailed"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10324,
+                "string": "DnsNamesNotSupported"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10369,
+                "string": "ErrorRequiresElevation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10418,
+                "string": "InvalidCommand"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10451,
+                "string": "ParameterUnrecognized"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10498,
+                "string": "ParameterValueExpected"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10547,
+                "string": "ParameterValueUnexpected"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 10600,
+                "string": "SuggestMoreDetails"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27118,
+                "string": "SETUPFRIENDLYHOSTNAMEURL"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27168,
+                "string": "DELETEFRIENDLYHOSTNAMEURL"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27220,
+                "string": "SETUPSSLURL"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27244,
+                "string": "DELETESSLURL"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27270,
+                "string": "SETUPURL"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27288,
+                "string": "DELETEURL"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27308,
+                "string": "DIAGNOSEURL"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27332,
+                "string": "SHOWCERTIFICATES"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27366,
+                "string": "SETUPDEFAULTURLS"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27400,
+                "string": "CLEANUPDEFAULTURLS"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27438,
+                "string": "CREATEASPNETHOSTCONFIGFILE"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27504,
+                "string": "config\\templates\\PersonalWebServer\\aspnet.config"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27602,
+                "string": "config\\aspnet.config"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27644,
+                "string": "aspnet.config"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27696,
+                "string": "[/-](?<param_name>\\w+)([: =](?<param_value>.*))?$"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27796,
+                "string": "param_name"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27818,
+                "string": "param_value"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27850,
+                "string": "HASH"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27860,
+                "string": "CERTHASH"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27878,
+                "string": "USESELFSIGNED"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27906,
+                "string": "PAUSE"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27918,
+                "string": "OUTPATH"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27938,
+                "string": "VERBOSE"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 27958,
+                "string": "Elevation:Administrator!new:"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28020,
+                "string": "IISExpressAdminCmd.Resource"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28076,
+                "string": "CommandCompleted"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28110,
+                "string": "CommandLineHelp"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28142,
+                "string": "CommandProcessingFailed"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28190,
+                "string": "DnsNamesNotSupported"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28232,
+                "string": "ErrorRequiresElevation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28278,
+                "string": "InvalidCommand"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28308,
+                "string": "ParameterUnrecognized"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28352,
+                "string": "ParameterValueExpected"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28398,
+                "string": "ParameterValueUnexpected"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28448,
+                "string": "SuggestMoreDetails"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28492,
+                "string": "[\\d]"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28502,
+                "string": "[a-z]"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28514,
+                "string": "[A-Z]"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28526,
+                "string": "[\\W|_]"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 28548,
+                "string": "^\\\\(\\\\.+){2,}\\\\?$"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 29314,
+                "string": "^\\\\(\\\\.+){2,}\\\\?$"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 32934,
+                "string": "VS_VERSION_INFO"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33026,
+                "string": "VarFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33058,
+                "string": "Translation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33094,
+                "string": "StringFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33130,
+                "string": "000004b0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33154,
+                "string": "Comments"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33172,
+                "string": "IIS Express Admin Command Line Tool"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33250,
+                "string": "CompanyName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33276,
+                "string": "Microsoft Corporation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33326,
+                "string": "FileDescription"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33370,
+                "string": "FileVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33396,
+                "string": "7.1.1736.0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33426,
+                "string": "InternalName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33452,
+                "string": "IisExpressadminCmd.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33506,
+                "string": "LegalCopyright"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33536,
+                "string": "Copyright (c) Microsoft Corporation. All rights reserved."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33658,
+                "string": "OriginalFilename"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33692,
+                "string": "IisExpressadminCmd.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33746,
+                "string": "ProductName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33772,
+                "string": "Microsoft Web Platform Extensions"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33846,
+                "string": "ProductVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33876,
+                "string": "7.1.1736.0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33906,
+                "string": "Assembly Version"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 33940,
+                "string": "7.9.0.0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 46377,
+                "string": "SubC"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 46752,
+                "string": "Legal_policy_statement"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 47625,
+                "string": "IIS Expres"
+            }
+        ],
+        "tight_strings": []
+    },
+    "is_malicious": false
+}

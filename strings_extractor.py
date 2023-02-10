@@ -1,6 +1,6 @@
 import os
 import json
-from data.DataString import DataString
+from DataString import DataString
 import sys
 import subprocess
 
