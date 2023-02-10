@@ -1,0 +1,2855 @@
+{
+    "analysis": {
+        "enable_decoded_strings": true,
+        "enable_stack_strings": true,
+        "enable_static_strings": true,
+        "enable_tight_strings": true,
+        "functions": {
+            "analyzed_decoded_strings": 22,
+            "analyzed_stack_strings": 42,
+            "analyzed_tight_strings": 13,
+            "decoding_function_scores": {
+                "4198912": 0.886,
+                "4199200": 0.83,
+                "4199248": 0.88,
+                "4199824": 0.95,
+                "4205568": 0.835,
+                "4207568": 0.974,
+                "4213600": 0.749,
+                "4214144": 0.963,
+                "4216144": 0.927,
+                "4216784": 0.977,
+                "4219616": 0.937,
+                "4220896": 0.955,
+                "4225344": 0.927,
+                "4227584": 0.833,
+                "4230560": 0.83,
+                "4232576": 0.737,
+                "4235584": 0.886,
+                "4237440": 0.805,
+                "4240976": 0.602,
+                "4242128": 0.914,
+                "4242656": 0.564,
+                "4243488": 0.725
+            },
+            "discovered": 110,
+            "library": 0
+        }
+    },
+    "metadata": {
+        "file_path": "DikeDataset-main/files/benign/33aaf68843e2936dfd3665e5cdb76a3d5372fff42fe66f4f2b35886066a0380e.exe",
+        "imagebase": 4194304,
+        "min_length": 4,
+        "runtime": {
+            "decoded_strings": 39.3494,
+            "find_features": 0.5308,
+            "stack_strings": 0.7245,
+            "start_date": "2023-02-10T01:53:20.857414Z",
+            "static_strings": 0.0175,
+            "tight_strings": 1.6869,
+            "total": 51.5368,
+            "vivisect": 9.2275
+        },
+        "version": "v2.2.0-0-g783dd8f"
+    },
+    "strings": {
+        "decoded_strings": [
+            {
+                "address": 3216244492,
+                "address_type": "STACK",
+                "decoded_at": 4241783,
+                "decoding_routine": 4242128,
+                "encoding": "ASCII",
+                "string": "9.34"
+            },
+            {
+                "address": 3216244532,
+                "address_type": "STACK",
+                "decoded_at": 4241783,
+                "decoding_routine": 4242128,
+                "encoding": "ASCII",
+                "string": "3.9G"
+            },
+            {
+                "address": 3216241788,
+                "address_type": "STACK",
+                "decoded_at": 4218415,
+                "decoding_routine": 4198912,
+                "encoding": "ASCII",
+                "string": "disk"
+            },
+            {
+                "address": 4270832,
+                "address_type": "GLOBAL",
+                "decoded_at": 4199914,
+                "decoding_routine": 4240976,
+                "encoding": "ASCII",
+                "string": " !\"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+            },
+            {
+                "address": 4271088,
+                "address_type": "GLOBAL",
+                "decoded_at": 4199914,
+                "decoding_routine": 4240976,
+                "encoding": "ASCII",
+                "string": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~"
+            }
+        ],
+        "stack_strings": [
+            {
+                "encoding": "ASCII",
+                "frame_offset": 1096,
+                "function": 4230560,
+                "offset": 36,
+                "original_stack_pointer": 3216244656,
+                "program_counter": 4243128,
+                "stack_pointer": 3216243520,
+                "string": "(current directory)"
+            }
+        ],
+        "static_strings": [
+            {
+                "encoding": "ASCII",
+                "offset": 77,
+                "string": "!This program cannot be run in DOS mode."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 376,
+                "string": ".text"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 414,
+                "string": "P`.data"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 456,
+                "string": ".data_cy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 496,
+                "string": ".bss"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 536,
+                "string": ".idata"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1462,
+                "string": "5h*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1751,
+                "string": "zips"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1758,
+                "string": "plit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1765,
+                "string": ".idx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2261,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2337,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2880,
+                "string": "5@AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2960,
+                "string": "=@AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3012,
+                "string": "5p*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3138,
+                "string": "v\\C9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4272,
+                "string": "=@AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4620,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4674,
+                "string": "50AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4738,
+                "string": "=0AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4763,
+                "string": "5$*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5496,
+                "string": "=0*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5795,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5831,
+                "string": "zips"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5838,
+                "string": "plit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5845,
+                "string": ".idx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5916,
+                "string": ";5@AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6007,
+                "string": ";5@AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6767,
+                "string": "=0AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8065,
+                "string": ".zip"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8168,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8175,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8539,
+                "string": ",[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9103,
+                "string": "0[^]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9581,
+                "string": "f9S&t"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10443,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10535,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10610,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11463,
+                "string": "=x*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11706,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11961,
+                "string": "Zip "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11966,
+                "string": "entr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11971,
+                "string": "y of"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11982,
+                "string": "fset"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11987,
+                "string": "s do"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11998,
+                "string": " not"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12003,
+                "string": " nee"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12013,
+                "string": "d ad"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12024,
+                "string": "just"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12844,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12857,
+                "string": "bad "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12862,
+                "string": "arch"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12867,
+                "string": "ive "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12878,
+                "string": "cted"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12883,
+                "string": " sig"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12894,
+                "string": "- un"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12899,
+                "string": "expe"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12910,
+                "string": "natu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13355,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13445,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14687,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15295,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15408,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15926,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15996,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16138,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16256,
+                "string": "5PAA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16362,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16501,
+                "string": ",[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16677,
+                "string": "=t*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17592,
+                "string": "=P*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17665,
+                "string": ",[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18650,
+                "string": "=@*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18675,
+                "string": "5<*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19106,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19363,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20745,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22209,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22841,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23476,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23530,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23549,
+                "string": "x(;5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23764,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23796,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 23942,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24059,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24309,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24832,
+                "string": "f9F&t"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24974,
+                "string": "=H*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 24983,
+                "string": "z(t\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25106,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25196,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25329,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25362,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25395,
+                "string": "=P*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25408,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25458,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25953,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27538,
+                "string": "ziXX"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27543,
+                "string": "XXXX"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27773,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27952,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28046,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28420,
+                "string": "=d)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28426,
+                "string": "5,)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28465,
+                "string": "5P)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28533,
+                "string": ",[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28661,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28715,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28799,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28845,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28857,
+                "string": "5d)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29005,
+                "string": "5H*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29174,
+                "string": "=L)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29297,
+                "string": "=T)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29640,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29704,
+                "string": "5L)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29805,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29811,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29899,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29943,
+                "string": "5\\)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30071,
+                "string": "=P)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30886,
+                "string": "5<QA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30925,
+                "string": "=0)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31784,
+                "string": "(cur"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31791,
+                "string": "rent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31798,
+                "string": " dir"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31805,
+                "string": "ecto"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31968,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32437,
+                "string": "rent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32442,
+                "string": " dir"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32453,
+                "string": "ecto"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32458,
+                "string": "(cur"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33151,
+                "string": "5L)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33402,
+                "string": "=h*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34301,
+                "string": "(cur"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34308,
+                "string": "rent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34315,
+                "string": " dir"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34322,
+                "string": "ecto"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34334,
+                "string": "=h*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34530,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34536,
+                "string": "rent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34541,
+                "string": "(cur"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34546,
+                "string": "ecto"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34563,
+                "string": " dir"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35059,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35136,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35379,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35603,
+                "string": "5H*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35710,
+                "string": "5H*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35716,
+                "string": "5\\*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35890,
+                "string": "5H*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36026,
+                "string": "XXXX"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36038,
+                "string": "ziXX"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36193,
+                "string": "=P*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36273,
+                "string": "=p)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36293,
+                "string": "=d)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36406,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36600,
+                "string": "5$*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36623,
+                "string": "5 *A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36720,
+                "string": "5<*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36737,
+                "string": "=P*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36770,
+                "string": "5D*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36792,
+                "string": "=p)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36817,
+                "string": "50AA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36929,
+                "string": "5$*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37008,
+                "string": "5$*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37094,
+                "string": "=H*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37182,
+                "string": "5d)A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37231,
+                "string": "5@*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37274,
+                "string": "=<*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37332,
+                "string": "=<*A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37756,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38141,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38290,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38609,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 40135,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41086,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41108,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41826,
+                "string": "<[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 42019,
+                "string": "<[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43756,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44487,
+                "string": ",0<\t"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44538,
+                "string": "5<QA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44588,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44639,
+                "string": "t\t<G"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44658,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44938,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45123,
+                "string": "uXCF"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45184,
+                "string": "[[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45425,
+                "string": "%8QA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45777,
+                "string": "%dQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45785,
+                "string": "%tQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45801,
+                "string": "%HQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45817,
+                "string": "%pQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45865,
+                "string": "%`QA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45905,
+                "string": "%|QA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45913,
+                "string": "%lQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45921,
+                "string": "%xQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45953,
+                "string": "%4QA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46033,
+                "string": "%hQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46057,
+                "string": "%PQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46097,
+                "string": "%DQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46947,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47010,
+                "string": "w\t9X"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47199,
+                "string": "[^_]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47247,
+                "string": "w\t9X"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47301,
+                "string": "w\t9X"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47363,
+                "string": "w\t9X"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48209,
+                "string": "%LQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48289,
+                "string": "%XQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48297,
+                "string": "%@QA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48313,
+                "string": "%TQA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48345,
+                "string": "%$RA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48353,
+                "string": "% RA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49440,
+                "string": "Copyright (c) 1990-2008 Info-ZIP - Type '%s \"-L\"' for software license."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49512,
+                "string": "This is %s %s (%s), by Cygwin. Original by Info-ZIP."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49568,
+                "string": "Currently maintained by E. Gordon.  Please send bug reports to"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49632,
+                "string": "the authors using the web page at www.info-zip.org; see README for details."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49712,
+                "string": "Latest sources and executables are at ftp://ftp.info-zip.org/pub/infozip,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49788,
+                "string": "as of above date; see http://www.info-zip.org/ for other sites."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49852,
+                "string": "Encryption notice:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49872,
+                "string": "\tThe encryption code of this program is not copyrighted and is"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49936,
+                "string": "\tput in the public domain.  It was originally written in Europe"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50000,
+                "string": "\tand, to the best of our knowledge, can be freely distributed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50064,
+                "string": "\tin both source and object forms from any country, including"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50128,
+                "string": "\tthe USA under License Exception TSU of the U.S. Export"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50184,
+                "string": "\tAdministration Regulations (section 740.13(e)) of 6 June 2002."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50248,
+                "string": "Copyright (c) 1990-2008 Info-ZIP.  All rights reserved."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50304,
+                "string": "For the purposes of this copyright and license, \"Info-ZIP\" is defined as"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50380,
+                "string": "the following set of individuals:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50416,
+                "string": "   Mark Adler, John Bush, Karl Davis, Harald Denker, Jean-Michel Dubois,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50492,
+                "string": "   Jean-loup Gailly, Hunter Goatley, Ed Gordon, Ian Gorman, Chris Herborth,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50568,
+                "string": "   Dirk Haase, Greg Hartwig, Robert Heath, Jonathan Hudson, Paul Kienitz,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50644,
+                "string": "   David Kirschbaum, Johnny Lee, Onno van der Linden, Igor Mandrichenko,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50720,
+                "string": "   Steve P. Miller, Sergio Monesi, Keith Owens, George Petrov, Greg Roelofs,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50800,
+                "string": "   Kai Uwe Rommel, Steve Salisbury, Dave Smith, Steven M. Schweda,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50868,
+                "string": "   Christian Spieler, Cosmin Truta, Antoine Verheijen, Paul von Behren,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50940,
+                "string": "   Rich Wales, Mike White"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50968,
+                "string": "This software is provided \"as is,\" without warranty of any kind, express"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51044,
+                "string": "or implied.  In no event shall Info-ZIP or its contributors be held liable"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51120,
+                "string": "for any direct, indirect, incidental, special or consequential damages"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51192,
+                "string": "arising out of the use of or inability to use this software."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51256,
+                "string": "Permission is granted to anyone to use this software for any purpose,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51328,
+                "string": "including commercial applications, and to alter it and redistribute it"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51400,
+                "string": "freely, subject to the above disclaimer and the following restrictions:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51472,
+                "string": "    1. Redistributions of source code (in whole or in part) must retain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51544,
+                "string": "       the above copyright notice, definition, disclaimer, and this list"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51617,
+                "string": "       of conditions."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51640,
+                "string": "    2. Redistributions in binary form (compiled executables and libraries)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51716,
+                "string": "       must reproduce the above copyright notice, definition, disclaimer,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51792,
+                "string": "       and this list of conditions in documentation and/or other materials"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51868,
+                "string": "       provided with the distribution.  The sole exception to this condition"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51948,
+                "string": "       is redistribution of a standard UnZipSFX binary (including SFXWiz) as"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52028,
+                "string": "       part of a self-extracting archive; that is permitted without inclusion"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52108,
+                "string": "       of this license, as long as the normal SFX banner has not been removed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52188,
+                "string": "       from the binary or disabled."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52224,
+                "string": "    3. Altered versions--including, but not limited to, ports to new operating"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52304,
+                "string": "       systems, existing ports with new graphical interfaces, versions with"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52380,
+                "string": "       modified or added functionality, and dynamic, shared, or static library"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52460,
+                "string": "       versions not from Info-ZIP--must be plainly marked as such and must not"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52540,
+                "string": "       be misrepresented as being the original source or, if binaries,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52612,
+                "string": "       compiled from the original source.  Such altered versions also must not"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52692,
+                "string": "       be misrepresented as being Info-ZIP releases--including, but not"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52764,
+                "string": "       limited to, labeling of the altered versions with the names \"Info-ZIP\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52844,
+                "string": "       (or any variation thereof, including, but not limited to, different"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52920,
+                "string": "       capitalizations), \"Pocket UnZip,\" \"WiZ\" or \"MacZip\" without the"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 52992,
+                "string": "       explicit permission of Info-ZIP.  Such altered versions are further"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53068,
+                "string": "       prohibited from misrepresentative use of the Zip-Bugs or Info-ZIP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53144,
+                "string": "       e-mail addresses or the Info-ZIP URL(s), such as to imply Info-ZIP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53220,
+                "string": "       will provide support for the altered versions."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53276,
+                "string": "    4. Info-ZIP retains the right to use the names \"Info-ZIP,\" \"Zip,\" \"UnZip,\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53356,
+                "string": "       \"UnZipSFX,\" \"WiZ,\" \"Pocket UnZip,\" \"Pocket Zip,\" and \"MacZip\" for its"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53436,
+                "string": "       own source and binary releases."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53475,
+                "string": "new zip file left as: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53498,
+                "string": "was replacing split file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53523,
+                "string": "%s%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53529,
+                "string": "zipsplit error: %s (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53554,
+                "string": "zipsplit error"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53569,
+                "string": "zipsplit warning: %s%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53593,
+                "string": "was trying a smart split"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53620,
+                "string": "help"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53625,
+                "string": "ZipSplit %s (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53644,
+                "string": "Usage:  zipsplit [-tipqs] [-n size] [-r room] [-b path] zipfile"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53708,
+                "string": "  -t   report how many files it will take, but don't make them"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53772,
+                "string": "  -i   make index (zipsplit.idx) and count its size against first zip file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53848,
+                "string": "  -n   make zip files no larger than \"size\" (default = 36000)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53912,
+                "string": "  -r   leave room for \"room\" bytes on the first disk (default = 0)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 53980,
+                "string": "  -b   use \"path\" for the output zip files"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54024,
+                "string": "  -q   quieter operation, suppress some informational messages"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54088,
+                "string": "  -p   pause between output zip files"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54128,
+                "string": "  -s   do a sequential split even if it takes more zip files"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54192,
+                "string": "  -h   show this help    -v   show version info    -L   show software license"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54270,
+                "string": "Use option -h for help."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54296,
+                "string": "Entry is larger than max split size of: %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54339,
+                "string": "use -n to set split size"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54364,
+                "string": "was processing arguments"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54389,
+                "string": "zip file cannot be stdin"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54418,
+                "string": "July 5th 2008"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54432,
+                "string": "ZipSplit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54444,
+                "string": "ZipSplit special compilation options:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54482,
+                "string": "\t[none]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54490,
+                "string": "zipsplit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54501,
+                "string": "ould"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54512,
+                "string": "%ld zip files w%s be made (%s%% efficiency)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54557,
+                "string": "was computing split"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54577,
+                "string": "%%0%dld.zip"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54592,
+                "string": "creating: %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54612,
+                "string": "Error writing to disk--redo entire disk? "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54654,
+                "string": "%5s %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54664,
+                "string": "Insert disk #%ld of %ld and hit return: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54705,
+                "string": "need to specify zip file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54732,
+                "string": "invalid size given. Use option -h for help."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54776,
+                "string": "Done."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54783,
+                "string": "can only specify one zip file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54816,
+                "string": "way too many zip files must be made"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54852,
+                "string": "input"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54860,
+                "string": "options are separate and precede zip file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 54902,
+                "string": "was making output file names"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55104,
+                "string": "aborting"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55116,
+                "string": "extra field copy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55138,
+                "string": "reading local entry: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55160,
+                "string": "Local Version Needed (%d) does not match CD (%d): "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55212,
+                "string": "Local Entry Flag does not match CD: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55252,
+                "string": "Local Entry CRC does not match CD: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55288,
+                "string": "reading archive fseek: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55312,
+                "string": "Did not find entry for "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55336,
+                "string": "reading entry"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55360,
+                "string": "missing end signature--probably not a zip file (did you"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55416,
+                "string": "remember to use binary mode when you transferred it?)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55472,
+                "string": "(if you are trying to read a damaged archive try -F)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55528,
+                "string": "bad archive - missing end signature"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55564,
+                "string": "(If downloaded, was binary mode used?  If not, the"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55616,
+                "string": " archive may be scrambled and not recoverable)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55663,
+                "string": "Can't use -F to fix (try -FF)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55693,
+                "string": "could not open input archive"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55724,
+                "string": "archive name must end in .zip for splits"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55768,
+                "string": "input file requires Zip64 support: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55804,
+                "string": "unable to seek in input file "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55849,
+                "string": "%02x "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55857,
+                "string": "on disk %lu at %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55876,
+                "string": "skipping this signature..."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55903,
+                "string": "reading central directory: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55932,
+                "string": "bad archive - error reading central directory"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 55978,
+                "string": "skipping this entry..."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56004,
+                "string": "expected %s entries but found %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56040,
+                "string": "central dir not where expected - could not adjust offsets"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56098,
+                "string": "(try -FF)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56108,
+                "string": "found Zip64 signature - this may be a Zip64 archive"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56160,
+                "string": "Need PKZIP 4.5 or later compatible zip"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56199,
+                "string": "Set ZIP64_SUPPORT in Zip 3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56230,
+                "string": "zero-length name for entry #"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56260,
+                "string": "Adjusting split archives not yet supported"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56304,
+                "string": "Zip entry offsets appear off by %s bytes - correcting..."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56364,
+                "string": "unexpected signature on disk %lu at %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56404,
+                "string": "archive not in correct format: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56436,
+                "string": "(try -F to attempt recovery)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56465,
+                "string": "skipping disk %lu ..."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56488,
+                "string": "could not find split: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56511,
+                "string": "error reading entry:  "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56536,
+                "string": "could not allocate memory: scanzipf_reg"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56576,
+                "string": "reading central directory"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56604,
+                "string": "must use --out when fixing an archive"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56644,
+                "string": "central directory header signature on disk %lu at %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56698,
+                "string": "reading archive: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56716,
+                "string": "could not seek back to Zip64 EOCDL: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56756,
+                "string": "cannot update a split archive (use --out option)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56808,
+                "string": "could not seek back to start of central directory: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56860,
+                "string": "bad archive - could not seek back to Zip64 EOCDL: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56913,
+                "string": "No .zip file found"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56932,
+                "string": "        "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 56944,
+                "string": "(If all you have are splits (.z01, .z02, ...) and no .zip, try -FF)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57012,
+                "string": "append_ushort_to_mem"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57033,
+                "string": "append_ulong_to_mem"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57053,
+                "string": "append_string_to_mem"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57076,
+                "string": "Unrecognized compression method in local header:  %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57129,
+                "string": "Skipping:  "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57144,
+                "string": "Local Version Needed To Extract does not match CD: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57196,
+                "string": "aborting: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57207,
+                "string": " (%s bytes)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57219,
+                "string": "entry truncated: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57240,
+                "string": "expected compressed/stored size %s, actual %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57286,
+                "string": "Could not find split"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57307,
+                "string": " copying: %s "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57321,
+                "string": "seek failed on output file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57348,
+                "string": "Illegal PK version mapping in local header:  %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57396,
+                "string": "Illegal host system mapping in local header:  %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57448,
+                "string": "Local Entry name does not match CD: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57488,
+                "string": "no end of stream entry found: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57520,
+                "string": "rewinding and scanning for later entries"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57561,
+                "string": "out of memory in zipcopy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57606,
+                "string": " replace: can't open %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57631,
+                "string": " fcopy: write error"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57652,
+                "string": "skipping split file: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57674,
+                "string": "could not find split: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57700,
+                "string": "user ended reading - closing archive"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57737,
+                "string": "reading archive: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57756,
+                "string": "seek failed reading descriptor"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57789,
+                "string": "Could not find:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57806,
+                "string": "  %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57813,
+                "string": "Hit c      (change path to where this split file is)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57869,
+                "string": "    q      (abort archive - quit)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57905,
+                "string": " or ENTER  (try reading this split again): "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57951,
+                "string": "Found:  %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 57965,
+                "string": " or ENTER  (continue with this split): "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58006,
+                "string": "Found:  %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58019,
+                "string": "    s      (skip this split)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58049,
+                "string": "    e      (end this archive - no more splits)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58097,
+                "string": "    z      (look for .zip split - the last split)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58148,
+                "string": "Could not find or open"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58173,
+                "string": "Enter path where this split is (ENTER = same dir, . = current dir)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58244,
+                "string": "split path"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58256,
+                "string": "Opening disk %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58276,
+                "string": "Hit ENTER to write to default path of"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58316,
+                "string": "or enter a new directory path (. for cur dir) and hit ENTER"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58381,
+                "string": "Path (or hit ENTER to continue): "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58415,
+                "string": "Writing to:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58427,
+                "string": "  %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58433,
+                "string": "z%02lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58440,
+                "string": "More than 99999 splits needed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58470,
+                "string": "base path"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58480,
+                "string": "\tClosing split "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58496,
+                "string": "Not enough room on disk"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58520,
+                "string": "write error on zip file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58544,
+                "string": "could not write split"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58568,
+                "string": "Not enough space to write split"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58600,
+                "string": "Could not write split"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58622,
+                "string": "allocating temp filename"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58647,
+                "string": "option %s not negatable"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58671,
+                "string": "option %s requires a value"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58720,
+                "string": "option %s does not allow a value"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58784,
+                "string": "short option '%c' not supported"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58816,
+                "string": "option %s requires one character value"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58880,
+                "string": "option %s does not support multibyte values"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58944,
+                "string": "option %s requires number value"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 58976,
+                "string": "long option '%s' ambiguous"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59004,
+                "string": "long option '%s' not supported"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59035,
+                "string": "argument files not enabled"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59069,
+                "string": "'%s'"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59074,
+                "string": "'%s' (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59104,
+                "string": "Number too long to read (8 characters max): "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59152,
+                "string": "Unable to read number (must start with digit): "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59200,
+                "string": "Unable to read empty number in ReadNumString"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59251,
+                "string": "Normal successful completion"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59285,
+                "string": "Unexpected end of zip file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59312,
+                "string": "FORM"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59317,
+                "string": "Zip file structure invalid"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59348,
+                "string": "Out of memory"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59362,
+                "string": "LOGIC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59368,
+                "string": "Internal logic error"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59396,
+                "string": "Entry too big to split, read, or write"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59435,
+                "string": "NOTE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59440,
+                "string": "Invalid comment format"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59463,
+                "string": "TEST"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59468,
+                "string": "Zip file invalid, could not spawn unzip, or wrong unzip"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59524,
+                "string": "ABORT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59530,
+                "string": "Interrupted"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59542,
+                "string": "TEMP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59547,
+                "string": "Temporary file failure"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59570,
+                "string": "READ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59575,
+                "string": "Input file read failure"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59599,
+                "string": "NONE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59604,
+                "string": "Nothing to do!"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59619,
+                "string": "NAME"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59624,
+                "string": "Missing or empty zip file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59650,
+                "string": "WRITE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59656,
+                "string": "Output file write failure"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59682,
+                "string": "CREAT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59688,
+                "string": "Could not create output file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59717,
+                "string": "PARMS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59723,
+                "string": "Invalid command arguments"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59749,
+                "string": "OPEN"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59756,
+                "string": "File not found or no read permission"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59793,
+                "string": "COMPERR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59801,
+                "string": "Not supported"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59815,
+                "string": "ZIP64"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59824,
+                "string": "Attempt to read unsupported Zip64 archive"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59866,
+                "string": ".Z:.zip:.zoo:.arc:.lzh:.arj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59896,
+                "string": " on May 27 2010"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59912,
+                "string": "Cygwin"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59919,
+                "string": "gcc 3.4.4 (msys special)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59944,
+                "string": "Compiled with %s for Unix (%s)%s."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 59980,
+                "string": "<unknown module>: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 60004,
+                "string": "Cygwin runtime failure: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 60044,
+                "string": "  VirtualQuery failed for %d bytes at address %p"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 60096,
+                "string": "  Unknown pseudo relocation bit size %d."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 60140,
+                "string": "  Unknown pseudo relocation protocol version %d."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61486,
+                "string": "__errno"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61496,
+                "string": "__main"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61506,
+                "string": "_ctype_"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61516,
+                "string": "abort"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61524,
+                "string": "atoi"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61532,
+                "string": "atol"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61540,
+                "string": "calloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61550,
+                "string": "chmod"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61558,
+                "string": "cygwin_conv_to_posix_path"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61586,
+                "string": "cygwin_internal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61604,
+                "string": "dll_crt0__FP11per_process"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61632,
+                "string": "exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61640,
+                "string": "fclose"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61650,
+                "string": "fdopen"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61660,
+                "string": "fflush"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61670,
+                "string": "fgets"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61678,
+                "string": "fopen"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61686,
+                "string": "fprintf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61696,
+                "string": "fputc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61704,
+                "string": "fputs"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61712,
+                "string": "fread"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61720,
+                "string": "free"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61728,
+                "string": "fseek"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61736,
+                "string": "ftell"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61744,
+                "string": "fwrite"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61754,
+                "string": "getc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61762,
+                "string": "lstat"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61770,
+                "string": "malloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61780,
+                "string": "memcpy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61790,
+                "string": "mkstemp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61800,
+                "string": "perror"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61810,
+                "string": "printf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61820,
+                "string": "putc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61828,
+                "string": "puts"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61836,
+                "string": "qsort"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61844,
+                "string": "realloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61854,
+                "string": "rename"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61864,
+                "string": "rewind"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61874,
+                "string": "signal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61884,
+                "string": "sprintf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61894,
+                "string": "stat"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61902,
+                "string": "strcat"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61912,
+                "string": "strcmp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61922,
+                "string": "strcpy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61932,
+                "string": "strerror"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61944,
+                "string": "strlen"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61954,
+                "string": "strncat"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61964,
+                "string": "strncmp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61974,
+                "string": "strncpy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61984,
+                "string": "strrchr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 61994,
+                "string": "ungetc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62004,
+                "string": "unlink"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62014,
+                "string": "vsnprintf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62026,
+                "string": "GetModuleFileNameA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62048,
+                "string": "GetModuleHandleA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62068,
+                "string": "GetStdHandle"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62084,
+                "string": "VirtualProtect"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62102,
+                "string": "VirtualQuery"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62118,
+                "string": "WriteFile"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62340,
+                "string": "msys-1.0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 62380,
+                "string": "KERNEL32.dll"
+            }
+        ],
+        "tight_strings": []
+    },
+    "is_malicious": false
+}

@@ -1,0 +1,2166 @@
+{
+    "analysis": {
+        "enable_decoded_strings": true,
+        "enable_stack_strings": true,
+        "enable_static_strings": true,
+        "enable_tight_strings": true,
+        "functions": {
+            "analyzed_decoded_strings": 20,
+            "analyzed_stack_strings": 25,
+            "analyzed_tight_strings": 0,
+            "decoding_function_scores": {
+                "4198400": 0.36,
+                "4198656": 0.3,
+                "4198688": 0.1,
+                "4198704": 0.1,
+                "4198736": 0.44,
+                "4198832": 0.886,
+                "4198912": 0.819,
+                "4199216": 0.928,
+                "4201824": 0.669,
+                "4202064": 0.554,
+                "4202240": 0.437,
+                "4204385": 0.36,
+                "4204541": 0.561,
+                "4204765": 0.56,
+                "4205100": 0.24,
+                "4205321": 0.414,
+                "4205339": 0.214,
+                "4205558": 0.214,
+                "4205588": 0.624,
+                "4205620": 0.543
+            },
+            "discovered": 59,
+            "library": 13
+        }
+    },
+    "metadata": {
+        "file_path": "DikeDataset-main/files/benign/4c33d7c85ae6b19144edea55df4663fb476aaf102d86d812e624f22ae9c81213.exe",
+        "imagebase": 4194304,
+        "min_length": 4,
+        "runtime": {
+            "decoded_strings": 3.5766,
+            "find_features": 0.0597,
+            "stack_strings": 0.3109,
+            "start_date": "2023-02-10T01:35:38.259820Z",
+            "static_strings": 0.0112,
+            "tight_strings": 0.001,
+            "total": 10.7408,
+            "vivisect": 6.7812
+        },
+        "version": "v2.2.0-0-g783dd8f"
+    },
+    "strings": {
+        "decoded_strings": [],
+        "stack_strings": [],
+        "static_strings": [
+            {
+                "encoding": "ASCII",
+                "offset": 77,
+                "string": "!This program cannot be run in DOS mode."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 142,
+                "string": "M8jQ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 150,
+                "string": "M8jQ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 158,
+                "string": "M8jQ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 166,
+                "string": "M8jQ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 238,
+                "string": "M8Rich"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 520,
+                "string": ".text"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 559,
+                "string": "`.rdata"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 599,
+                "string": "@.data"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 640,
+                "string": ".rsrc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 679,
+                "string": "@.reloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1635,
+                "string": "=81@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1640,
+                "string": "hp6@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1694,
+                "string": "hx6@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1777,
+                "string": "VPh46@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2099,
+                "string": "j@Qh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2517,
+                "string": "5T1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2889,
+                "string": "5,1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2917,
+                "string": "hX?@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2942,
+                "string": "h`?@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 2983,
+                "string": "5\\1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3052,
+                "string": "Ph$3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3069,
+                "string": "Ph@?@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3123,
+                "string": "5H1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3163,
+                "string": "hh?@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3172,
+                "string": "jCPh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3315,
+                "string": "jCPh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3424,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3548,
+                "string": "jCPh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3610,
+                "string": "jCPh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3699,
+                "string": "5X1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3759,
+                "string": "h`?@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3784,
+                "string": "5\\1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 3845,
+                "string": "5H1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4208,
+                "string": "hl@@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4246,
+                "string": "h<@@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4461,
+                "string": "Ph$3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4478,
+                "string": "Ph83@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4493,
+                "string": "h`3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4562,
+                "string": "h 4@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4569,
+                "string": "h84@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4576,
+                "string": "hL4@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4583,
+                "string": "hx4@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4633,
+                "string": "h(5@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4640,
+                "string": "hP5@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4705,
+                "string": "Phl2@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4924,
+                "string": "j@PhO"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 4973,
+                "string": "j@PhR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5022,
+                "string": "j@PhV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5061,
+                "string": "Wh<7@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5071,
+                "string": "j@PhY"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5110,
+                "string": "Whx7@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5120,
+                "string": "j@Phd"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5163,
+                "string": "j@Phg"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5206,
+                "string": "j@Phj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5249,
+                "string": "j@Phm"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5283,
+                "string": "hL8@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5292,
+                "string": "j@Php"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5335,
+                "string": "j@Phr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5378,
+                "string": "j@Phu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5412,
+                "string": "h 9@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5421,
+                "string": "j@Ph~"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5455,
+                "string": "ht9@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5464,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5507,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5550,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5593,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5627,
+                "string": "hP:@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5636,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5679,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5722,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5765,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5799,
+                "string": "hL;@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5808,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5851,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5894,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5937,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5971,
+                "string": "h(<@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 5980,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6014,
+                "string": "hX<@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6023,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6066,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6109,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6152,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6186,
+                "string": "hH=@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6195,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6229,
+                "string": "hx=@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6238,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6281,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6324,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6358,
+                "string": "h,>@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6367,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6401,
+                "string": "hh>@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6410,
+                "string": "j@Ph"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6591,
+                "string": "=lP@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6617,
+                "string": "=pP@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6637,
+                "string": "h4,@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6803,
+                "string": "h 2@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6842,
+                "string": "5|P@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7037,
+                "string": "=|P@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7230,
+                "string": "%xQ@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7237,
+                "string": "-tQ@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7398,
+                "string": "8csm"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7550,
+                "string": "_^[]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7697,
+                "string": "Y_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7746,
+                "string": "Y_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8304,
+                "string": "VVVVV"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8317,
+                "string": "%h0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8323,
+                "string": "%d0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8415,
+                "string": "Y__^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8440,
+                "string": "h%%@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8445,
+                "string": "hdP@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8461,
+                "string": "%T0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8467,
+                "string": "%P0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8473,
+                "string": "%L0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8479,
+                "string": "%H0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8485,
+                "string": "%D0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8491,
+                "string": "%@0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8497,
+                "string": "%<0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8503,
+                "string": "%40@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8509,
+                "string": "%,0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8515,
+                "string": "%(0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8521,
+                "string": "%$0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9324,
+                "string": "Server MPM:     %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9344,
+                "string": "  threaded:     "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9364,
+                "string": "yes (variable thread count)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9396,
+                "string": "yes (fixed thread count)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9428,
+                "string": "    forked:     "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9448,
+                "string": "yes (variable process count)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9480,
+                "string": "yes (fixed process count)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9508,
+                "string": "Server version: %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9528,
+                "string": "Apache Lounge VC11 Server built:   %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9568,
+                "string": "Server's Module Magic Number: %u:%u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9608,
+                "string": "Server loaded:  APR %s, APR-UTIL %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9648,
+                "string": "1.5.4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9656,
+                "string": "1.5.2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9664,
+                "string": "Compiled using: APR %s, APR-UTIL %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9704,
+                "string": "Architecture:   %ld-bit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9732,
+                "string": "Server compiled with...."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9760,
+                "string": " -D APR_HAS_SENDFILE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9784,
+                "string": " -D APR_HAS_MMAP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9804,
+                "string": " -D APR_HAVE_IPV6 (IPv4-mapped addresses "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9848,
+                "string": "disabled)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9860,
+                "string": " -D APR_HAS_OTHER_CHILD"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9888,
+                "string": " -D AP_HAVE_RELIABLE_PIPED_LOGS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9924,
+                "string": " -D DYNAMIC_MODULE_LIMIT=%ld"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9956,
+                "string": " -D HTTPD_ROOT=\"/apache\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9984,
+                "string": " -D SUEXEC_BIN=\"/apache/bin/suexec\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10024,
+                "string": " -D DEFAULT_PIDLOG=\"logs/httpd.pid\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10064,
+                "string": " -D DEFAULT_SCOREBOARD=\"logs/apache_runtime_status\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10120,
+                "string": " -D DEFAULT_ERRORLOG=\"logs/error.log\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10160,
+                "string": " -D AP_TYPES_CONFIG_FILE=\"conf/mime.types\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10204,
+                "string": " -D SERVER_CONFIG_FILE=\"conf/httpd.conf\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10248,
+                "string": "apr_app_initialize()"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10272,
+                "string": "apr_pool_create()"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10292,
+                "string": "[%s] [crit] (%d) %s: %s failed to initial context, exiting"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10352,
+                "string": "process"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10360,
+                "string": "pconf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10368,
+                "string": "Usage: %s [-D name] [-d directory] [-f file]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10416,
+                "string": "server\\main.c"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10436,
+                "string": "       %*s [-C \"directive\"] [-c \"directive\"]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10488,
+                "string": "       %*s [-w] [-k start|restart|stop|shutdown] [-n service_name]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10556,
+                "string": "       %*s [-k install|config|uninstall] [-n service_name]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10616,
+                "string": "       %*s [-v] [-V] [-h] [-l] [-L] [-t] [-T] [-S] [-X]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10672,
+                "string": "Options:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10688,
+                "string": "  -D name            : define a name for use in <IfDefine name> directives"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10764,
+                "string": "  -d directory       : specify an alternate initial ServerRoot"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10828,
+                "string": "  -f file            : specify an alternate ServerConfigFile"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10896,
+                "string": "  -C \"directive\"     : process directive before reading config files"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10968,
+                "string": "  -c \"directive\"     : process directive after reading config files"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11040,
+                "string": "  -n name            : set service name and use its ServerConfigFile and ServerRoot"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11124,
+                "string": "  -k start           : tell Apache to start"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11168,
+                "string": "  -k restart         : tell running Apache to do a graceful restart"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11236,
+                "string": "  -k stop|shutdown   : tell running Apache to shutdown"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11292,
+                "string": "  -k install         : install an Apache service"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11344,
+                "string": "  -k config          : change startup Options of an Apache service"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11412,
+                "string": "  -k uninstall       : uninstall an Apache service"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11464,
+                "string": "  -w                 : hold open the console window on error"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11528,
+                "string": "  -e level           : show startup errors of level (see LogLevel)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11596,
+                "string": "  -E file            : log startup errors to file"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11648,
+                "string": "  -v                 : show version number"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11692,
+                "string": "  -V                 : show compile settings"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11744,
+                "string": "  -h                 : list available command line options (this page)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11816,
+                "string": "  -l                 : list compiled in modules"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11864,
+                "string": "  -L                 : list available configuration directives"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11928,
+                "string": "  -t -D DUMP_VHOSTS  : show parsed vhost settings"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11980,
+                "string": "  -t -D DUMP_RUN_CFG : show parsed run settings"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12032,
+                "string": "  -S                 : a synonym for -t -D DUMP_VHOSTS -D DUMP_RUN_CFG"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12104,
+                "string": "  -t -D DUMP_MODULES : show all loaded modules "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12152,
+                "string": "  -M                 : a synonym for -t -D DUMP_MODULES"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12208,
+                "string": "  -t -D DUMP_INCLUDES: show all included configuration files"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12272,
+                "string": "  -t                 : run syntax check for config files"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12332,
+                "string": "  -T                 : start without DocumentRoot(s) check"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12392,
+                "string": "  -X                 : debug mode (only one worker, do not detach)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12460,
+                "string": "conf/httpd.conf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12476,
+                "string": "/apache"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12484,
+                "string": "pcommands"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12496,
+                "string": "AH00012: %s: %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12512,
+                "string": "C:c:D:d:E:e:f:vVlLtTSMh?X"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12540,
+                "string": "DUMP_VHOSTS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12552,
+                "string": "DUMP_RUN_CFG"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12568,
+                "string": "DUMP_MODULES"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12584,
+                "string": "DUMP_INCLUDES"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12600,
+                "string": "DEBUG"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12608,
+                "string": "Server built:   %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12632,
+                "string": "plog"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12640,
+                "string": "ptemp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12648,
+                "string": "AH00013: Pre-configuration failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12684,
+                "string": "AH00014: Configuration check failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12720,
+                "string": "Syntax OK"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12732,
+                "string": "ap_signal_server"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12752,
+                "string": "AH00015: Unable to open logs"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12784,
+                "string": "AH00016: Configuration Failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12816,
+                "string": "AH00017: Pre-configuration failed, exiting"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12860,
+                "string": "AH00018: Configuration check failed, exiting"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12908,
+                "string": "AH00019: Unable to open logs, exiting"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12948,
+                "string": "AH00020: Configuration Failed, exiting"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12988,
+                "string": "AH02818: MPM run failed, exiting"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13104,
+                "string": "RSDSL3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13128,
+                "string": "E:\\VC11\\Win32\\httpd-2.4.25\\Release\\httpd.pdb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13954,
+                "string": "_ap_get_server_description@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13986,
+                "string": "_ap_get_server_built@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14012,
+                "string": "_ap_abort_on_oom@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14034,
+                "string": "_ap_parse_log_level@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14058,
+                "string": "_ap_setup_prelinked_modules@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14090,
+                "string": "_ap_show_directives@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14114,
+                "string": "_ap_show_modules@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14136,
+                "string": "_ap_show_mpm@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14154,
+                "string": "_ap_read_config@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14176,
+                "string": "_ap_run_rewrite_args@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14202,
+                "string": "_ap_register_hooks@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14226,
+                "string": "_ap_fixup_virtual_hosts@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14254,
+                "string": "_ap_process_config_tree@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14284,
+                "string": "_ap_run_pre_config@12"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14308,
+                "string": "_ap_run_check_config@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14334,
+                "string": "_ap_run_test_config@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14358,
+                "string": "_ap_run_post_config@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14384,
+                "string": "_ap_run_open_logs@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14408,
+                "string": "_ap_run_optional_fn_retrieve@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14442,
+                "string": "ap_pool_cleanup_set_null"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14470,
+                "string": "_ap_open_stderr_log@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14494,
+                "string": "_ap_replace_stderr_log@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14522,
+                "string": "ap_log_error_"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14538,
+                "string": "_ap_init_rng@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14556,
+                "string": "_ap_clear_auth_internal@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14584,
+                "string": "_ap_fini_vhost_config@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14610,
+                "string": "_ap_run_mpm@12"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14628,
+                "string": "_ap_mpm_query@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14646,
+                "string": "ap_real_exit_code"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14666,
+                "string": "ap_server_argv0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14684,
+                "string": "ap_server_root"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14702,
+                "string": "ap_server_conf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14720,
+                "string": "ap_pglobal"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14734,
+                "string": "ap_main_state"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14750,
+                "string": "ap_run_mode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14764,
+                "string": "ap_config_generation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14788,
+                "string": "ap_server_pre_read_config"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14816,
+                "string": "ap_server_post_read_config"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14846,
+                "string": "ap_server_config_defines"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14874,
+                "string": "ap_document_root_check"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14900,
+                "string": "ap_conftree"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14914,
+                "string": "ap_prelinked_modules"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14938,
+                "string": "ap_default_loglevel"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14958,
+                "string": "libhttpd.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14974,
+                "string": "_apu_version_string@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14998,
+                "string": "_apr_hook_sort_all@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15022,
+                "string": "_apr_hook_deregister_all@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15052,
+                "string": "_apr_dynamic_fn_retrieve@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15080,
+                "string": "libaprutil-1.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15100,
+                "string": "_apr_app_initialize@12"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15126,
+                "string": "apr_terminate"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15142,
+                "string": "_apr_pool_create_ex@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15168,
+                "string": "_apr_pool_clear@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15188,
+                "string": "_apr_pool_destroy@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15210,
+                "string": "_apr_palloc@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15226,
+                "string": "_apr_pool_abort_set@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15250,
+                "string": "_apr_pool_parent_get@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15276,
+                "string": "_apr_pool_tag@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15294,
+                "string": "_apr_pool_cleanup_register@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15326,
+                "string": "apr_pool_cleanup_null"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15350,
+                "string": "_apr_pstrdup@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15368,
+                "string": "_apr_getopt_init@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15390,
+                "string": "_apr_getopt@16"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15408,
+                "string": "_apr_filepath_name_get@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15436,
+                "string": "_apr_time_now@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15454,
+                "string": "_apr_sleep@8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15470,
+                "string": "_apr_ctime@12"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15486,
+                "string": "_apr_version_string@0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15510,
+                "string": "_apr_array_make@12"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15532,
+                "string": "_apr_array_push@4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15550,
+                "string": "libapr-1.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15566,
+                "string": "exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15574,
+                "string": "__iob_func"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15588,
+                "string": "clearerr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15600,
+                "string": "fclose"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15610,
+                "string": "feof"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15618,
+                "string": "ferror"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15628,
+                "string": "fflush"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15638,
+                "string": "fgets"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15646,
+                "string": "_fileno"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15656,
+                "string": "fopen"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15664,
+                "string": "fprintf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15674,
+                "string": "fread"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15682,
+                "string": "fseek"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15690,
+                "string": "ftell"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15698,
+                "string": "fwrite"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15708,
+                "string": "printf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15718,
+                "string": "_close"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15728,
+                "string": "_lseek"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15738,
+                "string": "_read"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15746,
+                "string": "_setmode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15758,
+                "string": "_write"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15768,
+                "string": "_open"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15774,
+                "string": "MSVCR110.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15790,
+                "string": "_XcptFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15804,
+                "string": "_amsg_exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15818,
+                "string": "__getmainargs"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15834,
+                "string": "__set_app_type"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15852,
+                "string": "_exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15860,
+                "string": "_cexit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15870,
+                "string": "_configthreadlocale"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15892,
+                "string": "__setusermatherr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15912,
+                "string": "_initterm_e"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15926,
+                "string": "_initterm"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15938,
+                "string": "__initenv"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15950,
+                "string": "_fmode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15960,
+                "string": "_commode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15972,
+                "string": "_crt_debugger_hook"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 15994,
+                "string": "__crtUnhandledException"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16020,
+                "string": "__crtTerminateProcess"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16044,
+                "string": "?terminate@@YAXXZ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16064,
+                "string": "__crtSetUnhandledExceptionFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16100,
+                "string": "_lock"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16108,
+                "string": "_unlock"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16118,
+                "string": "_calloc_crt"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16132,
+                "string": "__dllonexit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16146,
+                "string": "_onexit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16156,
+                "string": "_invoke_watson"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16174,
+                "string": "_controlfp_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16190,
+                "string": "_except_handler4_common"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16216,
+                "string": "EncodePointer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16232,
+                "string": "IsDebuggerPresent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16252,
+                "string": "IsProcessorFeaturePresent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16280,
+                "string": "QueryPerformanceCounter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16306,
+                "string": "GetCurrentProcessId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16328,
+                "string": "GetCurrentThreadId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16350,
+                "string": "GetSystemTimeAsFileTime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16376,
+                "string": "DecodePointer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16390,
+                "string": "KERNEL32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16466,
+                "string": "httpd.exe"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16476,
+                "string": "OPENSSL_Applink"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20720,
+                "string": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20777,
+                "string": "<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20852,
+                "string": "  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20908,
+                "string": "    <security>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20924,
+                "string": "      <requestedPrivileges>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20953,
+                "string": "        <requestedExecutionLevel level='asInvoker' uiAccess='false' />"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21025,
+                "string": "      </requestedPrivileges>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21055,
+                "string": "    </security>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21072,
+                "string": "  </trustInfo>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21088,
+                "string": "</assembly>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21521,
+                "string": "0\"0'0,01060;0@0E0J0O0T0Y0^0c0h0m0r0w0|0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21609,
+                "string": "1&161F1j1t1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21639,
+                "string": "2$2*2@2F2X2^2d2i2w2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21679,
+                "string": "3$3W3^3j3s3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21719,
+                "string": "4#4+4<4B4T4g4t4}4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21753,
+                "string": "415e5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21769,
+                "string": "6$6;6T6d6o6y6~6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21805,
+                "string": "7D7J7U7f7o7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21843,
+                "string": "8 8&8.848C8L8\\8m8s8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21885,
+                "string": "9$90999>9H9X9i9o9~9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21923,
+                "string": ":,:2:A:M:V:\\:a:l:t:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21969,
+                "string": ";';1;9;F;Q;V;a;h;z;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22011,
+                "string": "<'<-<;<K<a<q<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22067,
+                "string": "=c=i=o=z="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22115,
+                "string": ">!>(>/>6>W>]>c>t>}>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22151,
+                "string": "?.?4?E?L?_?e?v?}?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22199,
+                "string": "0#040;0N0_0f0y0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22235,
+                "string": "1%161=1P1a1h1{1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22271,
+                "string": "2'282?2R2c2j2}2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22307,
+                "string": "3)3:3A3T3e3l3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22343,
+                "string": "4+4<4C4V4g4n4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22377,
+                "string": "5'5<5H5N5`5j5s5}5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22437,
+                "string": "6'6;6U6u6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22475,
+                "string": "7 7&7,797?7I7h7n7x7~7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22517,
+                "string": "8#8*81888?8F8M8U8]8e8q8z8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22559,
+                "string": "9.949"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22591,
+                "string": "; ;1;<;A;F;];h;n;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22623,
+                "string": "<7<<<~<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22645,
+                "string": "= =&=,=2=8=>=D=J=P="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 22691,
+                "string": "0$1(1"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4120,
+                "string": "@jjj"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4173,
+                "string": "@jjj"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4211,
+                "string": "@jjj"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4249,
+                "string": "@jjj"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4287,
+                "string": "@jjj"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 18846,
+                "string": "VS_VERSION_INFO"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 18938,
+                "string": "StringFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 18974,
+                "string": "040904b0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 18998,
+                "string": "Comments"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 19016,
+                "string": "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 19360,
+                "string": "http://www.apache.org/licenses/LICENSE-2.0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 19452,
+                "string": "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20070,
+                "string": "CompanyName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20096,
+                "string": "Apache Software Foundation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20158,
+                "string": "FileDescription"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20192,
+                "string": "Apache HTTP Server"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20238,
+                "string": "FileVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20264,
+                "string": "2.4.25"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20286,
+                "string": "InternalName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20312,
+                "string": "httpd.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20338,
+                "string": "LegalCopyright"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20368,
+                "string": "Copyright 2016 The Apache Software Foundation."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20470,
+                "string": "OriginalFilename"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20504,
+                "string": "httpd.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20530,
+                "string": "ProductName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20556,
+                "string": "Apache HTTP Server"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20602,
+                "string": "ProductVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20632,
+                "string": "2.4.25"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20654,
+                "string": "VarFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 20686,
+                "string": "Translation"
+            }
+        ],
+        "tight_strings": []
+    },
+    "is_malicious": false
+}

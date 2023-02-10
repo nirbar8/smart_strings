@@ -1,0 +1,4790 @@
+{
+    "analysis": {
+        "enable_decoded_strings": false,
+        "enable_stack_strings": false,
+        "enable_static_strings": true,
+        "enable_tight_strings": false,
+        "functions": {
+            "analyzed_decoded_strings": 0,
+            "analyzed_stack_strings": 0,
+            "analyzed_tight_strings": 0,
+            "decoding_function_scores": {},
+            "discovered": 0,
+            "library": 0
+        }
+    },
+    "metadata": {
+        "file_path": "DikeDataset-main/files/benign/b0eea66f156eec3be63fea4011f72515651ff6007b32f741008f22b0c01d892e.exe",
+        "imagebase": 0,
+        "min_length": 4,
+        "runtime": {
+            "decoded_strings": 0.0,
+            "find_features": 0.0,
+            "stack_strings": 0.0,
+            "start_date": "2023-02-10T03:47:56.137860Z",
+            "static_strings": 0.022,
+            "tight_strings": 0.0,
+            "total": 0.0221,
+            "vivisect": 0.0
+        },
+        "version": "v2.2.0-0-g783dd8f"
+    },
+    "strings": {
+        "decoded_strings": [],
+        "stack_strings": [],
+        "static_strings": [
+            {
+                "encoding": "ASCII",
+                "offset": 77,
+                "string": "!This program cannot be run in DOS mode."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 216,
+                "string": "Rich"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 496,
+                "string": ".text"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 535,
+                "string": "`.data"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 576,
+                "string": ".idata"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 615,
+                "string": "@.didat"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 656,
+                "string": ".rsrc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 695,
+                "string": "@.reloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1216,
+                "string": "ext-ms-win-ntuser-chartranslation-l1-1-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1264,
+                "string": "Unrecognized command: %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1292,
+                "string": "fatal flex scanner internal error--no action found"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1344,
+                "string": "fatal flex scanner internal error--end of buffer missed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1400,
+                "string": "integer overflow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1420,
+                "string": "fatal error - scanner input buffer overflow"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1464,
+                "string": "input in flex scanner failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 1496,
+                "string": "out of dynamic memory in yy_create_buffer()"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6592,
+                "string": "    HEADER:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6608,
+                "string": "\topcode = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6624,
+                "string": ", id = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6636,
+                "string": ", rcode = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6652,
+                "string": "\theader flags: "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6668,
+                "string": " response"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6680,
+                "string": " query"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6688,
+                "string": ", auth. answer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6704,
+                "string": ", truncation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6720,
+                "string": ", want recursion"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6740,
+                "string": ", recursion avail."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6760,
+                "string": ", primary"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6773,
+                "string": "\tquestions = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6792,
+                "string": ",  answers = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6808,
+                "string": ",  authority records = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6836,
+                "string": ",  additional = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6860,
+                "string": "    QUESTIONS:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6880,
+                "string": ", type = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6892,
+                "string": ", class = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6908,
+                "string": "    ANSWERS:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6924,
+                "string": "    ->  "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6936,
+                "string": "    AUTHORITY RECORDS:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6960,
+                "string": "    ADDITIONAL RECORDS:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 6989,
+                "string": "------------"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7004,
+                "string": "Invalid Name at offset %Id!"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7036,
+                "string": "(root)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7044,
+                "string": "%-30s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7052,
+                "string": "(name truncated?)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7073,
+                "string": "\ttype = %s, class = %s, dlen = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7109,
+                "string": "\tttl = %lu (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7128,
+                "string": "\tinternet address = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7152,
+                "string": "\tinternet address = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7176,
+                "string": ", protocol = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7192,
+                "string": ", port = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7208,
+                "string": "\taddress, class = %d, len = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7240,
+                "string": "\tcanonical name = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7260,
+                "string": "\tdomain name (DNAME) = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7284,
+                "string": "\tAFSDB subtype = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7304,
+                "string": ", AFS db server = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7324,
+                "string": "\tmail group member = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7348,
+                "string": "\tmail box = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7364,
+                "string": "\tmailbox rename = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7384,
+                "string": "\tMX preference = %u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7404,
+                "string": ", mail exchanger = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7424,
+                "string": "\tnameserver = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7440,
+                "string": "\tname = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7452,
+                "string": "\tHINFO CPU = %.*s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7472,
+                "string": "\tOS = %.*s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7484,
+                "string": "\tprimary name server = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7509,
+                "string": "\tresponsible mail addr = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7537,
+                "string": "\tserial  = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7553,
+                "string": "\trefresh = %lu (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7577,
+                "string": "\tretry   = %lu (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7601,
+                "string": "\texpire  = %lu (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7625,
+                "string": "\tdefault TTL = %lu (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7652,
+                "string": "\tMINFO responsible mailbox = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7685,
+                "string": "\terrors to mailbox = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7708,
+                "string": "\ttext ="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7721,
+                "string": "\t\"%.*s\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7736,
+                "string": "\tuser info = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7756,
+                "string": "\t%cid = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7772,
+                "string": "\t%cid of length %d?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7796,
+                "string": "\tinet address = %s, protocol = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7832,
+                "string": "\tinet address = %s, protocol = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7868,
+                "string": "  %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7876,
+                "string": " #%d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7884,
+                "string": "\tNULL (dlen %d)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7904,
+                "string": "\tX25 X.121 address = %.*s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7932,
+                "string": "\tRT preference = %u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7952,
+                "string": ", intermediate host = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 7976,
+                "string": "\tISDN address = %.*s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8000,
+                "string": "\tsubaddress = %.*s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8020,
+                "string": "\tRP mailbox = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8037,
+                "string": "\ttext location = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8056,
+                "string": "AAAA:  Invalid IPv6 address length"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8092,
+                "string": "\tAAAA IPv6 address = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8120,
+                "string": "\tSRV service location:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8143,
+                "string": "\t  priority       = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8166,
+                "string": "\t  weight         = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8189,
+                "string": "\t  port           = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8212,
+                "string": "\t  svr hostname   = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8236,
+                "string": "local"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8244,
+                "string": "scope"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8257,
+                "string": "\tWINS lookup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8270,
+                "string": "\t  flags = %lx (%s %s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8293,
+                "string": "\t  lookup timeout = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8317,
+                "string": "\t  cache TTL      = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8341,
+                "string": "\t  server count   = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8368,
+                "string": "\t  WINS server = (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8393,
+                "string": "\tWINS reverse (nbstat) lookup"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8423,
+                "string": "\t  flags = %lx (%s %s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8446,
+                "string": "\t  lookup timeout = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8470,
+                "string": "\t  cache TTL      = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8494,
+                "string": "\t  result domain  = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8516,
+                "string": "\tNXT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8521,
+                "string": "\t  next domain name = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8545,
+                "string": "\t  type bitmap = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8564,
+                "string": "%02X "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8572,
+                "string": "auth/conf "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8584,
+                "string": "auth-only "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8596,
+                "string": "conf-only "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8608,
+                "string": "no-key "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8616,
+                "string": "flag-ext "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8628,
+                "string": "host-key "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8640,
+                "string": "zone-key "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8652,
+                "string": "other-key "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8664,
+                "string": "reserved-key "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8680,
+                "string": "\t    "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8688,
+                "string": "\tKEY"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8693,
+                "string": "\t  flags      = 0x%04X %ssignatory=%d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8731,
+                "string": "\t  protocol   = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8750,
+                "string": "\t  algorithm  = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8769,
+                "string": "\t  key length = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8792,
+                "string": "\tSIG"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8797,
+                "string": "\t  type covered    = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8821,
+                "string": "\t  algorithm       = %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8845,
+                "string": "\t  label count     = %u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8869,
+                "string": "\t  original TTL    = %u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8893,
+                "string": "\t  sig expiration  = %04d-%02d-%02d %02d:%02d:%02d (%u)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 8949,
+                "string": "\t  sig inception   = %04d-%02d-%02d %02d:%02d:%02d (%u)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9005,
+                "string": "\t  key tag         = %u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9029,
+                "string": "\t  signer's name   = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9053,
+                "string": "\t  sig length      = %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9080,
+                "string": "\t??? unknown type %d ???"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9108,
+                "string": "\tttl = %lu (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9129,
+                "string": "*** Error: record size incorrect (%Id != %d)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9176,
+                "string": "[%s]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9184,
+                "string": "%s.%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9192,
+                "string": " ls -t %s %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9208,
+                "string": "unsupported query type for ls command: %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9252,
+                "string": " ls %s %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9268,
+                "string": "UNKNOWN-SERVER"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9284,
+                "string": "ls: socket"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9296,
+                "string": "ls: connect"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9308,
+                "string": "ls: write"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9320,
+                "string": "[%s]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9328,
+                "string": "> %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9344,
+                "string": " *** invalid DNS resource record, terminating transfer."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9404,
+                "string": "Received AXFR message:  questions=%d, answers=%d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9456,
+                "string": " *** invalid name, terminating transfer."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9504,
+                "string": " %-30s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9512,
+                "string": "\t%lu %-5s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9524,
+                "string": " %-6s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9536,
+                "string": " (%d, %d)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9548,
+                "string": " (dlen = %d?)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9564,
+                "string": " ***"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9572,
+                "string": "host"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9580,
+                "string": "server"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9588,
+                "string": "%s = "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9596,
+                "string": "%.*s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9604,
+                "string": " %-10s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9616,
+                "string": "  %.*s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9624,
+                "string": " %s. ("
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9632,
+                "string": "%s%lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9644,
+                "string": " %-3d "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9652,
+                "string": " invalid MX name"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9672,
+                "string": "\t\t\"%.*s\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9688,
+                "string": " %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9696,
+                "string": " %-3s "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9708,
+                "string": " invalid AAAA address length"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9740,
+                "string": " priority=%d, weight=%d, port=%d, "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9777,
+                "string": "\tWINS lookup info"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9795,
+                "string": "\t  flags = %lx (%s %s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9818,
+                "string": "\t  lookup timeout = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9842,
+                "string": "\t  cache TTL      = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9866,
+                "string": "\t  server count   = %lu"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9893,
+                "string": "\t  WINS server = (%s)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9916,
+                "string": " view %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9928,
+                "string": "sort < %s | more"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9956,
+                "string": "/help"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9964,
+                "string": "UnKnown"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9976,
+                "string": " lserver %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 9988,
+                "string": " server %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10000,
+                "string": " %s %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10008,
+                "string": "set "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10028,
+                "string": "nod2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10036,
+                "string": "d2 mode disabled; still in debug mode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10080,
+                "string": "nodef"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10100,
+                "string": "nodeb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10112,
+                "string": "noig"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10144,
+                "string": "norec"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10168,
+                "string": "nosea"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10176,
+                "string": "srchl"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10196,
+                "string": "msxfr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10204,
+                "string": "noms"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10212,
+                "string": "ixfr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10220,
+                "string": "base64"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10228,
+                "string": "nobase64"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10244,
+                "string": "  srchlist=%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10260,
+                "string": "%c%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10268,
+                "string": "HOME"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10276,
+                "string": "/.nslookuprc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10424,
+                "string": "QUERY"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10432,
+                "string": "IQUERY"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10440,
+                "string": "SERVER_STATUS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10456,
+                "string": "UNKNOWN"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10464,
+                "string": "NOTIFY"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10472,
+                "string": "UPDATE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10492,
+                "string": "UPDATEA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10500,
+                "string": "UPDATED"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10508,
+                "string": "UPDATEDA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10520,
+                "string": "UPDATEM"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10528,
+                "string": "UPDATEMA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10540,
+                "string": "ZONEINIT"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10552,
+                "string": "ZONEREF"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10560,
+                "string": "NOERROR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10568,
+                "string": "FORMERR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10576,
+                "string": "SERVFAIL"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10588,
+                "string": "NXDOMAIN"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10600,
+                "string": "NOTIMP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10608,
+                "string": "REFUSED"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10616,
+                "string": "YXDOMAIN"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10628,
+                "string": "YXRRSET"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10636,
+                "string": "NXRRSET"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10644,
+                "string": "NOTAUTH"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10652,
+                "string": "NOTZONE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10676,
+                "string": "NOCHANGE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10688,
+                "string": "NULL"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10700,
+                "string": "CHAOS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10716,
+                "string": "0 secs"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10724,
+                "string": "%d day%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10736,
+                "string": "%d hour%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10748,
+                "string": "%d min%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10760,
+                "string": "%d sec%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10772,
+                "string": "127.0.0.1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10788,
+                "string": "DNSLookupOrder"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10804,
+                "string": "Domain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10812,
+                "string": "DhcpDomain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10824,
+                "string": "SearchList"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10836,
+                "string": "DhcpSearchList"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10852,
+                "string": "------------"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10865,
+                "string": "SendRequest(), len %d"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10888,
+                "string": "socket (vc) failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10908,
+                "string": "connect failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10924,
+                "string": "write failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10940,
+                "string": "read failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10952,
+                "string": "response truncated"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10972,
+                "string": "socket (dg) failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 10992,
+                "string": "connect"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11000,
+                "string": "send"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11008,
+                "string": "select"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11016,
+                "string": "DNS request timed out."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11040,
+                "string": "    timeout was %d seconds."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11072,
+                "string": "timeout (%d secs)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11092,
+                "string": "recvfrom"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11104,
+                "string": "------------"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11117,
+                "string": "Old answer:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11132,
+                "string": "truncated answer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11152,
+                "string": "------------"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11165,
+                "string": "Got answer (%d bytes):"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11192,
+                "string": "------------"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11205,
+                "string": "Got answer:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11224,
+                "string": "address"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11236,
+                "string": "domain name pointer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11260,
+                "string": "name server"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11272,
+                "string": "CNAME"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11280,
+                "string": "canonical name"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11296,
+                "string": "DNAME"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11304,
+                "string": "domain name (DNAME)"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11328,
+                "string": "mail exchange"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11348,
+                "string": "start of authority"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11372,
+                "string": "text"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11380,
+                "string": "HINFO"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11388,
+                "string": "host information"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11412,
+                "string": "mailbox"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11424,
+                "string": "mail group member"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11448,
+                "string": "mail rename"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11464,
+                "string": "mail destination"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11488,
+                "string": "mail forwarder"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11504,
+                "string": "null"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11516,
+                "string": "well-known services"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11536,
+                "string": "MINFO"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11544,
+                "string": "mailbox information"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11568,
+                "string": "responsible person"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11588,
+                "string": "AFSDB"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11596,
+                "string": "AFS database server"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11620,
+                "string": "X25 address"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11632,
+                "string": "ISDN"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11640,
+                "string": "ISDN address"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11660,
+                "string": "route through"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11676,
+                "string": "AAAA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11684,
+                "string": "IPv6 address"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11700,
+                "string": "NSAP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11708,
+                "string": "NSAPPTR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11716,
+                "string": "NSAP pointer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11736,
+                "string": "Signature"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11752,
+                "string": "Public Key"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11768,
+                "string": "Not exist"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11784,
+                "string": "X.400 Exchange"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11800,
+                "string": "GPOS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11808,
+                "string": "Geographic position"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11828,
+                "string": "IPv6 Address"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11848,
+                "string": "Service location"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11868,
+                "string": "WINS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11876,
+                "string": "WINS lookup info"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11896,
+                "string": "WINS-R"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11904,
+                "string": "WINS reverse lookup info"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11932,
+                "string": "IXFR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11940,
+                "string": "incremental zone transfer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11968,
+                "string": "AXFR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11976,
+                "string": "zone transfer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 11992,
+                "string": "MAILB"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12000,
+                "string": "mailbox-related data"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12024,
+                "string": "MAILA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12032,
+                "string": "mail agent"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12044,
+                "string": "all records"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12056,
+                "string": "UINFO"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12064,
+                "string": "user information"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12088,
+                "string": "user ID"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12100,
+                "string": "group ID"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12112,
+                "string": "A+AAAA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12120,
+                "string": "internal type for both IPv4 and IPv6 Addresses"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12168,
+                "string": "RSA/MD5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12176,
+                "string": "Diffie-Hellman"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12196,
+                "string": "Elliptic curve"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12216,
+                "string": "email"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12224,
+                "string": "DNSSEC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12232,
+                "string": "IPSEC"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12240,
+                "string": "%-7s  %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12253,
+                "string": "Addresses:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12265,
+                "string": "Address:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12280,
+                "string": "%c %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12289,
+                "string": "Aliases:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12301,
+                "string": "Served by:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12316,
+                "string": "- %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12328,
+                "string": ">> %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12340,
+                "string": "> %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12352,
+                "string": "Success"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12360,
+                "string": "Format error"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12376,
+                "string": "Server failed"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12392,
+                "string": "Non-existent domain"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12412,
+                "string": "Not implemented"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12428,
+                "string": "Query refused"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12444,
+                "string": "No change"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12456,
+                "string": "Timed out"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12468,
+                "string": "No information"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12484,
+                "string": "Unspecified error"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12504,
+                "string": "Non-authoritative answer"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12532,
+                "string": "No response from server"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12556,
+                "string": "BAD ERROR VALUE"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12572,
+                "string": "HESIOD"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12580,
+                "string": "unknown query class: %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12608,
+                "string": "unknown query type: %s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12660,
+                "string": "%u.%u.%u.%u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12672,
+                "string": "Invalid DNS_ADDR at %p"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12696,
+                "string": "%u.%u.%u.%u.in-addr.arpa."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12724,
+                "string": "%x.%x."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12732,
+                "string": "ip6.arpa."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12764,
+                "string": "%02x "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12772,
+                "string": "%s%s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12780,
+                "string": "%s\t%4d> "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12792,
+                "string": "%s%.*s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12804,
+                "string": "Null Address"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 12848,
+                "string": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13188,
+                "string": "RSDS>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13212,
+                "string": "nslookup.pdb"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13248,
+                "string": "GCTL"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13260,
+                "string": ".CRT$XCA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13280,
+                "string": ".CRT$XCAA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13300,
+                "string": ".CRT$XCZ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13320,
+                "string": ".CRT$XIA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13340,
+                "string": ".CRT$XIAA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13360,
+                "string": ".CRT$XIY"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13380,
+                "string": ".CRT$XIZ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13400,
+                "string": ".gfids$x"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13420,
+                "string": ".rdata"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13436,
+                "string": ".rdata$sxdata"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13460,
+                "string": ".rdata$zzzdbg"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13484,
+                "string": ".text$mn"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13504,
+                "string": ".xdata$x"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13524,
+                "string": ".didat$2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13544,
+                "string": ".didat$3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13564,
+                "string": ".didat$4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13584,
+                "string": ".didat$6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13604,
+                "string": ".didat$7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13624,
+                "string": ".data"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13640,
+                "string": ".bss"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13656,
+                "string": ".idata$5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13676,
+                "string": ".00cfg"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13692,
+                "string": ".idata$2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13712,
+                "string": ".idata$3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13732,
+                "string": ".idata$4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13752,
+                "string": ".idata$6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13772,
+                "string": ".didat$5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13792,
+                "string": ".rsrc$01"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13812,
+                "string": ".rsrc$02"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 13839,
+                "string": "SVW9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14246,
+                "string": "9C$u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 14655,
+                "string": "@_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16773,
+                "string": "VWj("
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 16896,
+                "string": "N$;5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17142,
+                "string": "h &@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17162,
+                "string": "h0&@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17182,
+                "string": "h@&@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17202,
+                "string": "hT&@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17222,
+                "string": "hh&@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17250,
+                "string": "Pht&@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17719,
+                "string": "t7h0'@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17776,
+                "string": "hL'@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17788,
+                "string": "YY_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17870,
+                "string": "Vh\\'@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 17899,
+                "string": "h|'@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18468,
+                "string": "RQh((@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18617,
+                "string": "hH(@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18643,
+                "string": "Qht(@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18822,
+                "string": "WPh0)@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18868,
+                "string": "YYh<)@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18916,
+                "string": "hT)@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 18969,
+                "string": "Php)@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19300,
+                "string": "WQh(*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19333,
+                "string": "Vh4*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19414,
+                "string": "Pht*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19752,
+                "string": "WQh(+@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19807,
+                "string": "WPh@+@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19837,
+                "string": "YYhT+@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19875,
+                "string": "hd+@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 19894,
+                "string": "hx+@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20063,
+                "string": "hD-@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20109,
+                "string": "h`-@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20165,
+                "string": "Pht-@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20352,
+                "string": "h|-@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20901,
+                "string": "PhX.@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 20972,
+                "string": "PQQ+"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21002,
+                "string": "PVh\\/@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21027,
+                "string": "1h\\(@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21219,
+                "string": "RQPh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21366,
+                "string": "QRh@,@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21479,
+                "string": "gPhL*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21519,
+                "string": "gPh\\*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21547,
+                "string": "Qhx/@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 21565,
+                "string": "Wh8*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25086,
+                "string": "X_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25244,
+                "string": "t09E"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25485,
+                "string": "<1.u/"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 25496,
+                "string": "s'VQ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26452,
+                "string": "Y[_^"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26563,
+                "string": "X_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 26976,
+                "string": "Ph$0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27043,
+                "string": "jaX:A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27072,
+                "string": "jhX:A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27101,
+                "string": "jmX:A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27130,
+                "string": "jsX:A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27158,
+                "string": "Ph00@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27279,
+                "string": "PVVh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27586,
+                "string": "hD0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27600,
+                "string": "w WP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27637,
+                "string": "hP0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27746,
+                "string": "Phh0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27865,
+                "string": "Shp0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 27898,
+                "string": "Phh0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28228,
+                "string": "2~+hx0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28366,
+                "string": "PQSj!j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 28585,
+                "string": "!h\\0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29178,
+                "string": "h|'@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29334,
+                "string": "Ph 1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29377,
+                "string": "h(1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29399,
+                "string": "Ph41@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29525,
+                "string": "Ph<1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29554,
+                "string": "QPh@1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29576,
+                "string": "PhL1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29622,
+                "string": "Pht1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29696,
+                "string": "VPh|1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 29870,
+                "string": "Ph<1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30179,
+                "string": "YYh\\1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 30604,
+                "string": "2h<1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31036,
+                "string": "RPQh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31229,
+                "string": "h02@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31442,
+                "string": "Ph<1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31458,
+                "string": "h4*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31524,
+                "string": "h\\1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31839,
+                "string": "u#9A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 31896,
+                "string": "WVVj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32023,
+                "string": "h !A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32060,
+                "string": "PVj&Vh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32225,
+                "string": "L$,;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32328,
+                "string": "tH9p"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32333,
+                "string": "t6;=,"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32622,
+                "string": "VVh0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32694,
+                "string": "J(f9A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32717,
+                "string": "@@;B"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32838,
+                "string": "D$(u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32884,
+                "string": ";|$4r"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 32983,
+                "string": "^f91u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33025,
+                "string": "L$ ;J"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33224,
+                "string": "h  A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33270,
+                "string": "Yj+Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33550,
+                "string": "Ph<1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33571,
+                "string": "Wj.j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33770,
+                "string": "h  A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33797,
+                "string": "Yj+Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 33826,
+                "string": "Pj0j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34176,
+                "string": "Wj1Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34231,
+                "string": "Pj2j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34390,
+                "string": "Ph<1@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34411,
+                "string": "Vj.j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34479,
+                "string": "Vhp0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34528,
+                "string": "h  A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34786,
+                "string": "Vj.S"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34853,
+                "string": "Vhp0@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34939,
+                "string": "Pj0S"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 34964,
+                "string": "Vj5Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35155,
+                "string": "h 3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35176,
+                "string": "h$3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35207,
+                "string": "_Wh(3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35245,
+                "string": "h,3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35274,
+                "string": "h43@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35293,
+                "string": "h\\3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35329,
+                "string": "[Sh`3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35365,
+                "string": "Whh3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35383,
+                "string": "u7j=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35414,
+                "string": "@hl3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35442,
+                "string": "hp3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35472,
+                "string": "Sht3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35507,
+                "string": "Wh|3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35590,
+                "string": "u\"j=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35693,
+                "string": "uhj=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35754,
+                "string": "hl3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35883,
+                "string": "uKj=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 35978,
+                "string": "uMj=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36037,
+                "string": "hl3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36146,
+                "string": "u j=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36198,
+                "string": "uKj=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36427,
+                "string": "u-j=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36540,
+                "string": "zVj7W"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36554,
+                "string": "2j=V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36621,
+                "string": "hl3@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36782,
+                "string": "SVWh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36936,
+                "string": "Yj+Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 36968,
+                "string": "Yj#Z"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37152,
+                "string": "WVjcj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37196,
+                "string": "Pj/h"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37313,
+                "string": "h$4@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37338,
+                "string": "h44@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 37572,
+                "string": "t\t;}"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38176,
+                "string": "<.t,<\\u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38810,
+                "string": "VWj@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38828,
+                "string": "u\tjdj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38919,
+                "string": "f98u\tf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38933,
+                "string": "f90u"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 38967,
+                "string": "YYjW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 39647,
+                "string": "u j.V"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 39822,
+                "string": "SVWh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 40110,
+                "string": "$@0G"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 40419,
+                "string": "t8Qhd6@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 40948,
+                "string": "h`7@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41029,
+                "string": "h|7@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41188,
+                "string": "tphT7@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41215,
+                "string": "h 7@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41248,
+                "string": "h@7@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 41348,
+                "string": "v VP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43049,
+                "string": "QSVWR"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43119,
+                "string": "YY9X"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43174,
+                "string": "Pj h"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43269,
+                "string": "3j h"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43412,
+                "string": "Pj h"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43505,
+                "string": "3j h"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43535,
+                "string": "h4*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43562,
+                "string": "h$<@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43574,
+                "string": "YY_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43592,
+                "string": "SVWj>Q"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43628,
+                "string": "h(<@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43646,
+                "string": "u2h0<@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43655,
+                "string": "h4<@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43675,
+                "string": "h<<@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 43964,
+                "string": "Vh$=@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44017,
+                "string": "SVW3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44059,
+                "string": "Sh@=@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44516,
+                "string": "(VW3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 44646,
+                "string": "SVWPd"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45098,
+                "string": "QRj+"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45187,
+                "string": "t)f9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45266,
+                "string": "PWRVQj h"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45294,
+                "string": "8_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45321,
+                "string": "PQRj+"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45396,
+                "string": "WVQRj+"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45416,
+                "string": " _^[]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 45880,
+                "string": "QQSh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46006,
+                "string": "Nj@j"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46195,
+                "string": "Pht=@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46581,
+                "string": "h4*@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46608,
+                "string": "_^[]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 46718,
+                "string": "j XSP"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47054,
+                "string": "PRQj"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47101,
+                "string": "QSVW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47209,
+                "string": "~ @_^[Y"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47501,
+                "string": "QSVW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47554,
+                "string": " PWS"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47577,
+                "string": "_^[Y"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47640,
+                "string": "@_[^"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 47659,
+                "string": "DSVWj@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48309,
+                "string": "QSVW"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48368,
+                "string": "j?_#"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 48644,
+                "string": "5d0A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 49979,
+                "string": "8csm"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50251,
+                "string": "%@1A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50336,
+                "string": "_^[]"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50483,
+                "string": "Y_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50532,
+                "string": "Y_^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 50817,
+                "string": "%x1A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51063,
+                "string": "Y__^["
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51215,
+                "string": "QRPh"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51265,
+                "string": "%d0A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51277,
+                "string": "%\\0A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51345,
+                "string": "%$1A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51357,
+                "string": "% 1A"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51542,
+                "string": "CharToOemBuffA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 51736,
+                "string": "A.ROOT-SERVERS.NET."
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 65120,
+                "string": " !\"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 66016,
+                "string": "\\Registry\\Machine\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 66088,
+                "string": "\\Registry\\Machine\\Software\\Policies\\Microsoft\\Windows NT\\DNSClient"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 67946,
+                "string": "free"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 67954,
+                "string": "malloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 67964,
+                "string": "printf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 67974,
+                "string": "fread"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 67982,
+                "string": "fprintf"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 67992,
+                "string": "ferror"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68002,
+                "string": "fwrite"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68012,
+                "string": "realloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68022,
+                "string": "getc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68030,
+                "string": "exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68038,
+                "string": "gmtime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68048,
+                "string": "putc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68056,
+                "string": "fputs"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68064,
+                "string": "strcpy_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68076,
+                "string": "strcat_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68088,
+                "string": "sprintf_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68100,
+                "string": "putchar"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68110,
+                "string": "sscanf_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68122,
+                "string": "perror"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68132,
+                "string": "strchr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68142,
+                "string": "fflush"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68152,
+                "string": "system"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68162,
+                "string": "fclose"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68172,
+                "string": "fputc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68180,
+                "string": "_strnicmp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68192,
+                "string": "strncmp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68202,
+                "string": "isspace"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68212,
+                "string": "fgets"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68220,
+                "string": "fopen"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68228,
+                "string": "getenv"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68238,
+                "string": "strncpy_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68250,
+                "string": "_write"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68260,
+                "string": "_XcptFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68274,
+                "string": "__p__commode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68290,
+                "string": "_amsg_exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68304,
+                "string": "__getmainargs"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68320,
+                "string": "__set_app_type"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68338,
+                "string": "_exit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68346,
+                "string": "_cexit"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68356,
+                "string": "__p__fmode"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68370,
+                "string": "__setusermatherr"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68390,
+                "string": "_initterm"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68400,
+                "string": "msvcrt.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68414,
+                "string": "?terminate@@YAXXZ"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68434,
+                "string": "_controlfp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68448,
+                "string": "_except_handler4_common"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68474,
+                "string": "SetThreadUILanguage"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68496,
+                "string": "freeaddrinfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68512,
+                "string": "DnsQueryConfigAllocEx"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68536,
+                "string": "getaddrinfo"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68550,
+                "string": "DnsFreeConfigStructure"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68576,
+                "string": "HeapSetInformation"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68598,
+                "string": "SetLastError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68614,
+                "string": "RegCloseKey"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68628,
+                "string": "FormatMessageA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68646,
+                "string": "s_perror"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68658,
+                "string": "LocalFree"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68670,
+                "string": "Sleep"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68678,
+                "string": "UnhandledExceptionFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68706,
+                "string": "SetUnhandledExceptionFilter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68736,
+                "string": "GetCurrentProcess"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68756,
+                "string": "TerminateProcess"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68776,
+                "string": "GetModuleHandleA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68796,
+                "string": "QueryPerformanceCounter"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68822,
+                "string": "GetCurrentProcessId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68844,
+                "string": "GetCurrentThreadId"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68866,
+                "string": "GetSystemTimeAsFileTime"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68892,
+                "string": "GetTickCount"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68906,
+                "string": "WS2_32.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68918,
+                "string": "api-ms-win-core-localization-l1-2-1.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68958,
+                "string": "DNSAPI.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 68970,
+                "string": "api-ms-win-core-heap-l1-2-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69002,
+                "string": "api-ms-win-core-errorhandling-l1-1-1.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69044,
+                "string": "api-ms-win-core-registry-l1-1-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69080,
+                "string": "MSWSOCK.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69092,
+                "string": "api-ms-win-core-heap-l2-1-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69124,
+                "string": "api-ms-win-core-synch-l1-2-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69158,
+                "string": "api-ms-win-core-processthreads-l1-1-2.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69200,
+                "string": "api-ms-win-core-libraryloader-l1-2-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69242,
+                "string": "api-ms-win-core-profile-l1-1-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69278,
+                "string": "api-ms-win-core-sysinfo-l1-2-1.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69316,
+                "string": "RtlAnsiStringToUnicodeString"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69348,
+                "string": "NtOpenKey"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69360,
+                "string": "RtlFreeHeap"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69374,
+                "string": "RtlUnicodeStringToAnsiString"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69406,
+                "string": "RtlInitString"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69422,
+                "string": "RtlFreeUnicodeString"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69446,
+                "string": "RtlAllocateHeap"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69464,
+                "string": "NtQueryValueKey"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69482,
+                "string": "EtwTraceMessage"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69500,
+                "string": "RtlIpv4StringToAddressA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69526,
+                "string": "RtlIpv6AddressToStringA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69552,
+                "string": "RtlIpv4AddressToStringExA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69580,
+                "string": "RtlIpv6AddressToStringExA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69608,
+                "string": "RtlIpv6StringToAddressExA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69634,
+                "string": "ntdll.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69646,
+                "string": "__iob_func"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69660,
+                "string": "_vsnprintf_s"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69676,
+                "string": "ExpandEnvironmentStringsA"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69704,
+                "string": "GetLastError"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69720,
+                "string": "LocalAlloc"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69734,
+                "string": "ResolveDelayLoadedAPI"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69758,
+                "string": "DelayLoadFailureHook"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69780,
+                "string": "api-ms-win-core-processenvironment-l1-2-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69826,
+                "string": "api-ms-win-core-delayload-l1-1-1.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69866,
+                "string": "ApiSetQueryApiSetPresence"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69892,
+                "string": "api-ms-win-core-apiquery-l1-1-0.dll"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69930,
+                "string": "memcmp"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69940,
+                "string": "memcpy"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 69950,
+                "string": "memset"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71120,
+                "string": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71177,
+                "string": "<!-- Copyright (c) Microsoft Corporation -->"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71223,
+                "string": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71298,
+                "string": "<assemblyIdentity"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71317,
+                "string": "    version=\"5.1.0.0\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71340,
+                "string": "    processorArchitecture=\"x86\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71373,
+                "string": "    name=\"Microsoft.Windows.DNS.NSLookup\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71416,
+                "string": "    type=\"win32\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71438,
+                "string": "<description>Microsoft Name Server Lookup</description>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71497,
+                "string": "<trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71551,
+                "string": "    <security>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71567,
+                "string": "        <requestedPrivileges>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71598,
+                "string": "            <requestedExecutionLevel"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71636,
+                "string": "                level=\"asInvoker\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71671,
+                "string": "                uiAccess=\"false\""
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71705,
+                "string": "            />"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71721,
+                "string": "        </requestedPrivileges>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71753,
+                "string": "    </security>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71770,
+                "string": "</trustInfo>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71784,
+                "string": "</assembly>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 71970,
+                "string": "DDD@DDD@DDD@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 72052,
+                "string": "DDD@DDD@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 72134,
+                "string": "DDD@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 72247,
+                "string": "\",D@p"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 72358,
+                "string": "b\"\"\" "
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 72673,
+                "string": "DD@DD@"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74253,
+                "string": "0P0T0\\0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74268,
+                "string": "84<4@4D4H4L4P4T4X4\\4`4d4h4l4p4t4x4|4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74331,
+                "string": "4T?X?`?h?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74351,
+                "string": "2!2)232A2G2W2]2s2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74395,
+                "string": "3&383C3O3U3]3l3q3{3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74439,
+                "string": "4 4(4<4E4K4V4f4{4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74475,
+                "string": "5N5V5\\5c5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74509,
+                "string": "6@6H6N6U6}6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74539,
+                "string": "7\t747<7B7I7k7s7y7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74573,
+                "string": "7+83898@8b8j8p8w8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74607,
+                "string": "9%9)9-9195999=9A9E9I9M9Q9U9Y9]9a9e9i9m9q9u9y9}9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74675,
+                "string": ":T:z:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74695,
+                "string": ";\";-;5;C;N;X;^;i;r;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74737,
+                "string": "<$<-<<<F<S<_<m<s<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74779,
+                "string": "=#=6=T=_=f=n=t=y="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74805,
+                "string": ">$>3>>>\\>i>z>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74853,
+                "string": "?&?3?:?G?N?[?d?k?y?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74905,
+                "string": "0U0\\0m0t0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74933,
+                "string": "1+1:1A1J1Q1q1x1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74961,
+                "string": "2'2k2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74969,
+                "string": "243s3z3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 74983,
+                "string": "4'4.4C4I4P4l4r4y4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75021,
+                "string": "5 5'525<5F5`5g5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75051,
+                "string": "6\"6=6I6d6p6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75079,
+                "string": "7;7H7N7g7n7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75103,
+                "string": "748>8I8V8]8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75127,
+                "string": "8+929b9y9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75151,
+                "string": "9I:P:`:g:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75167,
+                "string": ":l;s;z;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75211,
+                "string": ">%>,>O>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75227,
+                "string": ">>?H?_?y?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75259,
+                "string": "0-040?0F0[0~0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75321,
+                "string": "1!1%1)1-1115191=1A1E1I1b1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75349,
+                "string": "2$292N2t2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75363,
+                "string": "446V6]6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75371,
+                "string": "6>7\\8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75397,
+                "string": "=k=y="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75427,
+                "string": "0>1~1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75433,
+                "string": "1?2^2w2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75451,
+                "string": "3%4,4p4~4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75465,
+                "string": "5b5i5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75477,
+                "string": "6D7[7z7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75499,
+                "string": "7\t8!8'8?8E8R8d8s8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75541,
+                "string": "9/959g9}9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75565,
+                "string": "9H:]:k:}:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75597,
+                "string": ";H;a;p;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75621,
+                "string": ";0<9<[<o<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75643,
+                "string": ">8>w>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75669,
+                "string": "?W?^?u?|?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75703,
+                "string": "0!0(080=0D0k0r0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75725,
+                "string": "0)10171>1^1e1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75749,
+                "string": "1*212P2n2w2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75769,
+                "string": "2f3p3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75781,
+                "string": "3e4l4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75789,
+                "string": "5#5,5@5G5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75809,
+                "string": "6J6Q6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75825,
+                "string": "7 7%7,7:7I7g7k7o7s7w7{7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75867,
+                "string": "8&838"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75883,
+                "string": "9#9.9H9Z9d9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75899,
+                "string": ":4:Q:[:b:y:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75929,
+                "string": ";';0;A;R;{;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75943,
+                "string": ";,<3<[<~<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 75973,
+                "string": "=.=:=A=G=N=]=f=w="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76005,
+                "string": ">6>;>K>V>a>f>s>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76033,
+                "string": "?M?T?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76069,
+                "string": "0B1W1r1|1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76081,
+                "string": "1 2X2_2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76109,
+                "string": "2'343"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76123,
+                "string": "4'4.464L4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76149,
+                "string": "5.5T5[5i5p5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76187,
+                "string": "6'6.6>6R6X6_6s6z6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76231,
+                "string": "7!7-747E7L7]7d7t7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76267,
+                "string": "8\"828I8P8o8z8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76301,
+                "string": "9\"9)999V9]9m9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76339,
+                "string": ":\":/:;:B:R:a:f:n:|:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76373,
+                "string": ";#;3;Q;V;];b;};"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76407,
+                "string": "<=<U<]<u<{<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76437,
+                "string": "=-=2=8===E=P=V=j=r="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76507,
+                "string": "2E2L2Z2a2j2{2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76535,
+                "string": "2&30373A3J3`3o3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76567,
+                "string": "4=4M4g4y4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76585,
+                "string": "555b5p5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76605,
+                "string": "6F6N6V6a6i6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76629,
+                "string": "7%7/757@7]7e7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76659,
+                "string": "8.8J8v8~8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76675,
+                "string": "9\"9~9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76685,
+                "string": "9R:{:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76709,
+                "string": ";';P;[;g;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76729,
+                "string": ";&<F<L<S<Y<_<e<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76771,
+                "string": "=!='=D=K=Q=o=z="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76811,
+                "string": "><>B>h>v>}>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76839,
+                "string": "?@?F?l?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76876,
+                "string": "D0J0h0|0"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76901,
+                "string": "1'1V1b1h1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76929,
+                "string": "3P3z3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76939,
+                "string": "3<4C4X4_4f4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 76971,
+                "string": "5.555D5K5l5s5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77005,
+                "string": "6+626T6m6t6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77039,
+                "string": "7(7.747:7@7F7Z7_7r7"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77073,
+                "string": "8,8C8W8`8j8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77107,
+                "string": "9*91989I9V9c9|9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77133,
+                "string": ":<:H:{:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77157,
+                "string": "<6<z<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77171,
+                "string": "=N=b=}="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77189,
+                "string": ">?>`>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77205,
+                "string": "?$?)?<?[?{?"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77251,
+                "string": "1C1Q1"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77275,
+                "string": "3\"3x3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77307,
+                "string": "5-5a5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77325,
+                "string": "8%828<8[8h8w8"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77345,
+                "string": "9!9K9[9o9"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77375,
+                "string": ":8:D:J:W:m:v:"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77425,
+                "string": "; ;&;.;;;U;w;"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77465,
+                "string": "<\"<*<0<6<C<I<S<r<x<"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77497,
+                "string": "=.=7=B=I=`=f=l=r=x=~="
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77553,
+                "string": ">!>,>2>>>N>W>o>u>{>"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77659,
+                "string": "2&2;2H2P2t2"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77679,
+                "string": "3)3F3"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77695,
+                "string": "4(4B4N4"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77728,
+                "string": "D5H5P5T5\\5`5h5l5t5x5"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77801,
+                "string": "6 6(6,64686@6D6L6P6X6\\6d6h6p6t6|6"
+            },
+            {
+                "encoding": "ASCII",
+                "offset": 77887,
+                "string": "7$7(70747<7@7H7L7d7h7p7t7|7"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 1118,
+                "string": "@ext-ms-win-ntuser-chartranslation-l1-1-0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2084,
+                "string": "\t\t\t\t"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2168,
+                "string": "!\"$%'"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2186,
+                "string": "!\"(+)"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2202,
+                "string": "##*,##$%-'(#)*+,##-&####$%@#"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2260,
+                "string": "0###"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2286,
+                "string": "#2359#6A7B8P4#####EFd####H####"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2348,
+                "string": ":;IJ#"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2400,
+                "string": "G:;##"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2416,
+                "string": ":;NO#"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2450,
+                "string": "Xv#LMYZ[\\`QR#STf"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2496,
+                "string": "SThYZ"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2526,
+                "string": "VV[\\#ViyVqrz##VW"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2614,
+                "string": "STjk"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 2632,
+                "string": "jk#qr"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3394,
+                "string": ":<C0;154DE"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3428,
+                "string": "FKA@GPOm"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 3452,
+                "string": "Z_gwjiho"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4028,
+                "string": "!!!!'!!!!&()*-'+1,2,A)(,+*245P-1547P7A)...899...///>>"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4136,
+                "string": "///3333H33336::86"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4172,
+                "string": ":<<<@@H<<<===BBe===EeELLFFGGJQQ@SSVV"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4246,
+                "string": "SWWBCCCXYYCCCDF"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4286,
+                "string": "DD[[XD]hDbbi]hDDIIII"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4328,
+                "string": "IIIIKKKdd"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4348,
+                "string": "KKKNNNNiNNNNUUUjj"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4384,
+                "string": "UUU^^^dqq^^^___"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4420,
+                "string": "___````"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4436,
+                "string": "````aaa{{"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4456,
+                "string": "aaaffffyffffgggg"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4490,
+                "string": "ggggll"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4508,
+                "string": "lnnn"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4522,
+                "string": "nnnooo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4540,
+                "string": "oooppp"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4558,
+                "string": "pppssss"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4574,
+                "string": "ssssuuu"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4594,
+                "string": "uuuwww"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4612,
+                "string": "wwwxxx"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4630,
+                "string": "xxxzzzz"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 4646,
+                "string": "zzzz}}"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 12632,
+                "string": "<NULL>"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 12648,
+                "string": "NULL"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 71082,
+                "string": "ID_ICON_MAIN"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 72886,
+                "string": "VS_VERSION_INFO"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 72978,
+                "string": "StringFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73014,
+                "string": "040904B0"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73038,
+                "string": "CompanyName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73064,
+                "string": "Microsoft Corporation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73114,
+                "string": "FileDescription"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73148,
+                "string": "nslookup"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73174,
+                "string": "FileVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73200,
+                "string": "10.0.10240.16384 (th1.150709-1700)"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73278,
+                "string": "InternalName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73304,
+                "string": "nslookup.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73338,
+                "string": "LegalCopyright"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73370,
+                "string": " Microsoft Corporation. All rights reserved."
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73466,
+                "string": "OriginalFilename"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73500,
+                "string": "nslookup.exe"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73534,
+                "string": "ProductName"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73560,
+                "string": "Microsoft"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73580,
+                "string": " Windows"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73598,
+                "string": " Operating System"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73642,
+                "string": "ProductVersion"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73672,
+                "string": "10.0.10240.16384"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73714,
+                "string": "VarFileInfo"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73746,
+                "string": "Translation"
+            },
+            {
+                "encoding": "UTF-16LE",
+                "offset": 73968,
+                "string": "en-US"
+            }
+        ],
+        "tight_strings": []
+    },
+    "is_malicious": false
+}

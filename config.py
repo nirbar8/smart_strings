@@ -1,6 +1,6 @@
 type_of_extraction_scores = {
     'static_string': 0,
-    'decoded_string': 0.8,
+    'decoded_string': 0.5,
     'stack_string': 0.9,
     'tight_string': 1,
 }
