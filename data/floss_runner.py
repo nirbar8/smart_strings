@@ -16,7 +16,7 @@ def parse_args():
     args.add_argument('-d', '--directory',
                       help='directory of files to run floss on')
     args.add_argument(
-        '-o', '--output', help='output directory for floss json files', default='data/floss_output')
+        '-o', '--output', help='output directory for floss json files')
     args.add_argument('--malicious', help='mark files as malicious',
                       default=False, action='store_true')
     args.add_argument('--random', help='randomize file order, helpful when dir is large, and you want to parse some of the files, uniformly',

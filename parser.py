@@ -1,3 +1,4 @@
+# TODO: check doc
 # This module is responsible for parsing the output files from floss and creating
 # representation of the dataset that can be used for training and testing.
 
@@ -30,6 +31,7 @@ def print_strings(output_path):
         print(ds)
 
 
+# TODO: add argparse and main
 if __name__ == '__main__':
     parser = print_strings(
         'floss_output/malwares_lab-1-samples_Lab01-02.exe.json')
