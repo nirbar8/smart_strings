@@ -24,3 +24,6 @@ scores_weights = {
     'suspicous_text_score': 1.5,
     'type_of_extraction_score': 3,
 }
+
+# Optional - can be commented out to disable scoring by suspicious words
+suspicious_words_path = 'data/processed/words_malware.pickle'

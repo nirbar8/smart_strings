@@ -1,6 +1,18 @@
 import regex
 import pickle
+from termcolor import colored
+import sys
 
+try:
+    from config import category_scores, type_of_extraction_scores, scores_weights
+except ImportError:
+    print('Could not import config.py')
+    sys.exit(1)
+
+try:
+    from config import suspicious_words_path
+except ImportError:
+    print('Warning: Could not import suspicious_words_path from config.py. Disabling scoring by suspicious words.')
 
 class DataString:
     def __init__(self, string, type_of_extraction):
@@ -19,7 +31,6 @@ class DataString:
         return self.score < other.score
 
     def __str__(self):
-        from termcolor import colored
         attr = []
         color = 'white'
 
@@ -167,14 +178,7 @@ class DataString:
         Returns:
             float: The score in [0, 1]. 0 is not interesting, 1 is interesting.
         '''
-
-        try:
-            from config import category_scores
-            return category_scores[category]
-        except ImportError:
-            print(
-                "Warning: config.py not found, using default 1 score for all categories.")
-            return 1
+        return category_scores[category]
 
     @staticmethod
     def _type_of_extraction_score(type_of_extraction):
@@ -187,14 +191,7 @@ class DataString:
         Returns:
             float: The score in [0, 1]. 0 is not interesting, 1 is interesting.
         '''
-
-        try:
-            from config import type_of_extraction_scores
-            return type_of_extraction_scores[type_of_extraction]
-        except ImportError:
-            print(
-                "Warning: config.py not found, using default 1 score for all types of extraction.")
-            return 1
+        return type_of_extraction_scores[type_of_extraction]
 
     @staticmethod
     def _suspicious_text_score(string):
@@ -210,16 +207,19 @@ class DataString:
         '''
 
         try:
-            words = pickle.load(open('data/words_malware.pickle', 'rb'))
-        except FileNotFoundError:
-            print(
-                "Warning: words_malware.pickle not found, using default 0 score for all strings.")
+            from config import suspicious_words_path
+        except ImportError:
             return 0, None
+
+        try:
+            words = pickle.load(open(suspicious_words_path, 'rb'))
+        except FileNotFoundError:
+            print(f'Error: suspicious_words_path is used but "{suspicious_words_path}" not found.')
+            sys.exit(1)
 
         num_words = len(words)
         for i, word in enumerate(words):
-            weight = (0.9 * ((num_words - i) / num_words)
-                      ) ** 2  # decreasing weight
+            weight = (0.9 * ((num_words - i) / num_words)) ** 2  # words sorted by importance
             if word.lower() in string.lower():
                 return weight, word
         return 0, None
@@ -240,23 +240,6 @@ class DataString:
         self._scores['suspicous_text_score'], self._sus_word = self._suspicious_text_score(
             self.string)
 
-    def _scores_weights(self):
-        '''
-        This function returns the weights of the different scores.
-        '''
-
-        try:
-            from config import scores_weights
-            return scores_weights
-        except ImportError:
-            print("Warning: config.py not found, using default weights.")
-            return {
-                'len_score': 1,
-                'randomness_score': 1,
-                'category_score': 1,
-                'type_of_extraction_score': 1,
-                'suspicous_text_score': 1
-            }
 
     @staticmethod
     def weighted_average(scores, weights):
@@ -277,4 +260,4 @@ class DataString:
         This function calculates the overall score for the string.
         '''
         self._eval_scores()
-        return self.weighted_average(self._scores, self._scores_weights())
+        return self.weighted_average(self._scores, scores_weights)
