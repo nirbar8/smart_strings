@@ -1,4 +1,7 @@
-from DataString import DataString
+# Unlike the name suggests, this file is not really the test file.
+# Just a playground for testing some functions.
+
+from data.DataString import DataString
 
 
 def test_category():
@@ -63,8 +66,25 @@ def test_score():
     lst = sorted(lst, reverse=True)
     for ds in lst:
         print(f'"{ds.string}" : {ds.score}')
-        for k, v in ds._scores.items():
+        for k, v in ds.scores.items():
             print(f'\t{k}: {v}')
 
 
-test_score()
+def test_feature_extractor():
+    from feature_extractor import extract_features_from_output
+
+    features = extract_features_from_output(
+        'data/processed/malware_floss_output/malware-set_Backdoor.Win32.SkyDance.json', 'strings_above10_below3.json')
+    print(features)
+
+    features = extract_features_from_output(
+        'data/processed/benign_floss_output/DikeDataset-main_files_benign_0a2027ea20fd995fd41fbe1a6e6a361dbdc09a83741f1d9e928eddf50030c6b3.exe.json', 'strings_above10_below3.json')
+
+    print(features)
+
+
+# test_category()
+# test_tanh()
+# test_randomness()
+# test_score()
+# test_feature_extractor()

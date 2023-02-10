@@ -26,7 +26,7 @@ If you would like to support all the file types, take into account that you will
 
 ## String Extraction 📜
 
-The extraction of strings is done by **[floss](https://github.com/mandiant/flare-floss)**. Make sure you **have it installed** and in your path.
+The extraction of strings is done by **[floss 2.2.0](https://github.com/mandiant/flare-floss)**. Make sure you **have it installed** and in your path.
 In order to process the data from raw data in `data/unprocessed/` to the extracted strings in `data/processed/`, run the script `floss_runner.py` in the `data/` folder.
 
 Run `./floss_runner.py -h` to see the options. Here's snaphot of the help message:
@@ -50,4 +50,3 @@ options:
 
 The script will run floss on all the files in the directory, and save the results in the output directory.
 
-##

@@ -1,7 +1,7 @@
 import regex
 import pickle
-from termcolor import colored
 import sys
+from termcolor import colored
 
 try:
     from config import category_scores, type_of_extraction_scores, scores_weights
@@ -14,6 +14,7 @@ try:
 except ImportError:
     print('Warning: Could not import suspicious_words_path from config.py. Disabling scoring by suspicious words.')
 
+
 class DataString:
     def __init__(self, string, type_of_extraction):
         self.string = string
@@ -22,8 +23,9 @@ class DataString:
         self.length = len(string)
         # what kind of string is this? (e.g. DLL, URL, etc.)
         self.category = self.category(string)
-        self._sus_word = None             # if the string has a suspicious word (e.g. process, virus, etc.)
-        self._scores = dict()
+        # if the string has a suspicious word (e.g. process, virus, etc.)
+        self._sus_word = None
+        self.scores = dict()
         self._eval_scores()               # scores for different aspects of the string
         self.score = self._calc_score()   # overall sus score for the string
 
@@ -31,21 +33,27 @@ class DataString:
         return self.score < other.score
 
     def __str__(self):
-        attr = []
+        return self.string
+
+    def _format_color(self):
+        '''
+        This function returns the colored string.
+        '''
+        attrs = []
         color = 'white'
 
         if self.type_of_extraction != 'static':
-            attr.append('bold')
+            attrs.append('bold')
         if self.category == 'number':
             color = 'yellow'
         elif self.category == 'IP':
             color = 'yellow'
-            attr.append('dark')
+            attrs.append('dark')
         elif self.category == 'URL':
             color = 'green'
         elif self.category == 'URI':
             color = 'green'
-            attr.append('dark')
+            attrs.append('dark')
         elif self.category == 'DLL':
             color = 'blue'
         elif self.category == 'DLL_function':
@@ -53,22 +61,38 @@ class DataString:
         elif self.category == 'Text':
             color = 'grey'
 
-        string = self.string
-        string = colored(string, color, attrs=attr)
-        string += ' ' * (60 - len(self.string))
-        string += f'  (score: {self.score*100:.1f})  '
-        properties = []
-        if self.type_of_extraction != 'static_string':
-            properties.append(self.type_of_extraction)
-        # TODO: add configuration for verbosity
-        # if self._sus_word:
-            # properties.append(f'"{self._sus_word}"')
-        properties.append(self.category)
-        string += '[' + ', '.join(properties) + ']'
+        return colored(self.string, color, attrs=attrs)
 
-        # string += '\n'
-        # for key, value in self._scores.items():
-        #     string += f'  {key}: {value:.2f}  '
+    def format_string(self, verbose, no_color, show_scores):
+        '''
+        This function formats the string to be printed.
+
+        Args:
+            verbose (bool): If True, print verbose output.
+            no_color (bool): If True, print non-colored output.
+            show_scores (bool): If True, print scores for each string.
+
+        Returns:
+            str: The formatted string.
+        '''
+
+        if no_color:
+            string = self.string
+        else:
+            string = self._format_color()
+
+        if verbose:
+            string += ' ' * (60 - len(self.string))
+            string += f'  (score: {self.score*100:.1f})  '
+            properties = []
+            if self.type_of_extraction != 'static_string':
+                properties.append(self.type_of_extraction)
+            properties.append(self.category)
+            string += '[' + ', '.join(properties) + ']'
+
+        if show_scores:
+            for score_name, score in self.scores.items():
+                string += f'\n\t{score_name}: {score*100:.1f}%'
 
         return string
 
@@ -103,8 +127,9 @@ class DataString:
         if regex.match(r'^([A-Z][a-z]+)+(A|W)?$', string):
             return 'DLL_function'
 
-        # Text
-        if regex.match(r'^[A-Za-z0-9\s-_?!\'"+/=]+$', string) and len(string) > 5:
+        # Text - Long (=reliable) with all readable ascii string or short (=unreliable) with alphanumeric characters
+        if regex.match(r'^[ -~]+$', string) and len(string) > 10 or \
+                regex.match(r'^[A-Za-z0-9\s%\-()]+$', string) and len(string) > 5:
             return 'Text'
 
         # Random string
@@ -214,12 +239,14 @@ class DataString:
         try:
             words = pickle.load(open(suspicious_words_path, 'rb'))
         except FileNotFoundError:
-            print(f'Error: suspicious_words_path is used but "{suspicious_words_path}" not found.')
+            print(
+                f'Error: suspicious_words_path is used but "{suspicious_words_path}" not found.')
             sys.exit(1)
 
         num_words = len(words)
         for i, word in enumerate(words):
-            weight = (0.9 * ((num_words - i) / num_words)) ** 2  # words sorted by importance
+            weight = (0.9 * ((num_words - i) / num_words)
+                      ) ** 2  # words sorted by importance
             if word.lower() in string.lower():
                 return weight, word
         return 0, None
@@ -229,17 +256,16 @@ class DataString:
         This function measures different aspects of the string 
         and inserts them into the scores dictionary.
         '''
-        if len(self._scores) > 0:
+        if len(self.scores) > 0:
             return
 
-        self._scores['len_score'] = self._len_score(self.string)
-        self._scores['randomness_score'] = self._randomness_score(self.string)
-        self._scores['category_score'] = self._category_score(self.category)
-        self._scores['type_of_extraction_score'] = self._type_of_extraction_score(
+        self.scores['len_score'] = self._len_score(self.string)
+        self.scores['randomness_score'] = self._randomness_score(self.string)
+        self.scores['category_score'] = self._category_score(self.category)
+        self.scores['type_of_extraction_score'] = self._type_of_extraction_score(
             self.type_of_extraction)
-        self._scores['suspicous_text_score'], self._sus_word = self._suspicious_text_score(
+        self.scores['suspicous_text_score'], self._sus_word = self._suspicious_text_score(
             self.string)
-
 
     @staticmethod
     def weighted_average(scores, weights):
@@ -260,4 +286,4 @@ class DataString:
         This function calculates the overall score for the string.
         '''
         self._eval_scores()
-        return self.weighted_average(self._scores, scores_weights)
+        return self.weighted_average(self.scores, scores_weights)
