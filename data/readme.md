@@ -1,6 +1,6 @@
 # Data Processing 📊
 
-This describes the data processing steps that were taken to prepare the data for analysis. 
+This describes the data processing steps that were taken to prepare the data for the model training.
 The data processing steps are described in the order in which they were performed.
 This is the first step in reproducing (from scratch) the results of the analysis.
 
@@ -106,6 +106,10 @@ Where the * represents unpacking.
 
 Run this script twice, once use the floss output directories of "train", and once use the floss output directories of "test". 
 
-Use the filtered strings dataset, got from the notebook `strings_dataset_exploration.ipynb`.
+**Use the filtered strings dataset, got from the notebook `strings_dataset_exploration.ipynb`. This because you would like to train your model on a reasonable amount of features.**
 
 
+## Train and Test the model
+
+Using the script `regressor_trainer.py`, you can train using train dataset and save the model as a pickle file.
+The script also has an option to test the model on the test dataset, and print some scores. 

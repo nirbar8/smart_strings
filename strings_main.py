@@ -8,6 +8,7 @@ This script is used to print all the strings in given binary file.
 
 from argparse import ArgumentParser
 from strings_extractor import get_strings_from_binary, get_strings_from_output
+from feature_extractor import exctract_features_from_binary, extract_features_from_output
 
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE, SIG_DFL)

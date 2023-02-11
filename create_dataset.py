@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 '''
 This script creates a dataset (table, saved as csv) of features.
 The input of the script is the *output of floss on malware and benign files*.

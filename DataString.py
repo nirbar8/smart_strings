@@ -101,6 +101,7 @@ class DataString:
         '''
         This function determines what kind of string this is.
         Options are: DLL name, DLL function name, URI, URL, Text, IP, number, random string.
+        Note: Some of the regex are complex, use https://regexr.com/ if you want to understand or modify them.
         '''
 
         # number
@@ -115,8 +116,8 @@ class DataString:
         if regex.match(r'^[A-Za-z]+://[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+\.[A-Za-z]{2,3}[A-Za-z0-9-_:\/?&\.]*$', string):
             return 'URL'
 
-        # URI - contains '/' or '\' (not together)
-        if regex.match(r'^\w*(\/|\\)\w*$', string):
+        # URI - It can or cannot start with 1) drive letter, 2) relative path or 3) absolute path. This is a very complex, but it works GREAT!
+        if regex.match(r'^((([A-Za-z]:(\\|\/))|([\\\/]|((\.|\.\.|[\w\s]+)(\\|\/))+))([\w\s]+[\\\/])*[\w\s\.]*)$', string):    
             return 'URI'
 
         # DLL name

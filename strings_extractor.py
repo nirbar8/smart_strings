@@ -15,7 +15,6 @@ def get_strings_from_binary(binary_path):
     Returns:
         list: A list of DataString objects.
     '''
-    # TODO: test on vm
 
     output_path = os.path.join(
         os.getcwd(), f'.temp_output_{os.getpid()}.json')

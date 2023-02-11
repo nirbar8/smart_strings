@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 '''
 This script creates a dataset (dictionary, saved as json) of strings.
 The input of the script is the *output of floss on malware and benign files*.
@@ -87,6 +89,7 @@ def main():
             dataset = json.load(f)
     else:
         dataset = {'scanned_files': [], 'strings': {}}
+        os.makedirs(os.path.dirname(args.output), exist_ok=True)
 
     scan_dir(dataset, args.malware_dir, True, args.output)
     scan_dir(dataset, args.benign_dir, False, args.output)

@@ -37,7 +37,22 @@ You can change the configuration in the `config.py` file. Make sure to read the 
 
 ### predicting malware / benign
 
-TODO
+Run the script `./classifier_main.py`. See `./classifier_main.py -h` for more information. Here's a snapshot of the help message:
+
+```
+options:
+  -h, --help            show this help message and exit
+  -ib INPUT_BINARY_PATH, --input-binary INPUT_BINARY_PATH
+                        the path to the input binary
+  -if INPUT_FLOSS_OUTPUT_PATH, --input-floss-output INPUT_FLOSS_OUTPUT_PATH
+                        the path to the floss result file (json)
+  -m MODEL_PATH, --model MODEL_PATH
+                        the path to the trained model (pickle format)
+                        default: 'model.pickle'
+  -sd STRINGS_DATASET_PATH, --strings-dataset STRINGS_DATASET_PATH
+                        the path to the strings dataset (json format)
+                        default: 'strings_dataset.json'
+```
 
 ## Strings scoring algorithm 🧮
 
@@ -61,14 +76,42 @@ The algorithm will score the string in the following aspects:
 To create your own vocabulary, I recommend using the script `./data/words_malware.py`. This script shows how to make list of words related to the word "malware". You can use any other method you like. 
 
 
-## Reproducing data processing steps 🔧
+## Reproducing data processing steps - For classifier model 🔧
 
 See the [data processing](data/readme.md) file.
 
+
+## Results 📊
+
+The data was separated into 3 groups:
+- strings dataset - used to create the feature extractor model (275 benign and 275 malicious files)
+- train dataset - used to train the classifier model (135 benign and 135 malicious files)
+- test dataset - used to test the classifier model (45 benign and 45 malicious files)
+
+The results on the test dataset are as follows:
+```
+The average score for the malicous test set is: 73.5637322293583
+The average score for the benign test set is: 19.874307665594802
+
+Accuracy: 83.3%
+Precision: 96.9%
+Recall: 68.9%
+F1: 80.5%
+```
+
+**As you can see, only by using the strings of binary files, without any manual analysis, we can achieve a high accuracy in predicting whether a file is malicious or benign!**
+
+**Note that as expected, the percision is much higher than the recall. So, this tool can be useful for incriminating a file, but not for exculpating it.**
+
+You can easily add more data, using the [data processing](data/readme.md) tutorial, and retrain the model to get even better results. 
+
+
 ## Thanks 🙏
 
-[Flare-Floss](https://github.com/mandiant/flare-floss) - for the great tool to extract strings from binary files.
+- [Flare-Floss](https://github.com/mandiant/flare-floss) - for the great tool to extract strings from binary files.
+- [zip of malwares](https://mega.nz/file/WjomTSzK#2yb9W7_FhVp_DL6jscfOWdOHfDYszIZY2CyO6sLpEZs)
+- [DikeDataset](https://github.com/iosifache/DikeDataset) - Labeled dataset containing benign and malicious PE and OLE files
 
 ## Contact 📧
 
-If you have any questions, feel free to contact me at: `banir at post dot bgu dot ac dot il` (replace the `at` and `dot` with `@` and `.`, respectively, bots are not invited...)
+If you have any questions, feel free to contact me at: `banir at post dot bgu dot ac dot il` (replace the `at` and `dot` with `@` and `.`, respectively, bots are not welcome...)
