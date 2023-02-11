@@ -15,7 +15,7 @@ This tool has 2 main functionalities:
   - install [tqdm](https://pypi.org/project/tqdm/)
   - install [numpy](https://numpy.org/install/)
   - install [matplotlib](https://matplotlib.org/stable/users/installing.html)
-- install [floss 2.2.0 2.2.0](https://github.com/mandiant/flare-floss)
+- install [floss 2.2.0](https://github.com/mandiant/flare-floss)
 
 If you want to reproduce the results of the analysis, follow the instructions in the [data processing](data/readme.md) file.
 
