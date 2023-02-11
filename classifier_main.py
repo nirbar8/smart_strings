@@ -11,9 +11,9 @@ def parse_args():
                                 help='the path to the input binary')
     input_group.add_argument('-if', '--input-floss-output', dest='input_floss_output_path',
                                 help='the path to the floss result file (json)')
-    parser.add_argument('-m', '--model', dest='model_path', default='model.pickle',
+    parser.add_argument('-m', '--model', dest='model_path', default='data/model.pickle',
                         help='the path to the trained model (pickle format)')
-    parser.add_argument('-sd', '--strings-dataset', dest='strings_dataset_path', default='strings_dataset.json',
+    parser.add_argument('-sd', '--strings-dataset', dest='strings_dataset_path', default='data/strings_dataset.json',
                         help='the path to the strings dataset (json format)')
     args = parser.parse_args()
     return args

@@ -52,10 +52,10 @@ options:
                         the path to the floss result file (json)
   -m MODEL_PATH, --model MODEL_PATH
                         the path to the trained model (pickle format)
-                        default: 'model.pickle'
+                        default: 'data/model.pickle'
   -sd STRINGS_DATASET_PATH, --strings-dataset STRINGS_DATASET_PATH
                         the path to the strings dataset (json format)
-                        default: 'strings_dataset.json'
+                        default: 'data/strings_dataset.json'
 ```
 
 ## Strings scoring algorithm 🧮
