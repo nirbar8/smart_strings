@@ -9,8 +9,12 @@ This tool has 2 main functionalities:
 ## Installation 🛠️
 
 - install python 3
--- install [regex](https://pypi.org/project/regex/)
--- install [sklearn](https://scikit-learn.org/stable/install.html)
+  - install [regex](https://pypi.org/project/regex/) 
+  - install [sklearn](https://scikit-learn.org/stable/install.html)
+  - install [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
+  - install [tqdm](https://pypi.org/project/tqdm/)
+  - install [numpy](https://numpy.org/install/)
+  - install [matplotlib](https://matplotlib.org/stable/users/installing.html)
 - install [floss 2.2.0 2.2.0](https://github.com/mandiant/flare-floss)
 
 If you want to reproduce the results of the analysis, follow the instructions in the [data processing](data/readme.md) file.
@@ -33,7 +37,7 @@ Run the script `./strings_main.py`. See `./strings_main.py -h` for more informat
   --show-scores         print scores for each string
 ```
 
-You can change the configuration in the `config.py` file. Make sure to read the algorithm description in the [algorithm](#algorithm) section.
+You can change the configuration in the `config.py` file. Make sure to read the algorithm description in the [Strings scoring algorithm](extraction) section.
 
 ### predicting malware / benign
 
@@ -73,7 +77,7 @@ The algorithm will score the string in the following aspects:
 - suspicous_text_score (optional, recommended) - The score is defined using a list of predefined vocabulary of suspicious words. If the string contains a word from the vocabulary, it gets non-zero score. The score is defined by the position (index) of the suspicious word in the vocabulary (first = more suspicous = higher score). 
 
 ### Remake vocabulary for suspicious score
-To create your own vocabulary, I recommend using the script `./data/words_malware.py`. This script shows how to make list of words related to the word "malware". You can use any other method you like. 
+To create your own vocabulary, I recommend using the script `data/words_malware.py`. This script shows how to make list of words related to the word "malware". You can use any other method you like. 
 
 
 ## Reproducing data processing steps - For classifier model 🔧

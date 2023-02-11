@@ -86,27 +86,27 @@ This notebook is a visualization of the strings dataset processing, and it also 
 The new processed strings dataset is keeping only the strings that were seen in at least `mal_threshold` malware files, and at most at `ben_threshold` benign files. You can change these values in the notebook.
 
 The new processed strings dataset is keeping only the strings with the following scores (removing the lists of files):
-- suspicious_score - same as before, see in [readme.md](../readme.md) for more info
+- suspicious_score - extracted in the strings scoring algorithm, see in [algorithm description](../readme.md##strings-scoring-algorithm-).
 - frequency_score - The ratio between the number of malicious files in which the string was seen, to the number of benign files in which the string was seen. 
 
 This processed data can be used for further analysis, and for feature extraction, but for now, I am using only the list of strings (in a lot of malwares but not in many benign files).
 
 ## Feature Extraction - strings dataset 
 
-Now, given old / new input binary / floss_output file, we would like to extract features from it, and use it for classification.
+Now, given old or new, input file, binary or floss_output file, we would like to extract features from it, and use it for classification.
 
 This can be done by the functions in the script `feature_extractor.py`. For example the function `extract_features_from_output(output_path, strings_dataset_path)` will extract the features from the given floss output file, and return a list of features.
 
 ## Creating the files dataset
 
 Using the feature extractor, we can create the dataset that we be used for classification of files. \
-The script `create_dataset.py` will create a tabular csv dataset with the following structure:
+The script `create_dataset.py` will create a tabular csv dataset with the following structure: \
 *strings_features (list of 0/1), *type_of_extraction_features (list of 0/1), is_malware (bool) \
 Where the * represents unpacking.
 
 Run this script twice, once use the floss output directories of "train", and once use the floss output directories of "test". 
 
-**Use the filtered strings dataset, got from the notebook `strings_dataset_exploration.ipynb`. This because you would like to train your model on a reasonable amount of features.**
+**Use the filtered strings dataset, got from the notebook `strings_dataset_exploration.ipynb`. This because the training of the model should be on a reasonable (and meaningful) amount of features.**
 
 
 ## Train and Test the model
