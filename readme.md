@@ -22,7 +22,7 @@ If you want to reproduce the results of the analysis, follow the instructions in
 
 ## Usage ▶️
 
-### Extracting strings from binary file
+### 1) Extracting strings from binary file
 Run the script `./strings_main.py`. See `./strings_main.py -h` for more information. Here's a snapshot of the help message:
 
 ```
@@ -39,7 +39,7 @@ Run the script `./strings_main.py`. See `./strings_main.py -h` for more informat
 
 You can change the configuration in the `config.py` file. Make sure to read the algorithm description in the [Strings scoring algorithm](extraction) section.
 
-### predicting malware / benign
+### 2) predicting malware / benign
 
 Run the script `./classifier_main.py`. See `./classifier_main.py -h` for more information. Here's a snapshot of the help message:
 
