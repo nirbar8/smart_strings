@@ -16,15 +16,15 @@ I used the following sources:
 - [DikeDataset](https://github.com/iosifache/DikeDataset) - Labeled dataset containing benign and malicious PE and OLE files
 
 
-## Data filtering (optional) 🗄️
+## Data Filtering (optional) 🗄️
 
-In my analysis, I used only the PE32 files, due to the long runtime of 'floss' on malwares.
+In my analysis, I used only the PE32 files, due to the long runtime of 'floss' on malwares. \
 You can filter the data by running the script `filter_win32.sh` in the `data/unprocessed/` folder.
 
 If you would like to support all the file types, take into account that you will need more data and more time to process it.
 
 
-## String Extraction 📜
+## Strings Extraction 📜
 
 The extraction of strings is done by **[floss 2.2.0](https://github.com/mandiant/flare-floss)**. Make sure you **have it installed** and in your path.
 In order to process the data from raw data in `data/unprocessed/` to the extracted strings in `data/processed/`, run the script `floss_runner.py`.
@@ -79,8 +79,8 @@ That is, a dictionary with all the strings seen in given files, and the files in
 
 ### Data Processing - strings dataset exploration 📊
 
-I have included a jupyter notebook `strings_dataset_exploration.ipynb` that explores the strings dataset.
-You can run it to see the frequency of strings in malware and benign files, and the suspicious score of each string.
+I have included a jupyter notebook `strings_dataset_exploration.ipynb` that explores the strings dataset. \
+You can see there the frequency of strings in malware and benign files, and the suspicious score of each string. \
 This notebook is a visualization of the strings dataset processing, and it also created **new processed strings dataset**, so you must run it in order to continue with the analysis.
 
 The new processed strings dataset is keeping only the strings that were seen in at least `mal_threshold` malware files, and at most at `ben_threshold` benign files. You can change these values in the notebook.
